@@ -1,0 +1,10 @@
+@import 'styles/variables.scss';
+
+.test{
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  text-transform: uppercase;
+  color: $test-color;
+  font-weight: 600;
+}
