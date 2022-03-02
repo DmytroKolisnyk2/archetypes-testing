@@ -1,15 +1,22 @@
 import React from "react";
-import "./sectionTitle.scss"
+import sectionTitleScss from "./sectionTitleScss.module.scss"
+import PropTypes from 'prop-types';
+
  const sectionTitle=({title,text}) => {
   
     return (
-       <div className={"sectionTitle_div"}>
-           <h2 className={"sectionTitle_title"}>
+       <div className={sectionTitleScss.sectionTitleDiv}>
+           <h2 className={sectionTitleScss.sectionTitleTitle}>
              {title}
            </h2>
-    <p className={"sectionTitle_text"}>{text}</p>
+    <p className={sectionTitleScss.sectionTitleText}>{text}</p>
        </div>
     );
   }
   
+  sectionTitle.propTypes = {
+   title: PropTypes.string,
+   text: PropTypes.string
+ };
+
   export default sectionTitle;
