@@ -1,14 +1,14 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import path from "./services/routerPath.json";
-
 import "./translations/i18nReact";
-import TestPage from "./pages/TestPage/TestPage";
-import i18n from "i18next";
-import { useTranslation } from "react-i18next";
+// import i18n from "i18next";
+// import { useTranslation } from "react-i18next";
+
+import HomePage from "./pages/HomePage/HomePage";
 
 const App = () => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   return (
     <>
       {/* <div>{t("hello")}</div>
@@ -17,10 +17,9 @@ const App = () => {
       </button>
       <button onClick={() => i18n.changeLanguage("ua")} type="button">
         {t("btn.ua")}
-      </button> */}
+      </button> */}    
       <Routes>
-        <Route path={path.test} element={<SectionTitle title={'Узнать свой архетип'} text={'Этот небольшой тест поможет вам узнать свои ведущие архетипы, определить свои ценности и сильные стороны.'} />} />
-        <Route path={path.test} element={<TestPage />} />
+        <Route path={path.home} element={<HomePage />} />
       </Routes>
     </>
 

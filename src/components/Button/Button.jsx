@@ -50,5 +50,5 @@ Button.propTypes = {
 
 // <Button color="white" bgColor="violet" paddingRight={29} paddingLeft={30}>
 //   Дальше
-//   <img width={20} src={LeftArrow} alt="arrow"></img>
+// <SvgArrow orientation="right"  className={styles.arrow} />
 // </Button>;
