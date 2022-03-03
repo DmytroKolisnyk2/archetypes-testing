@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import styles from "./ArchetypesCard.module.scss";
-import Arrow from "../../images/icons/upArrow.svg";
+import SvgArrow from "../SvgArrow/SvgArrow";
 
 export default function ArchetypesCard({
   motivationText,
@@ -19,15 +19,15 @@ export default function ArchetypesCard({
 
   return (
     <article
-      className={`${styles.card} ${
-        (isOpen || !openHeadline) && styles.card_open
-      } ${!openHeadline&&styles.card_notClosable}`}
+      className={`${styles.card} ${(isOpen || !openHeadline) && styles.card_open} ${
+        !openHeadline && styles.card_notClosable
+      }`}
     >
       {openHeadline && (
         <div className={styles.captionWrapper}>
           <h2 className={styles.caption}>{openHeadline}</h2>
           <button className={styles.button} type="button" onClick={() => setIsOpen(!isOpen)}>
-            <img src={Arrow} alt="arrow" className={styles.arrow} />
+            <SvgArrow orientation={isOpen ? "up" : "down"} className={styles.arrow} />
           </button>
         </div>
       )}

@@ -6,9 +6,9 @@
   margin: 0 auto 60px;
 }
 .card_open {
-  & .arrow {
-    transform: rotate(0deg);
-  }
+  // & .arrow {
+  //   transform: rotate(0deg) !important;
+  // }
   & .cardWrapper {
     display: block;
   }
@@ -37,7 +37,7 @@
   outline: none;
 }
 .arrow {
-  transform: rotate(180deg);
+  // transform: rotate(180deg) !important;
   object-fit: contain;
   width: 100%;
   height: 100%;
