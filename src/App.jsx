@@ -22,7 +22,9 @@ const App = () => {
         <Route path={path.test} element={<TestPage />} />
       </Routes>
     </>
+
   );
 };
+
 
 export default App;
