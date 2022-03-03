@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import Rectangle from "../Rectangle/Rectangle";
 import styles from "./CardSection.module.scss";
 
@@ -15,6 +16,13 @@ const CardSection = ({ title, cardImg, description, color }) => {
       </div>
     </div>
   );
+};
+
+CardSection.propTypes = {
+  title: PropTypes.string.isRequired,
+  cardImg: PropTypes.isRequired,
+  description: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired
 };
 
 export default CardSection;

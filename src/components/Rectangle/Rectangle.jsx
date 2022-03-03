@@ -1,5 +1,5 @@
 import React from "react";
-
+import PropTypes from 'prop-types';
 const Rectangle = ({ color }) => {
   const verifyColor = (color) => {
     let colorRectangle;
@@ -30,6 +30,10 @@ const Rectangle = ({ color }) => {
       />
     </svg>
   );
+};
+
+Rectangle.propTypes = {
+    color: PropTypes.string.isRequired,
 };
 
 export default Rectangle;
