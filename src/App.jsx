@@ -1,25 +1,31 @@
-
-
-
-import React, { Component } from "react";
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import path from "./services/routerPath.json";
 
+import "./translations/i18nReact";
 import TestPage from "./pages/TestPage/TestPage";
-import SectionTitle from "./components/sectionTitle/sectionTitle";
+import i18n from "i18next";
+import { useTranslation } from "react-i18next";
 
-
-class App extends Component {
-  render() {
-    return (
-    
+const App = () => {
+  const { t } = useTranslation();
+  return (
+    <>
+      {/* <div>{t("hello")}</div>
+      <button onClick={() => i18n.changeLanguage("en")} type="button">
+        {t("btn.en")}
+      </button>
+      <button onClick={() => i18n.changeLanguage("ua")} type="button">
+        {t("btn.ua")}
+      </button> */}
       <Routes>
         <Route path={path.test} element={<SectionTitle title={'Узнать свой архетип'} text={'Этот небольшой тест поможет вам узнать свои ведущие архетипы, определить свои ценности и сильные стороны.'} />} />
         <Route path={path.test} element={<TestPage />} />
-      </Routes>  
-    );
-  }
-  
-}
-{/* <Route path={path} element={<sectionTitle title={'Lorem'} text={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, blanditiis eveniet rerum rem, ullam, culpa delectus obcaecati ratione soluta velit perferendis saepe praesentium cumque numquam ducimus placeat possimus corrupti consectetur doloribus. Eligendi eum molestiae iste explicabo quos quo ad odit voluptatem? Qui at impedit architecto molestias consectetur voluptate animi magnam facilis. Sequi veniam veritatis, cumque quod at sint vitae eos. Esse hic deserunt officiis distinctio quasi dolorem tenetur unde, molestiae impedit. Iste ex repudiandae, non dignissimos voluptatem tempore vel voluptates numquam aliquid eum. Excepturi expedita quasi non modi id?'} />} /> */}
+      </Routes>
+    </>
+
+  );
+};
+
+
 export default App;
