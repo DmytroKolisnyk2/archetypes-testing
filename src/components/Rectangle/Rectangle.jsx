@@ -1,6 +1,6 @@
 import React from "react";
-import PropTypes from 'prop-types';
-const Rectangle = ({ color }) => {
+import PropTypes from "prop-types";
+const Rectangle = ({ color, width, height }) => {
   const verifyColor = (color) => {
     let colorRectangle;
     switch (color) {
@@ -12,14 +12,14 @@ const Rectangle = ({ color }) => {
         return (colorRectangle = "#F063B8");
       case "blue":
         return (colorRectangle = "#2D9CDB");
-        default:
-            return color;
+      default:
+        return color;
     }
   };
   return (
     <svg
-      width="434"
-      height="358"
+      width={width}
+      height={height}
       viewBox="0 0 434 358"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -33,7 +33,14 @@ const Rectangle = ({ color }) => {
 };
 
 Rectangle.propTypes = {
-    color: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
+  width: PropTypes.number,
+  height: PropTypes.number,
+};
+
+Rectangle.defaultProps = {
+  width: 440,
+  height: 360,
 };
 
 export default Rectangle;
