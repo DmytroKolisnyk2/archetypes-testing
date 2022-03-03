@@ -19,6 +19,7 @@ const App = () => {
         {t("btn.ua")}
       </button> */}
       <Routes>
+        <Route path={path.test} element={<SectionTitle title={'Узнать свой архетип'} text={'Этот небольшой тест поможет вам узнать свои ведущие архетипы, определить свои ценности и сильные стороны.'} />} />
         <Route path={path.test} element={<TestPage />} />
       </Routes>
     </>
