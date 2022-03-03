@@ -1,16 +1,14 @@
 import React, { Component } from "react";
 import { Routes, Route } from "react-router-dom";
 import path from "./services/routerPath.json";
-
-import TestPage from "./pages/TestPage/TestPage";
+import CardImg from './images/cardImg.png'
+import CardSection from "./components/CardSection/CardSection";
 
 
 class App extends Component {
   render() {
     return (
-      <Routes>
-        <Route path={path.test} element={<TestPage />} />
-      </Routes>
+      <CardSection color="green" title="Лучше понимать себя" description="Архетипы дают четкое понимание своих сильных и слабых сторон, ответ на вопросы, где брать мотивацию и ресурс, а так же подсвечивают вашу стратегию жизни." cardImg={CardImg}/>
     );
   }
 }
