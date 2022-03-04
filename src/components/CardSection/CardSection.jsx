@@ -42,13 +42,13 @@ const CardSection = ({
         <Rectangle color={color} />
       )}
       <div className={addClass(smallRectangular, "content")}>
-        <h2 className={addClass(smallRectangular, "title")}>{title}</h2>
-        <div className={addClass(smallRectangular, "wrapper")}>
-          <img
+      <img
             className={addClass(smallRectangular, "image")}
             src={cardImg}
             alt="card_img"
           />
+        <div className={addClass(smallRectangular, "wrapper")}>
+        <h2 className={addClass(smallRectangular, "title")}>{title}</h2>
           <p className={addClass(smallRectangular, "description")}>
             {description}
           </p>
