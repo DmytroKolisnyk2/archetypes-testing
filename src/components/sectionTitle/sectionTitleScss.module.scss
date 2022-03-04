@@ -1,0 +1,45 @@
+.sectionTitleDiv{}
+
+.sectionTitleTitle{
+
+    position: absolute;
+width: 405px;
+height: 104px;
+left: 607.29px;
+top: 240px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 130%;
+/* or 52px */
+
+display: flex;
+align-items: center;
+text-align: center;
+margin-bottom: 24px;
+
+}
+
+.sectionTitleText{
+
+position: absolute;
+width: 584px;
+height: 58px;
+left: 518.29px;
+top: 368px;
+
+font-family: 'Ubuntu', sans-serif
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+text-align: center;
+
+/* 1 */
+
+color: #4B5D68;
+}
