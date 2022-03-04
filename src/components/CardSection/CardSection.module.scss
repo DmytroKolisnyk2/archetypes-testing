@@ -88,13 +88,13 @@
 }
 
 .wrapper {
-    width: 210px;
+    width: 250px;
     display: flex;
     justify-content:  center;
     align-items: flex-start;
     flex-direction: column;
     @media screen and (max-width: 1024px) {
-        width: 200px;
+        width: 210px;
     }
 }
 
