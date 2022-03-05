@@ -4,9 +4,8 @@ import path from "./services/routerPath.json";
 import "./translations/i18nReact";
 // import i18n from "i18next";
 // import { useTranslation } from "react-i18next";
-
 import HomePage from "./pages/HomePage/HomePage";
-
+import './styles/App.scss';
 const App = () => {
   // const { t } = useTranslation();
   return (
