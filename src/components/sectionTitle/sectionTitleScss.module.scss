@@ -1,45 +1,62 @@
-.sectionTitleDiv{}
+// @import "../../App.jsx";
 
-.sectionTitleTitle{
-
-    position: absolute;
-width: 405px;
-height: 104px;
-left: 607.29px;
-top: 240px;
-
-font-family: Helvetica;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 130%;
-/* or 52px */
-
-display: flex;
-align-items: center;
-text-align: center;
-margin-bottom: 24px;
-
+.sectionTitleDiv {
+    max-width: 584px;
+    width: 100%;
+    margin: 0 auto 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 25px;
+        width: 80%;
+    }
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 25px;
+        width: 100%;
+    }
 }
 
-.sectionTitleText{
+.sectionTitleTitle {
+    // position: absolute;
+    // width: 405px;
+    // height: 104px;
+    // left: 607.29px;
+    // top: 240px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    /* or 52px */
 
-position: absolute;
-width: 584px;
-height: 58px;
-left: 518.29px;
-top: 368px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+    @media screen and (min-width: 400px) {
+        padding: 0 26px;
+    }
+}
 
-font-family: 'Ubuntu', sans-serif
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 160%;
-/* or 29px */
+.sectionTitleText {
+    // position: absolute;
+    // width: 584px;
+    // height: 58px;
+    // left: 518.29px;
+    // top: 368px;
 
-text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
 
-/* 1 */
+    text-align: center;
 
-color: #4B5D68;
+    /* 1 */
+
+    color: #4b5d68;
 }

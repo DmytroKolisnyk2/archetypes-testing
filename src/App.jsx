@@ -2,11 +2,13 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import path from "./services/routerPath.json";
 import "./translations/i18nReact";
+
 // import i18n from "i18next";
 // import { useTranslation } from "react-i18next";
 
 import HomePage from "./pages/HomePage/HomePage";
-
+import Footer from "./components/Footer/Footer";
+import Title from "./components/sectionTitle/sectionTitle";
 const App = () => {
   // const { t } = useTranslation();
   return (
@@ -19,6 +21,7 @@ const App = () => {
         {t("btn.ua")}
       </button> */}    
       <Routes>
+      <Route path={path.home} element={<Footer />} />
         <Route path={path.home} element={<HomePage />} />
       </Routes>
     </>
