@@ -1,26 +1,27 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import NavigationStyles from "./Navigation.module.scss"
+import NavigationStyles from "./Navigation.module.scss";
+import path from "../../services/routerPath.json";
+
+
 const Navigation = () => {
-
-
   return (
     <nav className={NavigationStyles.navigationWrapper}>
       <ul className={NavigationStyles.navigationUl}>
         <li className={NavigationStyles.navigationLi}>
           <NavLink
-          //  className={NavigationStyles.navigationLink}
-            to={'/test'}
+            //  className={NavigationStyles.navigationLink}
+            to={path.test}
             className={(navData) =>
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }
           >
-           Тест
+            Тест
           </NavLink>
         </li>
         <li className={NavigationStyles.navigationLi}>
           <NavLink
-            to={'/architypes'}
+            to={path.archetypes}
             className={(navData) =>
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }
@@ -30,7 +31,7 @@ const Navigation = () => {
         </li>
         <li className={NavigationStyles.navigationLi}>
           <NavLink
-            to={'/contact'}
+            to={path.contacts}
             className={(navData) =>
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }

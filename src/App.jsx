@@ -4,8 +4,11 @@ import path from "./services/routerPath.json";
 import "./translations/i18nReact";
 // import i18n from "i18next";
 // import { useTranslation } from "react-i18next";
+import './styles/App.scss'
 
 import HomePage from "./pages/HomePage/HomePage";
+import Header from "./components/Header/Header";
+import Introduction from "./components/Introduction/Introduction";
 
 const App = () => {
   // const { t } = useTranslation();
@@ -17,14 +20,14 @@ const App = () => {
       </button>
       <button onClick={() => i18n.changeLanguage("ua")} type="button">
         {t("btn.ua")}
-      </button> */}    
+      </button> */}
+      <Header></Header>
+      <Introduction></Introduction>
       <Routes>
         <Route path={path.home} element={<HomePage />} />
       </Routes>
     </>
-
   );
 };
-
 
 export default App;
