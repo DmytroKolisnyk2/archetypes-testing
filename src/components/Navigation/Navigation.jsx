@@ -2,9 +2,11 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import NavigationStyles from "./Navigation.module.scss";
 import path from "../../services/routerPath.json";
-
+import { useTranslation } from "react-i18next";
+import { navigation } from "../../translations/ua/common.json";
 
 const Navigation = () => {
+  const { t } = useTranslation();
   return (
     <nav className={NavigationStyles.navigationWrapper}>
       <ul className={NavigationStyles.navigationUl}>
@@ -16,7 +18,7 @@ const Navigation = () => {
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }
           >
-            Тест
+            {t(navigation.test)}
           </NavLink>
         </li>
         <li className={NavigationStyles.navigationLi}>
@@ -26,7 +28,7 @@ const Navigation = () => {
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }
           >
-            Архетипы
+            {t(navigation.archetypes)}
           </NavLink>
         </li>
         <li className={NavigationStyles.navigationLi}>
@@ -36,7 +38,7 @@ const Navigation = () => {
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }
           >
-            Контакты
+            {t(navigation.contacts)}
           </NavLink>
         </li>
       </ul>
