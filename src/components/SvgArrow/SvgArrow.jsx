@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const SvgArrow = ({ color, orientation }) => {
+const SvgArrow = ({ color, orientation, size }) => {
   const orientationParams = {
     up: "rotate(0deg)",
     down: "rotate(180deg)",
@@ -10,7 +10,7 @@ const SvgArrow = ({ color, orientation }) => {
   };
   return (
     <svg
-      style={{ transform: orientationParams[orientation] }}
+      style={{ transform: orientationParams[orientation], width: size }}
       width="52"
       height="52"
       viewBox="0 0 32 52"
@@ -20,16 +20,16 @@ const SvgArrow = ({ color, orientation }) => {
       <path
         d="M31 16L16 1L0.999999 16"
         stroke={color}
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M16 0.999999L16 51"
         stroke={color}
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
@@ -44,4 +44,5 @@ SvgArrow.defaultProps = {
 SvgArrow.propTypes = {
   color: PropTypes.string,
   orientation: PropTypes.oneOf(["up", "down", "right", "left"]).isRequired,
+  size: PropTypes.number.isRequired,
 };

@@ -1,41 +1,44 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import NavigationStyles from "./Navigation.module.scss"
+import NavigationStyles from "./Navigation.module.scss";
+import path from "../../services/routerPath.json";
+import { useTranslation } from "react-i18next";
+import { navigation } from "../../translations/ua/common.json";
+
 const Navigation = () => {
-
-
+  const { t } = useTranslation();
   return (
     <nav className={NavigationStyles.navigationWrapper}>
       <ul className={NavigationStyles.navigationUl}>
         <li className={NavigationStyles.navigationLi}>
           <NavLink
-          //  className={NavigationStyles.navigationLink}
-            to={'/test'}
+            //  className={NavigationStyles.navigationLink}
+            to={path.test}
             className={(navData) =>
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }
           >
-           Тест
+            {t(navigation.test)}
           </NavLink>
         </li>
         <li className={NavigationStyles.navigationLi}>
           <NavLink
-            to={'/architypes'}
+            to={path.archetypes}
             className={(navData) =>
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }
           >
-            Архетипы
+            {t(navigation.archetypes)}
           </NavLink>
         </li>
         <li className={NavigationStyles.navigationLi}>
           <NavLink
-            to={'/contact'}
+            to={path.contacts}
             className={(navData) =>
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }
           >
-            Контакты
+            {t(navigation.contacts)}
           </NavLink>
         </li>
       </ul>

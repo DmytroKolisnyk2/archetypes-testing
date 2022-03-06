@@ -1,3 +1,6 @@
 {
-  "home": "/"
+  "home": "/",
+  "contacts": "/contacts",
+  "archetypes": "/archetypes",
+  "test": "/test"
 }
