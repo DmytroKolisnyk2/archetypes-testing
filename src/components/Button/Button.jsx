@@ -2,7 +2,15 @@ import React from "react";
 import styles from "./Button.module.scss";
 import PropTypes from "prop-types";
 
-export default function Button({ children, width, paddingLeft, paddingRight, bgColor, color }) {
+export default function Button({
+  children,
+  width,
+  paddingLeft,
+  paddingRight,
+  bgColor,
+  color,
+  height,
+}) {
   const colorPalette = {
     white: "white",
     black: "#212353",
@@ -20,6 +28,7 @@ export default function Button({ children, width, paddingLeft, paddingRight, bgC
         width: width,
         backgroundColor: bgColorPalette[bgColor],
         color: colorPalette[color],
+        height: height,
       }}
       className={styles.button}
       type="button"
@@ -33,6 +42,7 @@ Button.defaultProps = {
   width: 170,
   paddingLeft: 30,
   paddingRight: 30,
+  height: 60,
 };
 
 Button.propTypes = {
@@ -41,8 +51,8 @@ Button.propTypes = {
   paddingLeft: PropTypes.number,
   bgColor: PropTypes.oneOf(["white", "pink", "violet"]).isRequired,
   color: PropTypes.oneOf(["white", "black"]).isRequired,
+  height: PropTypes.number,
 };
-
 
 //--------------------------Example------------------------------
 

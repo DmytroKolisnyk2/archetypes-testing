@@ -1,0 +1,38 @@
+.Header {
+  // margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 20px 0;
+  max-width: 1113px;
+  margin: 0 auto;
+  @media screen and (max-width: 1024px) {
+    max-width: 800px;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 21px 20px 0;
+  }
+}
+.headerWrapper {
+  position: absolute;
+  width: 100%;
+  max-width: 100vw;
+  top: 0;
+  left: 0;
+}
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  max-width: 455px;
+  width: 100%;
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+  }
+}
+.button {
+  @media screen and (max-width: 1024px) {
+    display: none;
+  }
+}
