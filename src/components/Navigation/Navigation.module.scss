@@ -1,9 +1,6 @@
-
-.header {
-    margin-top: 22px;
-}
 .navigationWrapper {
-    width: 274px;
+    width: 294px;
+    margin-left: 15px;
 }
 
 .navigationLi {
@@ -12,6 +9,7 @@
 .navigationUl {
     display: flex;
     justify-content: space-between;
+    padding: 0;
 }
 .NavLink {
     font-family: "Open Sans", sans-serif;
@@ -21,6 +19,7 @@
     line-height: 160%;
     color: #4b5d68;
     text-decoration: none;
+    transition: 200ms linear;
 }
 .NavLink:hover {
     color: #9c69e2;

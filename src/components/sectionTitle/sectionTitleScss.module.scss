@@ -1,19 +1,31 @@
-// @import "../../App.jsx";
+@import "../../styles/App.scss";
 
 .sectionTitleDiv {
     max-width: 584px;
     width: 100%;
-    margin: 0 auto 25px;
+// <<<<<<< component/footer
+//     margin: 0 auto 25px;
+// =======
+    margin: 0 auto 20px;
+// >>>>>>> develop
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     @media screen and (min-width: 768px) {
-        margin-bottom: 25px;
+// <<<<<<< component/footer
+//         margin-bottom: 25px;
+//         width: 80%;
+//     }
+//     @media screen and (min-width: 1024px) {
+//         margin-bottom: 25px;
+// =======
+        margin-bottom: 80px;
         width: 80%;
     }
     @media screen and (min-width: 1024px) {
-        margin-bottom: 25px;
+        margin-bottom: 100px;
+// >>>>>>> develop
         width: 100%;
     }
 }

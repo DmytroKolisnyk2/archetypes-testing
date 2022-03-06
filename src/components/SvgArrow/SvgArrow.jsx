@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const SvgArrow = ({ color, orientation }) => {
+const SvgArrow = ({ color, orientation, size }) => {
   const orientationParams = {
     up: "rotate(0deg)",
     down: "rotate(180deg)",
@@ -10,9 +10,15 @@ const SvgArrow = ({ color, orientation }) => {
   };
   return (
     <svg
-      style={{ transform: orientationParams[orientation]}}
-      width="30"
-      height="24"
+// <<<<<<< component/footer
+//       style={{ transform: orientationParams[orientation]}}
+//       width="30"
+//       height="24"
+// =======
+      style={{ transform: orientationParams[orientation], width: size }}
+      width="52"
+      height="52"
+// >>>>>>> develop
       viewBox="0 0 32 52"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -44,4 +50,5 @@ SvgArrow.defaultProps = {
 SvgArrow.propTypes = {
   color: PropTypes.string,
   orientation: PropTypes.oneOf(["up", "down", "right", "left"]).isRequired,
+  size: PropTypes.number.isRequired,
 };
