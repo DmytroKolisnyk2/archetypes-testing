@@ -11,6 +11,7 @@ const CardSection = ({
   description,
   color,
   smallRectangular,
+  bobs
 }) => {
   const addClass = (smallRectangular, type) => {
     return classNames({
@@ -41,6 +42,7 @@ const CardSection = ({
       ) : (
         <Rectangle color={color} />
       )}
+      {bobs}
       <div className={addClass(smallRectangular, "content")}>
       <img
             className={addClass(smallRectangular, "image")}
