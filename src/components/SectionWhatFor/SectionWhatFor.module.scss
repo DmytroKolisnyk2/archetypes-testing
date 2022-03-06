@@ -5,7 +5,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    overflow: hidden;
+    // overflow: hidden;
+    // overflow-x: hidden;
     @media screen and (min-width: 1024px) {
         border-bottom: 2px solid rgba(156, 105, 226, 0.1);
         margin-bottom: 100px;
@@ -22,9 +23,12 @@
     width: 100%;
     @media screen and (min-width: 768px) {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
+    }
+    @media screen and (min-width: 1024px) {
+        justify-content: space-between;
     }
 }

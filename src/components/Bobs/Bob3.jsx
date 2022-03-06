@@ -21,7 +21,7 @@ const Bob3 = () => {
         ry="20.1071"
         transform="rotate(150 379.806 56.427)"
         stroke="white"
-        stroke-width="1.5"
+        strokeWidth="1.5"
       />
     </svg>
   );
