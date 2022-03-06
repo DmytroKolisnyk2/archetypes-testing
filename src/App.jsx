@@ -2,7 +2,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import path from "./services/routerPath.json";
 import "./translations/i18nReact";
-import i18n from "i18next";
+
+// import i18n from "i18next";
 // import { useTranslation } from "react-i18next";
 
 import "./styles/App.scss";
@@ -21,7 +22,9 @@ const App = () => {
       </button>
       <button onClick={() => i18n.changeLanguage("ua")} type="button">
         {t("btn.ua")}
-      </button> */}
+
+      </button> */}    
+
       <Header></Header>
       <GradientWrapper>
         <Introduction />

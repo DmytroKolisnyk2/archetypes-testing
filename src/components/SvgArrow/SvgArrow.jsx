@@ -10,9 +10,15 @@ const SvgArrow = ({ color, orientation, size }) => {
   };
   return (
     <svg
+// <<<<<<< component/footer
+//       style={{ transform: orientationParams[orientation]}}
+//       width="30"
+//       height="24"
+// =======
       style={{ transform: orientationParams[orientation], width: size }}
       width="52"
       height="52"
+// >>>>>>> develop
       viewBox="0 0 32 52"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

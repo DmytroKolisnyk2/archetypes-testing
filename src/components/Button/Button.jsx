@@ -2,20 +2,13 @@ import React from "react";
 import styles from "./Button.module.scss";
 import PropTypes from "prop-types";
 
-export default function Button({
-  children,
-  width,
-  paddingLeft,
-  paddingRight,
-  bgColor,
-  color,
-  height,
-}) {
+
+export default function Button({bottom, children, width, paddingLeft, paddingRight, bgColor, color,margin ,height}) {
   const colorPalette = {
-    white: "white",
+    white: "white", 
     black: "#212353",
   };
-  const bgColorPalette = {
+  const bgColorPalette = { 
     white: "white",
     pink: "#F063B8",
     violet: "#9C69E2",
@@ -28,6 +21,8 @@ export default function Button({
         width: width,
         backgroundColor: bgColorPalette[bgColor],
         color: colorPalette[color],
+        marginBottom: bottom,
+        margin:margin,
         height: height,
       }}
       className={styles.button}

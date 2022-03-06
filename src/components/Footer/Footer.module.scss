@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+.footer {
+  margin: 0 auto;
+  max-width: 1117px;
+  min-width: 300px;
+}
+
+.footerSvgArrow {
+  padding: 4px 15px 0px 20px;
+}
+.footerButton2Wrapper {
+  display: flex;
+}
+.footerButtonText1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  margin: 0 auto;
+  line-height: 160%;
+}
+.footerButtonText2 {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0 auto;
+  width: 107px;
+}
+
+.footerWrapper{
+position: absolute;
+width: 584px;
+
+left: 258px;
+top: 2801px;
+}
+
+.footerWrappers{
+
+    margin: 0 auto;
+
+}
+.footerIconLink {
+  text-decoration: none;
+
+  background-size: 10px;
+  display: block;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-position: 50%;
+}
+.footerIconImg {
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+}
+.iconWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 183px;
+  margin: 0 auto;
+}
+.footerText {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+}
+.footerTitle {
+  font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    /* or 52px */
+color:#212353;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+    @media screen and (min-width: 1024px) {
+      display: flex;
+    }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
+}
+.sectionTitleDiv{
+  @media screen and (min-width: 1024px) {
+    align-items: normal;
+  }
+  @media screen and (min-width: 1200px) {
+    align-items: normal;
+  }
+}
+.footerSubText{
+  font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* 1 */
+    margin: 0px auto 52px;
+    color: #4b5d68;
+    max-width: 584px;
+    @media screen and (min-width: 1024px) {
+      align-items: normal;
+      text-align: left;
+      margin: 0px;
+      padding: 0;
+      width: 584px;
+ 
+    }
+    @media screen and (min-width: 1200px) {
+      align-items: normal;
+      text-align: left;
+      padding: 0;
+      width: 584px;
+    }
+}
+@media screen and (min-width: 1200px) {
+  .footerTwoWrappers {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .FooterButtonWrapper {
+    width: 100%;
+    margin: 0 auto 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 1200px) {
+      width: 410px;
+      display: flex;
+      justify-content: space-between;
+      height: 60px;
+      margin-top: 70px;
+    }
+   
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footerTwoWrappers {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;margin: 50px;
+  }
+  .FooterButtonWrapper {
+    width: 410px;
+    // display: flex;
+  
+    justify-content: space-between;
+    height: 95px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+  }
+}
