@@ -100,8 +100,13 @@ top: 2801px;
     text-align: center;
 
     /* 1 */
-
+    margin: 0px auto 52px;
     color: #4b5d68;
+    @media screen and (min-width: 895px) {
+      width: 484px;
+      text-align: center;
+ 
+    }
     @media screen and (min-width: 1200px) {
       align-items: normal;
       text-align: left;
