@@ -3,29 +3,29 @@
 .sectionTitleDiv {
     max-width: 584px;
     width: 100%;
-// <<<<<<< component/footer
-//     margin: 0 auto 25px;
-// =======
+    // <<<<<<< component/footer
+    //     margin: 0 auto 25px;
+    // =======
     margin: 0 auto 20px;
-// >>>>>>> develop
+    // >>>>>>> develop
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     @media screen and (min-width: 768px) {
-// <<<<<<< component/footer
-//         margin-bottom: 25px;
-//         width: 80%;
-//     }
-//     @media screen and (min-width: 1024px) {
-//         margin-bottom: 25px;
-// =======
+        // <<<<<<< component/footer
+        //         margin-bottom: 25px;
+        //         width: 80%;
+        //     }
+        //     @media screen and (min-width: 1024px) {
+        //         margin-bottom: 25px;
+        // =======
         margin-bottom: 80px;
         width: 80%;
     }
     @media screen and (min-width: 1024px) {
         margin-bottom: 100px;
-// >>>>>>> develop
+        // >>>>>>> develop
         width: 100%;
     }
 }
@@ -36,6 +36,7 @@
     // height: 104px;
     // left: 607.29px;
     // top: 240px;
+    color: #212353;
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
     font-weight: bold;

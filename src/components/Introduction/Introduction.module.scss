@@ -9,6 +9,7 @@
   }
 }
 .headline {
+  color: #212353;
   font-family: "Ubuntu", sans-serif;
   font-size: 80px;
   font-weight: 700;
@@ -33,7 +34,7 @@
   text-align: justify;
   color: #4b5d68;
   line-height: 29px;
-   @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     margin-bottom: 50px;
   }
   @media screen and (max-width: 768px) {
@@ -63,12 +64,15 @@
   }
 }
 .introduction {
-  padding: 158px 0 20px;
+  padding: 158px 16px 20px;
+  margin-bottom: 135px;
   @media screen and (max-width: 1024px) {
-    padding: 158px 0 20px;
+    padding: 158px 16px 20px;
+    margin-bottom: 86px;
   }
   @media screen and (max-width: 768px) {
-    padding: 58px 0 20px;
+    padding: 58px 16px 20px;
+    margin-bottom: 127px;
   }
 }
 .image {

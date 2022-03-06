@@ -36,7 +36,7 @@ const CardSection = ({
     });
   };
   return (
-    <div className={addClass(smallRectangular, "card")}>
+    <li className={addClass(smallRectangular, "card")}>
       {smallRectangular ? (
         <Rectangle width={240} height={170} color={color} />
       ) : (
@@ -56,7 +56,7 @@ const CardSection = ({
           </p>
         </div>
       </div>
-    </div>
+    </li>
   );
 };
 

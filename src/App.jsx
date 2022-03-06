@@ -11,7 +11,7 @@ import "./styles/App.scss";
 import GradientWrapper from "./components/GradientWrapper/GradientWrapper";
 import HomePage from "./pages/HomePage/HomePage";
 import Header from "./components/Header/Header";
-import Introduction from "./components/Introduction/Introduction";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -23,14 +23,14 @@ const App = () => {
       <button onClick={() => i18n.changeLanguage("ua")} type="button">
         {t("btn.ua")}
 
-      </button> */}    
+      </button> */}
 
       <Header></Header>
       <GradientWrapper>
-        <Introduction />
         <Routes>
           <Route path={path.home} element={<HomePage />} />
         </Routes>
+        <Footer />
       </GradientWrapper>
     </>
   );
