@@ -74,7 +74,7 @@
     justify-content: space-between;
     position: absolute;
     top: 45%;
-    left: 33%;
+    left: 35%;
     transform: translate(-50%, -50%);
     @media screen and (max-width: 1024px) {
         left: 50%;
@@ -98,9 +98,12 @@
 .title_smallRectangular {
     margin-bottom: 12px;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 25px;
     font-family: 'Ubuntu', sans-serif;
     color: rgba(33, 35, 83, 1);
+    @media screen and (min-width: 1024px) {
+        font-size: 21px;
+    }
 }
 
 .wrapper {
@@ -151,6 +154,9 @@
 .description_smallRectangular {
     font-family: 'Open Sans', sans-serif;
     color: rgba(75, 93, 104, 1);
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 900;
+    @media screen and (min-width: 1024px) {
+        font-size: 20px;
+    }
 }

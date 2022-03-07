@@ -4,6 +4,7 @@ import { sectionFindOut } from "../../translations/ua/common.json";
 import styles from "./SectionFindOut.module.scss";
 import SectionTitle from "../sectionTitle/sectionTitle";
 import CardSection from "../CardSection/CardSection";
+import Bob1 from "../Bobs/Bob1";
 import smallCardImg1 from "../../images/smallCardImg1.png";
 import smallCardImg2 from "../../images/smallCardImg2.png";
 import smallCardImg3 from "../../images/smallCardImg3.png";
@@ -18,6 +19,7 @@ const SectionFindOut = () => {
       />
       <ul className={styles.wrapperCards}>
         <CardSection
+          bobs={<Bob1 />}
           smallRectangular
           title={t(sectionFindOut.titleCard1)}
           description={t(sectionFindOut.subtitleCard1)}
@@ -25,6 +27,7 @@ const SectionFindOut = () => {
           cardImg={smallCardImg1}
         />
         <CardSection
+          bobs={<Bob1 />}
           smallRectangular
           title={t(sectionFindOut.titleCard2)}
           description={t(sectionFindOut.subtitleCard2)}
@@ -32,6 +35,7 @@ const SectionFindOut = () => {
           cardImg={smallCardImg2}
         />
         <CardSection
+          bobs={<Bob1 />}
           smallRectangular
           title={t(sectionFindOut.titleCard3)}
           description={t(sectionFindOut.subtitleCard3)}
