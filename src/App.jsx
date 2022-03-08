@@ -10,6 +10,7 @@ import "./styles/App.scss";
 
 import GradientWrapper from "./components/GradientWrapper/GradientWrapper";
 import HomePage from "./pages/HomePage/HomePage";
+import ArchetypesPage from './pages/ArchetypesPage/ArchetypesPage';
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
@@ -29,6 +30,7 @@ const App = () => {
       <GradientWrapper>
         <Routes>
           <Route path={path.home} element={<HomePage />} />
+          <Route path={path.archetypes} element={<ArchetypesPage />}/>
         </Routes>
         <Footer />
       </GradientWrapper>

@@ -1,13 +1,12 @@
 import React from "react";
 
-const Bob1 = () => {
+const Bob5 = () => {
   return (
     <svg
-    className="svg"
     style={
         {
             position: "absolute",
-            top: "-15px",
+            bottom: 0,
             left: 0,
         }
     }
@@ -35,4 +34,4 @@ const Bob1 = () => {
   );
 };
 
-export default Bob1;
+export default Bob5;

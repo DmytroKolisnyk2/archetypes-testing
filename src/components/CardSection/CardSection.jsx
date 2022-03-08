@@ -11,7 +11,7 @@ const CardSection = ({
   description,
   color,
   smallRectangular,
-  bobs
+  bobs,
 }) => {
   const addClass = (smallRectangular, type) => {
     return classNames({
@@ -44,13 +44,13 @@ const CardSection = ({
       )}
       {bobs}
       <div className={addClass(smallRectangular, "content")}>
-      <img
-            className={addClass(smallRectangular, "image")}
-            src={cardImg}
-            alt="card_img"
-          />
+        <img
+          className={addClass(smallRectangular, "image")}
+          src={cardImg}
+          alt="card_img"
+        />
         <div className={addClass(smallRectangular, "wrapper")}>
-        <h2 className={addClass(smallRectangular, "title")}>{title}</h2>
+          <h2 className={addClass(smallRectangular, "title")}>{title}</h2>
           <p className={addClass(smallRectangular, "description")}>
             {description}
           </p>
@@ -84,12 +84,14 @@ cardImg={CardImg}
 /> */
 }
 // Виклик малої трапеції(картки)
-{/* <CardSection
+{
+  /* <CardSection
 smallRectangular
 color="purple"
 title="Время"
 description="10 минут"
 cardImg={smallImg}
-/> */}
+/> */
+}
 
 export default CardSection;
