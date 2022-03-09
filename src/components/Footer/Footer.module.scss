@@ -3,7 +3,7 @@
   margin: 0 auto;
   max-width: 1117px;
   min-width: 300px;
-  padding-bottom: 22px;
+  padding: 0 16px 22px;
 }
 
 .footerSvgArrow {
@@ -23,8 +23,6 @@
 .footerButtonText2 {
   font-size: 16px;
   font-weight: 800;
-  // margin: 0 auto;
-  // width: 107px;
 }
 
 .footerWrapper {
@@ -66,7 +64,7 @@
   font-weight: normal;
   font-size: 12px;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .footerTitle {
   font-family: "Open Sans", sans-serif;
@@ -113,7 +111,8 @@
     text-align: left;
     margin: 0px;
     padding: 0;
-    width: 584px;
+    max-width: 470px;
+    // width: 584px;
   }
   @media screen and (min-width: 1200px) {
     align-items: normal;
@@ -122,42 +121,45 @@
     width: 584px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .footerTwoWrappers {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
+
+.FooterButtonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  margin: 0 auto 55px;
+  flex-wrap: wrap;
+  @media screen and (min-width: 1024px) {
+    margin: 0;
   }
-  .FooterButtonWrapper {
-    width: 100%;
-    margin: 0 auto 58px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    @media screen and (min-width: 1200px) {
-      width: 410px;
-      display: flex;
-      justify-content: space-between;
-      height: 60px;
-      margin-top: 70px;
-    }
+  @media screen and (min-width: 1200px) {
+    width: 410px;
+    justify-content: space-between;
+    height: 60px;
+    flex-wrap: nowrap;
+    margin-top: 25px;
   }
 }
 @media screen and (min-width: 1024px) {
   .footerTwoWrappers {
     display: flex;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     justify-content: space-between;
-    align-items: center;
-    margin: 50px;
+    margin-bottom: 50px;
+    max-width: 810px;
   }
-  .FooterButtonWrapper {
-    width: 410px;
-    // display: flex;
-
+}
+@media screen and (min-width: 1200px) {
+  .footerTwoWrappers {
+    display: flex;
+    // margin: 0 auto 50px;
     justify-content: space-between;
-    height: 95px;
-    margin-top: 30px;
-    margin-bottom: 90px;
+    max-width: 1117px;
+  }
+}
+.archetypesBtn {
+  margin-bottom: 21px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
   }
 }

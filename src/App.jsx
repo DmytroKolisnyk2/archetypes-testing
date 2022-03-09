@@ -17,16 +17,7 @@ import Footer from "./components/Footer/Footer";
 const App = () => {
   return (
     <>
-      {/* <div>{t("hello")}</div>
-      <button onClick={() => i18n.changeLanguage("en")} type="button">
-        {t("btn.en")}
-      </button>
-      <button onClick={() => i18n.changeLanguage("ua")} type="button">
-        {t("btn.ua")}
-
-      </button> */}
-
-      <Header />
+      <Header></Header>
       <GradientWrapper>
         <main className="main">
           <Routes>
