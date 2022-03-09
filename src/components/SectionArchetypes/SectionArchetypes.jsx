@@ -33,7 +33,7 @@ const SectionArchetypes = () => {
                 )
               }
               rotate={item.rotate}
-              id={item.id}
+              key={item.id}
               cardId={item.id}
               color={item.color}
               title={sectionArchetypes.arrayTitleCards.map((itemText) => {
