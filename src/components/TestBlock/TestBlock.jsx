@@ -20,11 +20,11 @@ text={'Виберіть найбільш підходящу вам відпов�
           {props.map((prop,index) => (
             <>
             <h2 className={TestBlockStyles.quetion}>{index+1}. {prop.question}</h2>
-         <form className={TestBlockStyles.form}>
+      
 <label className={TestBlockStyles.options}><input className={TestBlockStyles.inputRadio} type="radio"name="fav_language" />{prop.options[1]} </label><br></br>
 
 <label className={TestBlockStyles.options}><input className={TestBlockStyles.inputRadio} type="radio" name="fav_language"/>{prop.options[2]}</label><br></br>
-</form>
+
             </>
           ))}
           <div  className={TestBlockStyles.testBlock1ButtonWrapper}>
