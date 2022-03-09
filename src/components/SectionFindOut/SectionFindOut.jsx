@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { sectionFindOut } from "../../translations/ua/common.json";
 import styles from "./SectionFindOut.module.scss";
-import SectionTitle from "../sectionTitle/sectionTitle";
+import SectionTitle from "../SectionTitle/SectionTitle";
 import CardSection from "../CardSection/CardSection";
 import Bob1 from "../Bobs/Bob1";
 import smallCardImg1 from "../../images/smallCardImg1.png";
