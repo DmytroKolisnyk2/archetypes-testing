@@ -19,10 +19,11 @@
     margin: 0 auto;
     display: grid;
     grid-template: repeat(4, auto) / repeat(1, auto);
-    gap: 85px;
+    gap: 45px;
     @media screen and (min-width: 768px){
         width: 75%;
         grid-template: repeat(6, auto) / repeat(2, auto);
+        gap: 85px;
     }
     @media screen and (min-width: 1024px){
         width: 100%;

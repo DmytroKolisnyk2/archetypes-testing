@@ -17,6 +17,7 @@ const smallArchetypesCard = ({color, title, cardId, bobs, rotate}) => {
         <Link to={`/archetypes/${cardId}`}>
         <li className={verifyClass(rotate)}>
             <Rectangle width={240} height={170} color={color} />
+            {bobs}
             <h3 className={styles.title}>{title}</h3>
         </li>
         </Link>
