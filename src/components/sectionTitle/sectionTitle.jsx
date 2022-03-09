@@ -2,10 +2,12 @@ import React from "react";
 import sectionTitleScss from "./sectionTitleScss.module.scss"
 import PropTypes from 'prop-types';
 
- const sectionTitle=({title,text}) => {
+ const sectionTitle=({title,text,top}) => {
   
     return (
-       <div className={sectionTitleScss.sectionTitleDiv}>
+       <div  style={{
+ marginTop:top,
+      }} className={sectionTitleScss.sectionTitleDiv}>
            <h2 className={sectionTitleScss.sectionTitleTitle}>
              {title}
            </h2>

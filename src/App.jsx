@@ -2,7 +2,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import path from "./services/routerPath.json";
 import "./translations/i18nReact";
-
+import firstBlockTest from "./services/questions/firstBlock.json"
+import TestBlock from "./components/TestBlock/TestBlock"
 // import i18n from "i18next";
 // import { useTranslation } from "react-i18next";
 
@@ -14,6 +15,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {
+
   return (
     <>
       {/* <div>{t("hello")}</div>
@@ -25,13 +27,17 @@ const App = () => {
 
       </button> */}
 
-      <Header></Header>
+      <Header/>
       <GradientWrapper>
         <Routes>
           <Route path={path.home} element={<HomePage />} />
+          <Route path={path.test} element={ <TestBlock props={Object.values(firstBlockTest.firstBlock)}/>} />
         </Routes>
+    
         <Footer />
+       
       </GradientWrapper>
+
     </>
   );
 };

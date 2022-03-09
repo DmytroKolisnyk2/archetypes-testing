@@ -37,5 +37,9 @@
     "test": "Тест",
     "archetypes": "Архітипи",
     "contacts": "Контакти"
+  },
+  "testBlock1":{
+"button1":"Назад",
+"button2":"Далі"
   }
 }

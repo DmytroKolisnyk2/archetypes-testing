@@ -36,7 +36,7 @@ const Footer = () => {
             >
               {/* <div className={FooterStyles.footerButton2Wrapper}> */}
                 <p className={FooterStyles.footerButtonText2}>{t(footer.button2)}</p>
-                <SvgArrow size={20} orientation="right" />
+                <SvgArrow size={20} orientation="right" color={"violet"}/>
               {/* </div> */}
             </Button>
           </div>
