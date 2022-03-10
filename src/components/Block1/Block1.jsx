@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import TestBlockStyles from "./TestBlock.module.scss";
 import SectionTitle from "../SectionTitle/SectionTitle.jsx";
@@ -8,7 +8,8 @@ import SvgArrow from "../SvgArrow/SvgArrow";
 import { useTranslation } from "react-i18next";
 import { testBlock1 } from "../../translations/ua/common.json";
 import Block1Question from "./TestBlock1Quetion";
-function TestBlock({ props }) {
+
+function Block1({ props }) {
   const { t } = useTranslation();
 
   return (
@@ -31,7 +32,7 @@ function TestBlock({ props }) {
           </ul>
         </form>
       </section>
-      );
+      {/* ); */}
       <div className={TestBlockStyles.testBlock1ButtonWrapper}>
         <Button width={170} bgColor={"violet"} color={"white"}>
           {/* <div className={FooterStyles.footerButton2Wrapper}> */}
@@ -52,7 +53,8 @@ function TestBlock({ props }) {
   );
 }
 
-TestBlock.propTypes = {
+Block1.propTypes = {
   props: PropTypes.array.isRequired,
 };
-export default TestBlock;
+
+export default Block1;

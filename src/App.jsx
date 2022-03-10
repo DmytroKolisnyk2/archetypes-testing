@@ -14,7 +14,7 @@ import TestPage from "./pages/TestPage/TestPage";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Block2 from "./components/Block2/Block2";
-import TestBlock from "./components/TestBlock/TestBlock";
+import Block1 from "./components/Block1/Block1";
 
 const App = () => {
   return (
@@ -25,7 +25,7 @@ const App = () => {
           <Routes>
             <Route path={path.home} element={<HomePage />} />
             <Route path={path.test} element={<TestPage />}>
-              <Route path={"block1"} element={<TestBlock props={firstBlock} />} />
+              <Route path={"block1"} element={<Block1 props={firstBlock} />} />
               <Route path={"block2"} element={<Block2 />} />
             </Route>
           </Routes>
