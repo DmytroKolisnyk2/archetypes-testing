@@ -3,5 +3,13 @@
   "btn": {
     "ua": "Change to ua",
     "en": "Change to en"
+  },
+  "modal": {
+    "btn": "Archetypes description",
+    "inputEmail": "Email",
+    "receiveResult": "Get result",
+    "inputName": "Your name",
+    "gloryToUkraine": "Героям слава!",
+    "gloryOfTheNation": "Смерть ворогам!"
   }
 }

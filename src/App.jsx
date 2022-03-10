@@ -13,20 +13,22 @@ import HomePage from "./pages/HomePage/HomePage";
 import TestPage from "./pages/TestPage/TestPage";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Modal from "./components/Modal/Modal.jsx";
 
 const App = () => {
   return (
     <>
-      <Header></Header>
-      <GradientWrapper>
+      {/* <Header></Header>
+      <GradientWrapper> */}
         <main className="main">
+          <Modal/>
           <Routes>
             <Route path={path.home} element={<HomePage />} />
             <Route path={path.test} element={<TestPage />} />
           </Routes>
         </main>
-        <Footer />
-      </GradientWrapper>
+        {/* <Footer />
+      </GradientWrapper> */}
     </>
   );
 };
