@@ -1,0 +1,145 @@
+.lightbox {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(196, 196, 196, 0.7);
+  transition: opacity 1s;
+  z-index: 9999;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition:visibility 0.5s linear,opacity 0.5s linear;
+}
+
+.span {
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+.modal {
+  width: 1300px;
+  height: 570px;
+  background-color: #fff;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  color: #5F00D8;
+  border-radius: 4px;
+  // justify-content: space-around;
+	// font-family: "Roboto", sans-serif;
+}
+
+.modal__wrapper {
+	width: 100%;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-around;
+}
+
+.modal__image {
+  width: 600px;
+  height: 600px;
+  position: relative;
+  left: -35px;
+  top: -20px;
+  // transform: scale(0.5);
+  background-color: #9c69e2b5;
+}
+
+.modal__button__wrapper {
+  margin: 25px auto;
+  text-align: center;
+  transition: all 500ms;
+}
+
+.modal__button__wrapper:hover {
+
+}
+
+
+.modal__title {
+	text-align: center;
+	color: #000;
+  margin-top: 40px;
+  margin-bottom: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+}
+
+.modal__thanks {
+  color: #9c69e2;
+  border: 1px solid #c4c4c4;
+  background-color: #c4c4c4;
+  border-radius: 15px;
+}
+
+.modal__form {
+	width: 570px;
+	// margin: 0 auto;
+	margin-right: 40px;
+	display: flex;
+  flex-direction: column;
+}
+
+.modal__cross {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  transition: 800ms all;
+}
+.modal__cross:hover {
+  transform: rotate(720deg);
+}
+
+.modal__input {
+  height: 80px;
+  border: 1px solid #D7DBDB;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #9c69e2;
+}
+
+.modal__email {
+  margin-top: 25px;
+}
+
+.modal__label {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 8px;
+}
+
+.button {
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 29px;
+  display: flex;
+  background-color: #F063B8;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 0px 5px 5px 0px #4b5d681a;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 15px 30px;
+  text-align: center;
+  margin-top: 15px;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 500ms;
+}

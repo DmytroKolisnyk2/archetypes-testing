@@ -297,8 +297,17 @@
     "titleCard3": "Результат",
     "subtitleCard3": "Опис вашого архетипу"
   },
+  "modal": {
+    "btn": "Опис Архетипів",
+    "inputEmail": "Email",
+    "receiveResult": "Отримати результат",
+    "inputName": "Ваше ім'я",
+    "submit": "Відправити",
+    "notification": "Дякуємо за участь!"
+},
   "testBlock1": {
     "button1": "Назад",
     "button2": "Далі"
+
   }
 }
