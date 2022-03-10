@@ -37,19 +37,19 @@ export default function ArchetypesCard({
           <div className={styles.textWrapper}>
             <h2 className={styles.caption}>{headline}</h2>
             <p className={styles.characteristic}>
-              <span>Мотивация:</span> {motivationText}
+              {motivationText}
             </p>
             <p className={styles.characteristic}>
-              <span>Страх:</span> {fearText}
+              {fearText}
             </p>
             <p className={styles.characteristic}>
-              <span>Cильные стороны:</span> {strongSideText}
+              {strongSideText}
             </p>
             <p className={styles.characteristic}>
-              <span>Слабые стороны:</span> {weakSideText}
+              {weakSideText}
             </p>
             <p className={styles.characteristic}>
-              <span>Стратегия:</span> {strategyText}
+              {strategyText}
             </p>
           </div>
         </div>

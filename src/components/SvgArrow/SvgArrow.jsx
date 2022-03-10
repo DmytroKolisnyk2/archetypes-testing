@@ -10,7 +10,7 @@ const SvgArrow = ({ color, orientation, size }) => {
   };
   return (
     <svg
-      style={{ transform: orientationParams[orientation], width: size }}
+      style={{ transform: orientationParams[orientation], width: size, cursor: "pointer" }}
       width="52"
       height="52"
       viewBox="0 0 32 52"
