@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./SectionArchetypes.module.scss";
 import SmallArchetypesCard from "../smallArchetypesCard/smallArchetypesCard";
-import SectionTitle from "../sectionTitle/sectionTitle";
+import SectionTitle from "../SectionTitle/SectionTitle";
 import Bob1 from "../Bobs/Bob1";
 import Bob5 from "../Bobs/Bob5";
 import Bob6 from "../Bobs/Bob6";
