@@ -2,5 +2,6 @@
   "home": "/",
   "contacts": "/contacts",
   "archetypes": "/archetypes",
-  "test": "/test"
+  "test": "/test",
+  "ArchetypeDetailPage": "/archetypes/:archetypeId"
 }
