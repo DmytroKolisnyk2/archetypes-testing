@@ -17,86 +17,43 @@ const Modal = () => {
   const [isActive, setActive] = useState(false);
 
   const [state, handleSubmit] = useForm("mgedyjvn");
-  
 
   const handleToggle = () => {
     setActive(!isActive);
   };
-  if(state.succeeded) {
-    return(
+  if (state.succeeded) {
+    return (
       <>
-        <h3 className={styles.modal__title + ' ' + styles.modal__thanks}>{t(modal.notification)}</h3>
+        <h3 className={styles.modal__title + " " + styles.modal__thanks}>
+          {t(modal.notification)}
+        </h3>
       </>
-    )
+    );
   }
 
   return (
     <>
       <button onClick={() => handleToggle()}>Open modal</button>
-      <div
-        className={
-          isActive ? styles.lightbox : styles.lightbox + " " + styles.hidden
-        }
-      >
+      <div className={isActive ? styles.lightbox : styles.lightbox + " " + styles.hidden}>
         <div className={styles.modal}>
           <img src={star} alt="Star" className={styles.modal__image} />
           <div className={styles.modal__wrapper}>
             <h3 className={styles.modal__title}>{t(modal.receiveResult)}</h3>
-            <form
-              method="POST"
-              onSubmit={handleSubmit}
-              className={styles.modal__form}
-            >
-              <label
-                htmlFor="name"
-                className={styles.modal__name + " " + styles.modal__label}
-              >
+            <form method="POST" onSubmit={handleSubmit} className={styles.modal__form}>
+              <label htmlFor="name" className={styles.modal__name + " " + styles.modal__label}>
                 {t(modal.inputName)}
               </label>
-              <input
-                type="message"
-                id="name"
-                name="message"
-                className={styles.modal__input}
-              />
-              <ValidationError
-                prefix="Message"
-                field="message"
-                errors={state.errors}
-              />
-              <label
-                htmlFor="email"
-                className={styles.modal__email + " " + styles.modal__label}
-              >
+              <input type="message" id="name" name="message" className={styles.modal__input} />
+              <ValidationError prefix="Message" field="message" errors={state.errors} />
+              <label htmlFor="email" className={styles.modal__email + " " + styles.modal__label}>
                 {t(modal.inputEmail)}
               </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className={styles.modal__input}
-              />
-              <ValidationError
-                prefix="Email"
-                field="email"
-                errors={state.errors}
-              />
+              <input type="email" id="email" name="email" className={styles.modal__input} />
+              <ValidationError prefix="Email" field="email" errors={state.errors} />
               <button className={styles.button} type="submit">
                 {t(modal.submit)}
               </button>
-              <div className={styles.modal__button__wrapper}>
-                <Button
-                  width={"100%"}
-                  paddingRight={30}
-                  paddingLeft={30}
-                  color="white"
-                  bgColor="violet"
-                >
-                  <Link to={path.archetypes}>
-                    <span className={styles.span}>{t(modal.btn)}</span>
-                  </Link>
-                </Button>
-              </div>
+              <div className={styles.modal__button__wrapper}></div>
             </form>
           </div>
           <img

@@ -15,7 +15,7 @@ import TestPage from "./pages/TestPage/TestPage";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Modal from "./components/Modal/Modal.jsx";
+// import Modal from "./components/Modal/Modal.jsx";
 import Block2 from "./components/Block2/Block2";
 import Block1 from "./components/Block1/Block1";
 import GradientWrapper from "./components/GradientWrapper/GradientWrapper";
@@ -26,7 +26,7 @@ const App = () => {
       <Header></Header>
       <GradientWrapper>
         <main className="main">
-          <Modal/>
+          {/* <Modal/> */}
           <Routes>
             <Route path={path.home} element={<HomePage />} />
             <Route path={path.archetypes} element={<ArchetypesPage />}/>
