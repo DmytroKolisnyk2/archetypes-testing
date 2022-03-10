@@ -66,6 +66,7 @@ CardSection.propTypes = {
   description: PropTypes.string.isRequired,
   color: PropTypes.string.isRequired,
   smallRectangular: PropTypes.bool,
+  bobs: PropTypes.element
 };
 
 CardSection.defaultProps = {

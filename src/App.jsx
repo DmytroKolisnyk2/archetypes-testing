@@ -10,6 +10,7 @@ import "./styles/App.scss";
 
 import GradientWrapper from "./components/GradientWrapper/GradientWrapper";
 import HomePage from "./pages/HomePage/HomePage";
+import TestPage from "./pages/TestPage/TestPage";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
@@ -18,9 +19,12 @@ const App = () => {
     <>
       <Header></Header>
       <GradientWrapper>
-        <Routes>
-          <Route path={path.home} element={<HomePage />} />
-        </Routes>
+        <main className="main">
+          <Routes>
+            <Route path={path.home} element={<HomePage />} />
+            <Route path={path.test} element={<TestPage />} />
+          </Routes>
+        </main>
         <Footer />
       </GradientWrapper>
     </>
