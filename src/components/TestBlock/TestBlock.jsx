@@ -1,24 +1,22 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import TestBlockStyles from "./TestBlock.module.scss";
-import Title from "../SectionTitle/SectionTitle";
+import SectionTitle from "../SectionTitle/SectionTitle.jsx";
 import Button from "../Button/Button";
 import SvgArrow from "../SvgArrow/SvgArrow";
 // import { firstBlock12 } from "../../services/questions/firstBlock.json";
 import { useTranslation } from "react-i18next";
 import { testBlock1 } from "../../translations/ua/common.json";
 import Block1Question from "./TestBlock1Quetion";
-
 function TestBlock({ props }) {
   const { t } = useTranslation();
 
   return (
     <div>
       <section>
-        <Title
+        <SectionTitle
           title={"Перший блок"}
           text={"Виберіть найбільш підходящу вам відповідь з двох запропонованих нижче"}
-          top={120}
         />
         <form action="#">
           <ul>
