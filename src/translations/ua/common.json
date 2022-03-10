@@ -52,6 +52,8 @@
     "btn": "Опис Архетипів",
     "inputEmail": "Email",
     "receiveResult": "Отримати результат",
-    "inputName": "Ваше ім'я"
+    "inputName": "Ваше ім'я",
+    "submit": "Відправити",
+    "notification": "Дякуємо за участь!"
   }
 }

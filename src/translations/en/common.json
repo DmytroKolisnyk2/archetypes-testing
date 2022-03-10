@@ -10,6 +10,8 @@
     "receiveResult": "Get result",
     "inputName": "Your name",
     "gloryToUkraine": "Героям слава!",
-    "gloryOfTheNation": "Смерть ворогам!"
+    "gloryOfTheNation": "Смерть ворогам!",
+    "submit": "Submit",
+    "notification": "Thanks for joining!"
   }
 }

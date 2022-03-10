@@ -3,6 +3,7 @@
   height: 100vh;
   background: rgba(196, 196, 196, 0.7);
   transition: opacity 1s;
+  z-index: 9999;
 }
 
 .hidden {
@@ -19,7 +20,7 @@
 
 .modal {
   width: 1300px;
-  height: 560px;
+  height: 570px;
   background-color: #fff;
   display: flex;
   position: absolute;
@@ -72,6 +73,13 @@
   font-size: 39px;
 }
 
+.modal__thanks {
+  color: #9c69e2;
+  border: 1px solid #c4c4c4;
+  background-color: #c4c4c4;
+  border-radius: 15px;
+}
+
 .modal__form {
 	width: 570px;
 	// margin: 0 auto;
@@ -113,7 +121,25 @@
   margin-bottom: 8px;
 }
 
-#modal-root {
-  position: relative;
-  z-index: 999;
+.button {
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 29px;
+  display: flex;
+  background-color: #F063B8;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 0px 5px 5px 0px #4b5d681a;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 15px 30px;
+  text-align: center;
+  margin-top: 15px;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 500ms;
 }
