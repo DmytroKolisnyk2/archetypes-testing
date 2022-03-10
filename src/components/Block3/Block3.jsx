@@ -9,15 +9,15 @@ import { useTranslation } from "react-i18next";
 import { testBlock1 } from "../../translations/ua/common.json";
 import Block1Question from "./TestBlock1Quetion";
 
-function Block1({ props }) {
+function Block3({ props }) {
   const { t } = useTranslation();
 
   return (
     <div>
       <section>
         <SectionTitle
-          title={"Перший блок"}
-          text={"Виберіть найбільш підходящу вам відповідь з двох запропонованих нижче"}
+          title={"Третій блок"}
+          text={"Виберіть найбільш підходящу вам відповідь з п'яти запропонованих нижче"}
         />
         <form action="#">
           <ul>
@@ -26,7 +26,7 @@ function Block1({ props }) {
                 key={index}
                 number={index + 1}
                 headline={item.question}
-                options={["Yes","No"]}
+                options={["Yes", "No", "YesNo", "NoYes", "Eron Jega"]}
               />
             ))}
           </ul>
@@ -53,8 +53,8 @@ function Block1({ props }) {
   );
 }
 
-Block1.propTypes = {
+Block3.propTypes = {
   props: PropTypes.array.isRequired,
 };
 
-export default Block1;
+export default Block3;

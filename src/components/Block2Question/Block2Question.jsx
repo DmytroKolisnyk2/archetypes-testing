@@ -7,7 +7,7 @@ export default function Block2Question({ number, images, headline }) {
   return (
     <li className={styles.question}>
       <h3 className={styles.headline}>
-        {number}. {headline}
+        {number}. Вопрос
       </h3>
       <div className={styles.variantsWrapper}>
         {images.map((item, index) => (

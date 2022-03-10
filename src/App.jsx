@@ -9,7 +9,7 @@ import { firstBlock } from "./services/questions/firstBlock.json";
 import "./styles/App.scss";
 
 import HomePage from "./pages/HomePage/HomePage";
-import ArchetypesPage from './pages/ArchetypesPage/ArchetypesPage';
+import ArchetypesPage from "./pages/ArchetypesPage/ArchetypesPage";
 import ArchetypeDetailPage from "./pages/ArchetypeDetailPage/ArchetypeDetailPage";
 import TestPage from "./pages/TestPage/TestPage";
 
@@ -18,6 +18,7 @@ import Footer from "./components/Footer/Footer";
 // import Modal from "./components/Modal/Modal.jsx";
 import Block2 from "./components/Block2/Block2";
 import Block1 from "./components/Block1/Block1";
+import Block3 from "./components/Block3/Block3";
 import GradientWrapper from "./components/GradientWrapper/GradientWrapper";
 
 const App = () => {
@@ -29,11 +30,12 @@ const App = () => {
           {/* <Modal/> */}
           <Routes>
             <Route path={path.home} element={<HomePage />} />
-            <Route path={path.archetypes} element={<ArchetypesPage />}/>
-            <Route path={path.ArchetypeDetailPage} element={<ArchetypeDetailPage />}/>
+            <Route path={path.archetypes} element={<ArchetypesPage />} />
+            <Route path={path.ArchetypeDetailPage} element={<ArchetypeDetailPage />} />
             <Route path={path.test} element={<TestPage />}>
               <Route path={"block1"} element={<Block1 props={firstBlock} />} />
               <Route path={"block2"} element={<Block2 />} />
+              <Route path={"block3"} element={<Block3 props={firstBlock} />} />
             </Route>
           </Routes>
         </main>
