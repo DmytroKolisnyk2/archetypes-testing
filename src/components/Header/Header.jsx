@@ -9,9 +9,12 @@ import Button from "../Button/Button";
 import SvgArrow from "../SvgArrow/SvgArrow";
 import { useTranslation } from "react-i18next";
 import { header } from "../../translations/ua/common.json";
+import { useLocation } from "react-router-dom";
 
 const Header = () => {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
+
   return (
     <div className={styles.headerWrapper}>
       <header className={styles.Header}>
@@ -21,12 +24,14 @@ const Header = () => {
           </Link>
           <Navigation />
         </nav>
-        <Link to={path.test} className={styles.button}>
-          <Button width={220} color="black" bgColor="white">
-            <span>{t(header.btn)}</span>
-            <SvgArrow size={20} orientation="right" />
-          </Button>
-        </Link>
+        {path.test !== pathname && (
+          <Link to={path.test} className={styles.button}>
+            <Button width={220} color="black" bgColor="white">
+              <span>{t(header.btn)}</span>
+              <SvgArrow size={20} orientation="right" />
+            </Button>
+          </Link>
+        )}
       </header>
     </div>
   );

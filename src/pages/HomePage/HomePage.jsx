@@ -12,7 +12,7 @@ import Introduction from "../../components/Introduction/Introduction";
 export default function HomePage() {
   const { t } = useTranslation();
   return (
-    <main className={styles.main}>
+    <section className={styles.section}>
       <Introduction />
       <SectionAbout
         title={t(sectionAboutArchetypes.SectionAboutTitle)}
@@ -20,6 +20,6 @@ export default function HomePage() {
         sectionImg={aboutArchetypesImg}
       />
       <SectionWhatFor />
-    </main>
+    </section>
   );
 }

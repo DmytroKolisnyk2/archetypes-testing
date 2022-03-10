@@ -1,0 +1,61 @@
+.question {
+  max-width: 1000px;
+  margin: 0 auto;
+  list-style: none;
+  width: 100%;
+  padding: 0 16px;
+}
+.headline {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  margin-bottom: 40px;
+}
+.card {
+  cursor: pointer;
+  width: 220px;
+  transition: 200ms linear;
+  margin-bottom: 60px;
+  &Active {
+    opacity: 0.3;
+  }
+}
+.cardNumber {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(196, 196, 196, 0.44);
+  display: block;
+  padding: 18px 0 12px;
+}
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.imgWrapper {
+  width: 220px;
+  height: 220px;
+  background-color: whitesmoke;
+}
+.variantsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  @media screen and (max-width: 1000px) {
+    max-width: 500px;
+  }
+  @media screen and (max-width: 490px) {
+    max-width: 220px;
+  }
+}
+.input {
+  display: none;
+}

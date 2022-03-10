@@ -5,8 +5,12 @@ import FooterStyles from "./Footer.module.scss";
 import Button from "../Button/Button";
 import SvgArrow from "../SvgArrow/SvgArrow";
 import SocialIcon from "./SocialIcon";
+import path from "../../services/routerPath.json";
+import { useLocation, Link } from "react-router-dom";
+
 const Footer = () => {
   const { t } = useTranslation();
+  const { pathname } = useLocation();
   return (
     <footer className={FooterStyles.footer}>
       <div className={FooterStyles.footerWrappers}>
@@ -16,29 +20,29 @@ const Footer = () => {
             <p className={FooterStyles.footerSubText}>{t(footer.text)}</p>
           </div>
           <div className={FooterStyles.FooterButtonWrapper}>
-            <Button
-              margin={"0 auto 32px"}
-              paddingRight={5}
-              paddingLeft={5}
-              width={170}
-              bgColor={"pink"}
-              color={"white"}
-            >
-              <p className={FooterStyles.footerButtonText1}>{t(footer.button1)}</p>
-            </Button>
-            <Button
-              margin={"0 auto 32px"}
-              // paddingLeft={29}
-              // paddingRight={76}
-              width={210}
-              bgColor={"white"}
-              color={"black"}
-            >
-              {/* <div className={FooterStyles.footerButton2Wrapper}> */}
-                <p className={FooterStyles.footerButtonText2}>{t(footer.button2)}</p>
-                <SvgArrow size={20} orientation="right" />
-              {/* </div> */}
-            </Button>
+            <Link className={FooterStyles.archetypesBtn} to={path.archetypes}>
+              <Button
+                // margin={"0 auto 32px"}
+                paddingRight={0}
+                paddingLeft={10}
+                width={170}
+                bgColor={"pink"}
+                color={"white"}
+              >
+                {t(footer.button1)}
+              </Button>
+            </Link>
+
+            {/* <div className={FooterStyles.footerButton2Wrapper}> */}
+            {path.test !== pathname && (
+              <Link to={path.test}>
+                <Button width={220} color="black" bgColor="white">
+                  <span>{t(footer.button2)}</span>
+                  <SvgArrow size={20} orientation="right" />
+                </Button>
+              </Link>
+            )}
+            {/* </div> */}
           </div>
         </div>
         <div className={FooterStyles.iconWrapper}>
