@@ -25,8 +25,8 @@ const App = () => {
           <Routes>
             <Route path={path.home} element={<HomePage />} />
             <Route path={path.test} element={<TestPage />}>
-              <Route path={"test1"} element={<TestBlock props={firstBlock} />} />
-              <Route path={"test2"} element={<Block2 />} />
+              <Route path={"block1"} element={<TestBlock props={firstBlock} />} />
+              <Route path={"block2"} element={<Block2 />} />
             </Route>
           </Routes>
         </main>

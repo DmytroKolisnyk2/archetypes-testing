@@ -10,7 +10,7 @@ export default function Block2Question({ number, options, headline }) {
       </h3>
       <div>
         {options.map((item, index) => (
-          <label className={TestBlockStyles.options}>
+          <label key={index} className={TestBlockStyles.options}>
             <input
               checked={radio === index}
               type="radio"
