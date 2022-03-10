@@ -1,0 +1,76 @@
+{
+    "cards": [
+        {
+            "color": "purple",
+            "rotate": false,
+            "id": "Jester",
+            "bottomBob": true
+        },
+        {
+            "color": "green",
+            "rotate": false,
+            "id": "Sage",
+            "bottomBob": false
+        },
+        {
+            "color": "pink",
+            "rotate": false,
+            "id": "Rebel",
+            "bottomBob": false
+        },
+        {
+            "color": "pink",
+            "rotate": true,
+            "id": "Ruler",
+            "bottomBob": false
+        },
+        {
+            "color": "green",
+            "rotate": true,
+            "id": "Mage",
+            "bottomBob": true
+        },
+        {
+            "color": "purple",
+            "rotate": true,
+            "id": "Innocent",
+            "bottomBob": false
+        },
+        {
+            "color": "purple",
+            "rotate": false,
+            "id": "Glorious Small",
+            "bottomBob": true
+        },
+        {
+            "color": "green",
+            "rotate": false,
+            "id": "Guardian",
+            "bottomBob": false
+        },
+        {
+            "color": "pink",
+            "rotate": false,
+            "id": "Seeker",
+            "bottomBob": false
+        },
+        {
+            "color": "pink",
+            "rotate": true,
+            "id": "Hero",
+            "bottomBob": true
+        },
+        {
+            "color": "green",
+            "rotate": true,
+            "id": "Creator",
+            "bottomBob": true
+        },
+        {
+            "color": "purple",
+            "rotate": true,
+            "id": "Esthete",
+            "bottomBob": false
+        }
+    ]
+}
