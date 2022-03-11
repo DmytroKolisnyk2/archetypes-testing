@@ -28,6 +28,7 @@ const Modal = () => {
         <h3 className={styles.modal__title + ' ' + styles.modal__thanks}>{t(modal.notification)}</h3>
       </>
     )
+    
   }
 
   return (
@@ -81,22 +82,11 @@ const Modal = () => {
                 field="email"
                 errors={state.errors}
               />
-              <button className={styles.button} type="submit">
-                {t(modal.submit)}
-              </button>
-              <div className={styles.modal__button__wrapper}>
-                <Button
-                  width={"100%"}
-                  paddingRight={30}
-                  paddingLeft={30}
-                  color="white"
-                  bgColor="violet"
-                >
-                  <Link to={path.archetypes}>
-                    <span className={styles.span}>{t(modal.btn)}</span>
-                  </Link>
-                </Button>
-              </div>
+                <button className={styles.button} type="submit">
+                  {t(modal.submit)}
+                </button>
+
+
             </form>
           </div>
           <img
