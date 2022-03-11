@@ -36,7 +36,7 @@ const Footer = () => {
             {/* <div className={FooterStyles.footerButton2Wrapper}> */}
             {path.test !== pathname && (
               <Link to={path.test}>
-                <Button width={220} color="black" bgColor="white">
+                <Button width={210} color="black" bgColor="white">
                   <span>{t(footer.button2)}</span>
                   <SvgArrow size={20} orientation="right" />
                 </Button>

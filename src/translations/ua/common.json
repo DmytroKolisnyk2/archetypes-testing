@@ -304,10 +304,10 @@
     "inputName": "Ваше ім'я",
     "submit": "Відправити",
     "notification": "Дякуємо за участь!"
-},
-  "testBlock1": {
-    "button1": "Назад",
-    "button2": "Далі"
-
+  },
+  "testBlock": {
+    "backBtn": "Назад",
+    "nextBtn": "Далі",
+    "finishBtn": "Завершити"
   }
 }
