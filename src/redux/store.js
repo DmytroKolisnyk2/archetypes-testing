@@ -1,5 +1,5 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
-import { test } from "./test/test-reducers";
+import { block1 } from "./block1/block1-reducers";
 import {
   // persistReducer,
   // persistStore,
@@ -18,7 +18,7 @@ import {
 //   blacklist: ['test/smt'],
 // };
 
-const rootReducer = combineReducers({ test });
+const rootReducer = combineReducers({ block1 });
 
 // const persistedReducer = persistReducer(persistConfig, rootReducer);
 

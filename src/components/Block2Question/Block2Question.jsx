@@ -38,5 +38,4 @@ export default function Block2Question({ number, images, headline }) {
 Block2Question.propTypes = {
   number: PropTypes.number.isRequired,
   images: PropTypes.array.isRequired,
-  headline: PropTypes.string.isRequired,
 };

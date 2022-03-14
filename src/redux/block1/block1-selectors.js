@@ -1,0 +1,1 @@
+export const getBlock1 = (state) => state.block1

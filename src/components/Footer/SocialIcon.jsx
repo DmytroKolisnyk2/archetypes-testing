@@ -26,7 +26,9 @@ const SocialIcon = ({ link, bgColor, backgroundImg, width, height, top }) => {
         backgroundImage: socialIconsLink[backgroundImg],
       }}
       className={FooterStyles.footerIconLink}
+      target="_blank"
       href={socialIconsLink[link]}
+      rel="noreferrer"
     >
       <img
         style={{
@@ -37,7 +39,8 @@ const SocialIcon = ({ link, bgColor, backgroundImg, width, height, top }) => {
         }}
         className={FooterStyles.footerIconImg}
         src={socialIconsImg[backgroundImg]}
-      ></img>
+        alt="icon"
+      />
     </a>
   );
 };
