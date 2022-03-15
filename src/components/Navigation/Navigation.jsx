@@ -13,7 +13,7 @@ const Navigation = () => {
         <li className={NavigationStyles.navigationLi}>
           <NavLink
             //  className={NavigationStyles.navigationLink}
-            to={path.test}
+            to={path.block1}
             className={(navData) =>
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }

@@ -1,0 +1,16 @@
+.section {
+    padding-top: 170px;
+    width: 100vw;
+    margin: 0 auto 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    padding-left: 75px;
+    margin-bottom: 65px;
+    align-self: start;
+    background-color: transparent;
+}
