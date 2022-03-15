@@ -4,7 +4,9 @@ import styles from "./Block3.module.scss";
 import path from "../../services/routerPath.json";
 import { testBlock } from "../../translations/ua/common.json";
 import { thirdBlock } from "../../services/questions/thirdBlock.json";
+
 import { useTranslation } from "react-i18next";
+import { block3 } from "../../translations/ua/common.json";
 
 import SectionTitle from "../SectionTitle/SectionTitle.jsx";
 import Button from "../Button/Button";
@@ -27,10 +29,7 @@ function Block3({ changeTestData, block3Data, block3Completed }) {
   return (
     <div>
       <section>
-        <SectionTitle
-          title={"Третій блок"}
-          text={"Виберіть найбільш підходящу вам відповідь з п'яти запропонованих нижче"}
-        />
+        <SectionTitle title={t(block3.title)} text={t(block3.text)} />
         <form action="#">
           <ul>
             {thirdBlock.map((item) => (
@@ -39,7 +38,13 @@ function Block3({ changeTestData, block3Data, block3Completed }) {
                 headline={item.question}
                 itemId={item.id}
                 changeTestData={(data) => changeTestData(data)}
-                options={["Yes", "No", "YesNo", "NoYes", "Eron Jega"]}
+                options={[
+                  t(block3.options.nono),
+                  t(block3.options.no),
+                  t(block3.options.soso),
+                  t(block3.options.yes),
+                  t(block3.options.yesyes),
+                ]}
                 itemData={block3Data.find((piece) => piece.id === item.id)?.radio || null}
                 estimate={item.estimate}
               />

@@ -6,7 +6,10 @@ import { testBlock } from "../../translations/ua/common.json";
 import styles from "./Block2.module.scss";
 import Button from "../Button/Button";
 import SvgArrow from "../SvgArrow/SvgArrow";
+
 import { useTranslation } from "react-i18next";
+import { block2 } from "../../translations/ua/common.json";
+
 import { Link } from "react-router-dom";
 import path from "../../services/routerPath.json";
 
@@ -25,7 +28,7 @@ const Block2 = ({ block2Data, changeTestData, block2Completed }) => {
 
   return (
     <section>
-      <SectionTitle title={"Второй блок"} text={"Выберите наиболее понравившуюся картинку"} />
+      <SectionTitle title={t(block2.title)} text={t(block2.text)} />
       <form className={styles.form} action="#">
         <ul>
           {secondBlock.map((item) => (

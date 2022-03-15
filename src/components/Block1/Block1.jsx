@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./Block1.module.scss";
 
 import { useTranslation } from "react-i18next";
+import { block1 } from "../../translations/ua/common.json";
 
 import path from "../../services/routerPath.json";
 import { testBlock } from "../../translations/ua/common.json";
@@ -23,21 +24,17 @@ function Block1({ block1Data, changeTestData, block1Completed }) {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => setIsOpen(block1Completed), [block1Completed]);
-
   return (
     <div>
       <section>
-        <SectionTitle
-          title={"Перший блок"}
-          text={"Виберіть найбільш підходящу вам відповідь з двох запропонованих нижче"}
-        />
+        <SectionTitle title={t(block1.title)} text={t(block1.text)} />
         <form action="#">
           <ul>
             {firstBlock.map((item) => (
               <Block1Question
                 key={item.id}
                 headline={item.question}
-                options={["No", "Yes"]}
+                options={[t(block1.options.no), t(block1.options.yes)]}
                 itemId={item.id}
                 changeTestData={(data) => changeTestData(data)}
                 itemData={block1Data.find((piece) => piece.id === item.id)?.radio || null}
@@ -50,14 +47,7 @@ function Block1({ block1Data, changeTestData, block1Completed }) {
       <div className={styles.testBlock1ButtonWrapper}>
         <DisableBtn isOpen={isOpen}>
           <Link to={path.block2}>
-            <Button
-              onClick={() => console.log("first")}
-              type="submit"
-              paddingLeft={40}
-              width={170}
-              bgColor={"violet"}
-              color={"white"}
-            >
+            <Button type="submit" paddingLeft={40} width={170} bgColor={"violet"} color={"white"}>
               <p className={styles.testBlock1Text}>{t(testBlock.nextBtn)}</p>
               <SvgArrow size={20} orientation="right" color={"white"} />
             </Button>
