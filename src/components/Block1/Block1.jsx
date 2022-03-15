@@ -12,18 +12,20 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 import Button from "../Button/Button";
 import SvgArrow from "../SvgArrow/SvgArrow";
 import Block1Question from "../Block1Quetion/TestBlock1Quetion";
-import { connect } from "react-redux";
-import { getBlock1 } from "../../redux/block1/block1-selectors";
 import DisableBtn from "../DisableBtn/DisableBtn";
 
-function Block1({ block1Data }) {
+import { connect } from "react-redux";
+import { changeTestData } from "../../redux/block1/block1-actions";
+import { getBlock1, getBlock1Completed } from "../../redux/block1/block1-selectors";
+
+function Block1({ block1Data, changeTestData, block1Completed }) {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(
-    () => setIsOpen(!Boolean(block1Data.find((item) => item.radio === null))),
-    [block1Data]
-  );
+  useEffect(() => {
+    setIsOpen(block1Completed);
+    console.log("first");
+  }, [block1Completed]);
 
   return (
     <div>
@@ -34,13 +36,15 @@ function Block1({ block1Data }) {
         />
         <form action="#">
           <ul>
-            {firstBlock.map((item, index) => (
+            {firstBlock.map((item) => (
               <Block1Question
-                key={index}
-                number={index + 1}
+                key={item.id}
+                number={item.id}
                 headline={item.question}
                 options={["Yes", "No"]}
                 itemId={item.id}
+                changeTestData={(data) => changeTestData(data)}
+                itemData={block1Data.find((piece) => piece.id === item.id)?.radio || null}
               />
             ))}
           </ul>
@@ -69,6 +73,9 @@ function Block1({ block1Data }) {
 
 const mapStateToProps = (state) => ({
   block1Data: getBlock1(state),
+  block1Completed: getBlock1Completed(state),
 });
-
-export default connect(mapStateToProps, null)(Block1);
+const mapDispatchToProps = (dispatch) => ({
+  changeTestData: (data) => dispatch(changeTestData(data)),
+});
+export default connect(mapStateToProps, mapDispatchToProps)(Block1);
