@@ -1,100 +1,52 @@
 {
   "thirdBlock": [
     {
-      "question": "",
-      "options": [
-        "",
-        "",
-        ""
-      ]
+      "id": 1,
+      "question": "Я легкий на подъем человек"
     },
     {
-      "question": "",
-      "options": [
-        "",
-        "",
-        ""
-      ]
+      "id": 2,
+      "question": "Eron Jega?"
     },
     {
-      "question": "",
-      "options": [
-        "",
-        "",
-        ""
-      ]
+      "id": 3,
+      "question": "Eron Jega?"
     },
     {
-      "question": "",
-      "options": [
-        "",
-        "",
-        ""
-      ]
+      "id": 4,
+      "question": "Eron Jega?"
     },
     {
-      "question": "",
-      "options": [
-        "",
-        "",
-        ""
-      ]
+      "id": 5,
+      "question": "Eron Jega?"
     },
     {
-      "question": "",
-      "options": [
-        "",
-        "",
-        ""
-      ]
+      "id": 6,
+      "question": "Eron Jega?"
     },
     {
-      "question": "",
-      "options": [
-        "",
-        "",
-        ""
-      ]
+      "id": 7,
+      "question": "Eron Jega?"
     },
     {
-      "question": "",
-      "options": [
-        "",
-        "",
-        ""
-      ]
+      "id": 8,
+      "question": "Eron Jega?"
     },
     {
-      "question": "",
-      "options": [
-        "",
-        "",
-        ""
-      ]
+      "id": 9,
+      "question": "Eron Jega?"
     },
     {
-      "question": "",
-      "options": [
-        "",
-        "",
-        ""
-      ]
+      "id": 10,
+      "question": "Eron Jega?"
     },
     {
-      "question": "",
-      "options": [
-        "",
-        "",
-        ""
-      ]
+      "id": 11,
+      "question": "Eron Jega?"
     },
     {
-      "question": "",
-      "options": [
-        "",
-        "",
-        ""
-      ]
+      "id": 12,
+      "question": "Eron Jega?"
     }
   ]
 }

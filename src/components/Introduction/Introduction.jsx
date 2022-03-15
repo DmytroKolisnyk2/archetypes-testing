@@ -20,8 +20,8 @@ export default function Introduction() {
           <h1 className={styles.headline}> {t(introduction.headline)}</h1>
           <p className={styles.text}>{t(introduction.text)}</p>
           <div className={styles.btnWrapper}>
-            <Link className={styles.link} to={path.test}>
-              <Button color="white" bgColor="violet">
+            <Link className={styles.link} to={path.block1}>
+              <Button width={170} color="white" bgColor="violet">
                 {t(introduction.btn)}
               </Button>
             </Link>
@@ -29,7 +29,7 @@ export default function Introduction() {
         </div>
 
         <picture>
-          <source srcSet={ImgSmall} media="(max-width: 1024px)" />{" "}
+          <source srcSet={ImgSmall} media="(max-width: 1024px)" />
           <img className={styles.image} src={ImgBig} alt="introduction" />
         </picture>
       </div>

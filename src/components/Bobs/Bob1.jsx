@@ -3,6 +3,7 @@ import React from "react";
 const Bob1 = () => {
   return (
     <svg
+    className="svg"
     style={
         {
             position: "absolute",

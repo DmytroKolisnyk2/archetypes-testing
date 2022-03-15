@@ -8,9 +8,14 @@ const SvgArrow = ({ color, orientation, size }) => {
     right: "rotate(90deg)",
     left: "rotate(270deg)",
   };
+  const corolSvg = {
+    white: "white",
+    pink: "#F063B8",
+    violet: "#9C69E2",
+  }
   return (
     <svg
-      style={{ transform: orientationParams[orientation], width: size }}
+      style={{ transform: orientationParams[orientation], width: size, cursor: "pointer" }}
       width="52"
       height="52"
       viewBox="0 0 32 52"
@@ -19,14 +24,14 @@ const SvgArrow = ({ color, orientation, size }) => {
     >
       <path
         d="M31 16L16 1L0.999999 16"
-        stroke={color}
+        stroke={corolSvg[color]}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M16 0.999999L16 51"
-        stroke={color}
+        stroke={corolSvg[color]}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -38,7 +43,7 @@ const SvgArrow = ({ color, orientation, size }) => {
 export default SvgArrow;
 
 SvgArrow.defaultProps = {
-  color: "#9C69E2",
+  color: "violet",
 };
 
 SvgArrow.propTypes = {
