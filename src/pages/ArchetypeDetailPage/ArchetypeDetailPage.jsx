@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom";
 import styles from "./ArchetypeDetailPage.module.scss";
 import SvgArrow from "../../components/SvgArrow/SvgArrow";
 import ArchetypesCard from "../../components/ArchetypesCard/ArchetypesCard";
-import ruler from '../../images/ruler.jpg';
 import { archetypePage } from "../../translations/ua/common.json";
 
 const ArchetypeDetailPage = () => {
@@ -16,6 +15,7 @@ const ArchetypeDetailPage = () => {
   const onClickBtn = () => {
       return navigate(-1);
   };
+  console.log(t(archetypePage[archetypeId].image));
   return (
     <section className={styles.section}>
     <button className={styles.button} type="button" onClick={onClickBtn}>
@@ -30,7 +30,7 @@ const ArchetypeDetailPage = () => {
         strategyText={t(archetypePage[archetypeId].subtitle5)}
         firstParagraph={t(archetypePage[archetypeId].paragraph1.text)}
         secondParagraph={t(archetypePage[archetypeId].paragraph2.text)}
-        image={ruler}
+        image={t(archetypePage[archetypeId].image)}
       />
     </section>
   );
