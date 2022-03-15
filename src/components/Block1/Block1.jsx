@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import Button from "../Button/Button";
 import SvgArrow from "../SvgArrow/SvgArrow";
-import Block1Question from "../Block1Quetion/TestBlock1Quetion";
+import Block1Question from "../Block1Question/Block1Question";
 import DisableBtn from "../DisableBtn/DisableBtn";
 
 import { connect } from "react-redux";
@@ -22,10 +22,7 @@ function Block1({ block1Data, changeTestData, block1Completed }) {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
-  useEffect(() => {
-    setIsOpen(block1Completed);
-    console.log("first");
-  }, [block1Completed]);
+  useEffect(() => setIsOpen(block1Completed), [block1Completed]);
 
   return (
     <div>
@@ -39,12 +36,12 @@ function Block1({ block1Data, changeTestData, block1Completed }) {
             {firstBlock.map((item) => (
               <Block1Question
                 key={item.id}
-                number={item.id}
                 headline={item.question}
-                options={["Yes", "No"]}
+                options={["No", "Yes"]}
                 itemId={item.id}
                 changeTestData={(data) => changeTestData(data)}
                 itemData={block1Data.find((piece) => piece.id === item.id)?.radio || null}
+                estimate={item.estimate}
               />
             ))}
           </ul>

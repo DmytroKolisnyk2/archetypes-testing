@@ -31,7 +31,6 @@ const Block2 = ({ block2Data, changeTestData, block2Completed }) => {
           {secondBlock.map((item) => (
             <Block2Question
               key={item.id}
-              number={item.id}
               itemId={item.id}
               changeTestData={(data) => changeTestData(data)}
               images={item.options}

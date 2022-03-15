@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 import SectionTitle from "../SectionTitle/SectionTitle.jsx";
 import Button from "../Button/Button";
 import SvgArrow from "../SvgArrow/SvgArrow";
-import Block1Question from "../Block1Quetion/TestBlock1Quetion";
+import Block1Question from "../Block1Question/Block1Question";
 import DisableBtn from "../DisableBtn/DisableBtn";
 
 import { Link } from "react-router-dom";
@@ -36,12 +36,12 @@ function Block3({ changeTestData, block3Data, block3Completed }) {
             {thirdBlock.map((item) => (
               <Block1Question
                 key={item.id}
-                number={item.id}
                 headline={item.question}
                 itemId={item.id}
                 changeTestData={(data) => changeTestData(data)}
                 options={["Yes", "No", "YesNo", "NoYes", "Eron Jega"]}
                 itemData={block3Data.find((piece) => piece.id === item.id)?.radio || null}
+                estimate={item.estimate}
               />
             ))}
           </ul>

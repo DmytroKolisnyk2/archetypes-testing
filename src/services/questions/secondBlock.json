@@ -3,37 +3,253 @@
     {
       "id": 1,
       "options": [
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg"
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Sage"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Creator"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Mage"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Guardian"
+        }
       ]
     },
     {
       "id": 2,
       "options": [
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg"
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Esthete"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Jester"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Innocent"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Glorious Small"
+        }
       ]
     },
     {
       "id": 3,
       "options": [
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg"
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Hero"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Ruler"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Seeker"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Rebel"
+        }
       ]
     },
     {
       "id": 4,
       "options": [
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
-        "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg"
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Sage"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Creator"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Mage"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Guardian"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "options": [
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Esthete"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Jester"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Innocent"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Glorious Small"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "options": [
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Hero"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Ruler"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Seeker"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Rebel"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "options": [
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Sage"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Creator"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Mage"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Guardian"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "options": [
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Esthete"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Jester"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Innocent"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Glorious Small"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "options": [
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Hero"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Ruler"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Seeker"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Rebel"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "options": [
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Sage"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Creator"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Mage"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Guardian"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "options": [
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Esthete"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Jester"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Innocent"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Glorious Small"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "options": [
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Hero"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Ruler"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Seeker"
+        },
+        {
+          "url": "https://image.tmdb.org/t/p/w300/s3dwEeF5ueUDVaJLlfhi6Kfjebh.jpg",
+          "value": "Rebel"
+        }
       ]
     }
   ]
