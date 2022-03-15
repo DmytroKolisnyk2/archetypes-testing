@@ -28,7 +28,7 @@ const Modal = () => {
           {t(modal.notification)}
         </h3>
       </>
-    );
+);
   }
 
   return (
@@ -48,12 +48,31 @@ const Modal = () => {
               <label htmlFor="email" className={styles.modal__email + " " + styles.modal__label}>
                 {t(modal.inputEmail)}
               </label>
-              <input type="email" id="email" name="email" className={styles.modal__input} />
-              <ValidationError prefix="Email" field="email" errors={state.errors} />
-              <button className={styles.button} type="submit">
-                {t(modal.submit)}
-              </button>
-              <div className={styles.modal__button__wrapper}></div>
+// <<<<<<< ModalAdaptive
+              <input
+                type="email"
+                id="email"
+                name="email"
+                className={styles.modal__input}
+              />
+              <ValidationError
+                prefix="Email"
+                field="email"
+                errors={state.errors}
+              />
+                <button className={styles.button} type="submit">
+                  {t(modal.submit)}
+                </button>
+
+
+// =======
+//               <input type="email" id="email" name="email" className={styles.modal__input} />
+//               <ValidationError prefix="Email" field="email" errors={state.errors} />
+//               <button className={styles.button} type="submit">
+//                 {t(modal.submit)}
+//               </button>
+//               <div className={styles.modal__button__wrapper}></div>
+// >>>>>>> develop
             </form>
           </div>
           <img
