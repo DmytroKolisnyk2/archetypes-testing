@@ -11,14 +11,14 @@ import SectionFindOut from "../../components/SectionFindOut/SectionFindOut";
 import Block2 from "../../components/Block2/Block2";
 import Block1 from "../../components/Block1/Block1";
 import Block3 from "../../components/Block3/Block3";
+import Results from "../../components/Results/Results";
 import PrivateRoute from "../../components/PrivateRoute/PrivateRoute";
 
 const TestPage = ({ block1Data, block2Data, block3Data }) => {
   const { blockId } = useParams();
   return (
     <>
-      {console.log(block1Data, block2Data, block3Data)}
-      <SectionFindOut />
+      {blockId !== "results" && <SectionFindOut />}
       {blockId === "block1" && <Block1 />}
       {blockId === "block2" && (
         <PrivateRoute isCompleted={block1Data}>
@@ -32,7 +32,7 @@ const TestPage = ({ block1Data, block2Data, block3Data }) => {
       )}
       {blockId === "results" && (
         <PrivateRoute isCompleted={block1Data && block2Data && block3Data}>
-          <h1>Dodo</h1>
+          <Results />
         </PrivateRoute>
       )}
     </>
