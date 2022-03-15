@@ -95,6 +95,7 @@
   },
   "archetypePage": {
     "Innocent": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Innocent.PNG?raw=true",
       "title": "Невинний",
       "subtitle1": "Допомагати людям знайти щастя",
       "subtitle2": "Бути покинутим",
@@ -111,6 +112,7 @@
       }
     },
     "Esthete": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Esthete.PNG?raw=true",
       "title": "Естет",
       "subtitle1": "Отримати насолоду",
       "subtitle2": "Бути відкинутим",
@@ -127,6 +129,7 @@
       }
     },
     "Glorious Small": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Glorious_Small.PNG?raw=true",
       "title": "Славний Малий",
       "subtitle1": "Бути гідною частиною суспільства",
       "subtitle2": "Виділятися серед натовпу",
@@ -143,6 +146,7 @@
       }
     },
     "Jester": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Jester.PNG?raw=true",
       "title": "Блазень",
       "subtitle1": "Прожити яскраве життя",
       "subtitle2": "Бути нецікавим, нудьга",
@@ -159,6 +163,7 @@
       }
     },
     "Ruler": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Ruler.PNG?raw=true",
       "title": "Імператор",
       "subtitle1": "Бути успішним",
       "subtitle2": "Втратити контроль",
@@ -175,6 +180,7 @@
       }
     },
     "Seeker": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Seeker.PNG?raw=true",
       "title": "Шукач",
       "subtitle1": "Самореалізація",
       "subtitle2": "Втратити свободу",
@@ -191,6 +197,7 @@
       }
     },
     "Rebel": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Rebel.PNG?raw=true",
       "title": "Бунтар",
       "subtitle1": "Змінити те, що не влаштовує",
       "subtitle2": "Банальність, статичність",
@@ -207,6 +214,7 @@
       }
     },
     "Hero": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Hero.PNG?raw=true",
       "title": "Герой",
       "subtitle1": "Показати власну силу",
       "subtitle2": "Бути слабким",
@@ -223,6 +231,7 @@
       }
     },
     "Guardian": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Guardian.PNG?raw=true",
       "title": "Опікун",
       "subtitle1": "Допомога іншим",
       "subtitle2": "Бути безкорисним",
@@ -239,6 +248,7 @@
       }
     },
     "Sage": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Sage.PNG?raw=true",
       "title": "Мудрець",
       "subtitle1": "Пізнання в чистому вигляді",
       "subtitle2": "Чогось не знати",
@@ -255,6 +265,7 @@
       }
     },
     "Mage": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Mage.PNG?raw=true",
       "title": "Чаклун",
       "subtitle1": "Здійснити свої мрії вийти на новий рівень",
       "subtitle2": "Нашкодити своїми діями навколишнім",
@@ -271,6 +282,7 @@
       }
     },
     "Creator": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Creater.PNG?raw=true",
       "title": "Творець",
       "subtitle1": "Виділятися бути особливим",
       "subtitle2": "Втратити здатність творити",
