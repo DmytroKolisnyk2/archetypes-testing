@@ -13,14 +13,14 @@ const ArchetypeDetailPage = () => {
   const { archetypeId } = useParams();
   const navigate = useNavigate();
   const onClickBtn = () => {
-      return navigate(-1);
+    return navigate(-1);
   };
   console.log(t(archetypePage[archetypeId].image));
   return (
     <section className={styles.section}>
-    <button className={styles.button} type="button" onClick={onClickBtn}>
-    <SvgArrow orientation="left" size={50} />
-    </button>
+      <button className={styles.button} type="button" onClick={onClickBtn}>
+        <SvgArrow orientation="left" size={50} />
+      </button>
       <ArchetypesCard
         headline={t(archetypePage[archetypeId].title)}
         motivationText={t(archetypePage[archetypeId].subtitle1)}
