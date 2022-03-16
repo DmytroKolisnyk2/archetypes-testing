@@ -18,6 +18,7 @@ const ArchetypeDetailPage = () => {
   console.log(t(archetypePage[archetypeId].image));
   return (
     <section className={styles.section}>
+      <div className={styles.wrapperContent}>
       <button className={styles.button} type="button" onClick={onClickBtn}>
         <SvgArrow orientation="left" size={50} />
       </button>
@@ -32,6 +33,7 @@ const ArchetypeDetailPage = () => {
         secondParagraph={t(archetypePage[archetypeId].paragraph2.text)}
         image={t(archetypePage[archetypeId].image)}
       />
+      </div>
     </section>
   );
 };
