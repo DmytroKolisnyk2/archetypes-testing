@@ -32,12 +32,10 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 160%;
-  color: #4B5D68;
+  color: #4b5d68;
   margin-left: 300px;
 }
-.inputRadio{
-
- 
+.inputRadio {
   margin: 0;
   font: inherit;
   color: currentColor;
@@ -46,4 +44,22 @@
   border: 0.15em solid currentColor;
   border-radius: 50%;
   margin-right: 8px;
+}
+
+.radio {
+  border: none;
+
+  appearance: none;
+
+  background-color: #c4c4c4;
+
+  width: 20px;
+  height: 20px;
+  border-radius: 500%;
+  margin-right: 8px;
+  margin-top: 6px;
+}
+
+.radio:checked {
+  background-color: #9c69e2;
 }
