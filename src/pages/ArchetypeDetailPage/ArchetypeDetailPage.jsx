@@ -8,12 +8,14 @@ import SvgArrow from "../../components/SvgArrow/SvgArrow";
 import ArchetypesCard from "../../components/ArchetypesCard/ArchetypesCard";
 import { archetypePage } from "../../translations/ua/common.json";
 
+import path from "../../services/routerPath.json";
+
 const ArchetypeDetailPage = () => {
   const { t } = useTranslation();
   const { archetypeId } = useParams();
   const navigate = useNavigate();
   const onClickBtn = () => {
-    return navigate(-1);
+    return navigate(path.archetypes);
   };
   console.log(t(archetypePage[archetypeId].image));
   return (
