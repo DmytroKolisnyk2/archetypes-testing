@@ -1,4 +1,4 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import path from "./services/routerPath.json";
 import "./translations/i18nReact";
@@ -9,10 +9,24 @@ import "./translations/i18nReact";
 import "./styles/App.scss";
 
 import GradientWrapper from "./components/GradientWrapper/GradientWrapper";
-import HomePage from "./pages/HomePage/HomePage";
-import TestPage from "./pages/TestPage/TestPage";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import asyncComponent from "./services/asyncComponent.js"
+import Loader from "./components/Loader/Loader"
+// const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
+// const TestPage = lazy(() => import("./pages/TestPage/TestPage"));
+// const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
+// const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
+
+const HomePage = asyncComponent({
+  loader: () => import("./pages/HomePage/HomePage"),
+  loading: Loader,
+});
+const TestPage = asyncComponent({
+  loader: () => import("./pages/TestPage/TestPage"),
+  loading: Loader,
+});
+// import TestPage from "./pages/TestPage/TestPage";
 
 const App = () => {
   return (
@@ -20,10 +34,10 @@ const App = () => {
       <Header></Header>
       <GradientWrapper>
         <main className="main">
-          <Routes>
-            <Route path={path.home} element={<HomePage />} />
-            <Route path={path.test} element={<TestPage />} />
-          </Routes>
+            <Routes>
+              <Route path={path.home} element={<HomePage />} />
+              <Route path={path.test} element={<TestPage />} />
+            </Routes>
         </main>
         <Footer />
       </GradientWrapper>
