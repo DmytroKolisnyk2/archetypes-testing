@@ -4,12 +4,12 @@ import { modal } from "../../translations/ua/common.json";
 import { useForm, ValidationError } from "@formspree/react";
 
 import styles from "./Modal.module.scss";
-import Button from "../Button/Button";
+// import Button from "../Button/Button";
 import star from "../../images/star.png";
 import cross from "../../images/icons/cross.svg";
 
-import path from "../../services/routerPath.json";
-import { Link } from "react-router-dom";
+// import path from "../../services/routerPath.json";
+// import { Link } from "react-router-dom";
 
 const Modal = () => {
   const { t } = useTranslation();
@@ -28,7 +28,7 @@ const Modal = () => {
           {t(modal.notification)}
         </h3>
       </>
-);
+    );
   }
 
   return (
@@ -48,31 +48,11 @@ const Modal = () => {
               <label htmlFor="email" className={styles.modal__email + " " + styles.modal__label}>
                 {t(modal.inputEmail)}
               </label>
-// <<<<<<< ModalAdaptive
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className={styles.modal__input}
-              />
-              <ValidationError
-                prefix="Email"
-                field="email"
-                errors={state.errors}
-              />
-                <button className={styles.button} type="submit">
-                  {t(modal.submit)}
-                </button>
-
-
-// =======
-//               <input type="email" id="email" name="email" className={styles.modal__input} />
-//               <ValidationError prefix="Email" field="email" errors={state.errors} />
-//               <button className={styles.button} type="submit">
-//                 {t(modal.submit)}
-//               </button>
-//               <div className={styles.modal__button__wrapper}></div>
-// >>>>>>> develop
+              <input type="email" id="email" name="email" className={styles.modal__input} />
+              <ValidationError prefix="Email" field="email" errors={state.errors} />
+              <button className={styles.button} type="submit">
+                {t(modal.submit)}
+              </button>
             </form>
           </div>
           <img
