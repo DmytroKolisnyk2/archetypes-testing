@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             <div className={FooterStyles.FooterButtonWrapper}>
               <Link className={FooterStyles.archetypesBtn} to={path.archetypes}>
-                <Fade>
+                <Fade triggerOnce>
                   <Button
                     paddingRight={0}
                     paddingLeft={10}
@@ -42,7 +42,7 @@ const Footer = () => {
 
               {!isTest && (
                 <Link to={path.block1}>
-                  <Fade>
+                  <Fade triggerOnce>
                     <Button width={210} color="black" bgColor="white">
                       <span>{t(footer.button2)}</span>
                       <SvgArrow size={20} orientation="right" />
