@@ -73,10 +73,7 @@ function Results({ block1Data, block2Data, block3Data }) {
   return (
     firstArchetypeId.length > 0 && (
       <section className={styles.results}>
-        <SectionTitle
-          title={t(resultPage.titleSection)}
-          text={t(resultPage.subtitle)}
-        />
+        <SectionTitle title={t(resultPage.titleSection)} text={t(resultPage.subtitle)} />
         <ArchetypesCard
           headline={t(archetypePage[firstArchetypeId[0]].title)}
           motivationText={t(archetypePage[firstArchetypeId[0]].subtitle1)}
@@ -85,9 +82,7 @@ function Results({ block1Data, block2Data, block3Data }) {
           weakSideText={t(archetypePage[firstArchetypeId[0]].subtitle4)}
           strategyText={t(archetypePage[firstArchetypeId[0]].subtitle5)}
           firstParagraph={t(archetypePage[firstArchetypeId[0]].paragraph1.text)}
-          secondParagraph={t(
-            archetypePage[firstArchetypeId[0]].paragraph2.text
-          )}
+          secondParagraph={t(archetypePage[firstArchetypeId[0]].paragraph2.text)}
           image={t(archetypePage[firstArchetypeId[0]].image)}
         />
         <ArchetypesCard
@@ -97,14 +92,11 @@ function Results({ block1Data, block2Data, block3Data }) {
           strongSideText={t(archetypePage[secondArchetypeId[0]].subtitle3)}
           weakSideText={t(archetypePage[secondArchetypeId[0]].subtitle4)}
           strategyText={t(archetypePage[secondArchetypeId[0]].subtitle5)}
-          firstParagraph={t(
-            archetypePage[secondArchetypeId[0]].paragraph1.text
-          )}
-          secondParagraph={t(
-            archetypePage[secondArchetypeId[0]].paragraph2.text
-          )}
+          firstParagraph={t(archetypePage[secondArchetypeId[0]].paragraph1.text)}
+          secondParagraph={t(archetypePage[secondArchetypeId[0]].paragraph2.text)}
           image={t(archetypePage[secondArchetypeId[0]].image)}
           openHeadline={t(resultPage.titleCard1)}
+          bgColor="#9C69E230"
         />
         <ArchetypesCard
           headline={t(archetypePage[thirdArchetypeId[0]].title)}
@@ -114,11 +106,10 @@ function Results({ block1Data, block2Data, block3Data }) {
           weakSideText={t(archetypePage[thirdArchetypeId[0]].subtitle4)}
           strategyText={t(archetypePage[thirdArchetypeId[0]].subtitle5)}
           firstParagraph={t(archetypePage[thirdArchetypeId[0]].paragraph1.text)}
-          secondParagraph={t(
-            archetypePage[thirdArchetypeId[0]].paragraph2.text
-          )}
+          secondParagraph={t(archetypePage[thirdArchetypeId[0]].paragraph2.text)}
           image={t(archetypePage[thirdArchetypeId[0]].image)}
           openHeadline={t(resultPage.titleCard2)}
+          bgColor="#C4C4C428"
         />
       </section>
     )

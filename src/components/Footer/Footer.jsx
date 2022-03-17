@@ -14,7 +14,7 @@ const Footer = () => {
   const isTest = useMatch(path.testLink);
   return (
     <div className={FooterStyles.FooterWrapper}>
-      <footer className={FooterStyles.footer}>
+      <footer id="footer" className={FooterStyles.footer}>
         <div className={FooterStyles.footerWrappers}>
           <div className={FooterStyles.footerTwoWrappers}>
             <div className={FooterStyles.sectionTitleDiv}>

@@ -33,7 +33,7 @@ const Navigation = () => {
         </li>
         <li className={NavigationStyles.navigationLi}>
           <NavLink
-            to={path.contacts}
+            to={path.home + "#footer"}
             className={(navData) =>
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }
