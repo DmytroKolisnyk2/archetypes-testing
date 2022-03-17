@@ -9,16 +9,22 @@ import SectionAbout from "../../components/SectionAbout/SectionAbout";
 import aboutArchetypesImg from "../../images/aboutArchetypesImg.png";
 import Introduction from "../../components/Introduction/Introduction";
 
+import { Fade, Slide } from "react-awesome-reveal";
+
 export default function HomePage() {
   const { t } = useTranslation();
   return (
     <section className={styles.section}>
-      <Introduction />
-      <SectionAbout
-        title={t(sectionAboutArchetypes.SectionAboutTitle)}
-        description={t(sectionAboutArchetypes.SectionDescription)}
-        sectionImg={aboutArchetypesImg}
-      />
+      <Fade>
+        <Introduction />
+      </Fade>
+      <Fade triggerOnce direction="bottom">
+        <SectionAbout
+          title={t(sectionAboutArchetypes.SectionAboutTitle)}
+          description={t(sectionAboutArchetypes.SectionDescription)}
+          sectionImg={aboutArchetypesImg}
+        />
+      </Fade>
       <SectionWhatFor />
     </section>
   );

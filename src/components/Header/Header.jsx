@@ -9,6 +9,7 @@ import SvgArrow from "../SvgArrow/SvgArrow";
 import { useTranslation } from "react-i18next";
 import { header } from "../../translations/ua/common.json";
 import { useMatch, Link } from "react-router-dom";
+import { Fade } from "react-awesome-reveal";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -25,10 +26,12 @@ const Header = () => {
         </nav>
         {!isTest && (
           <Link to={path.block1} className={styles.button}>
-            <Button width={220} color="black" bgColor="white">
-              <span>{t(header.btn)}</span>
-              <SvgArrow size={20} orientation="right" />
-            </Button>
+           <Fade duration={500}>
+              <Button width={220} color="black" bgColor="white">
+                <span>{t(header.btn)}</span>
+                <SvgArrow size={20} orientation="right" />
+              </Button>
+           </Fade>
           </Link>
         )}
       </header>

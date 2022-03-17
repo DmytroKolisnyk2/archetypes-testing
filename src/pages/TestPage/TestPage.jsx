@@ -13,26 +13,41 @@ import Block1 from "../../components/Block1/Block1";
 import Block3 from "../../components/Block3/Block3";
 import Results from "../../components/Results/Results";
 import PrivateRoute from "../../components/PrivateRoute/PrivateRoute";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const TestPage = ({ block1Data, block2Data, block3Data }) => {
   const { blockId } = useParams();
   return (
     <>
-      {blockId !== "results" && <SectionFindOut />}
-      {blockId === "block1" && <Block1 />}
+      {blockId !== "results" && (
+        <Fade>
+          <SectionFindOut />
+        </Fade>
+      )}
+      {blockId === "block1" && (
+        <Slide triggerOnce>
+          <Block1 />
+        </Slide>
+      )}
       {blockId === "block2" && (
         <PrivateRoute isCompleted={block1Data}>
-          <Block2 />
+          <Slide triggerOnce>
+            <Block2 />
+          </Slide>
         </PrivateRoute>
       )}
       {blockId === "block3" && (
         <PrivateRoute isCompleted={block1Data && block2Data}>
-          <Block3 />
+          <Slide triggerOnce>
+            <Block3 />
+          </Slide>
         </PrivateRoute>
       )}
       {blockId === "results" && (
         <PrivateRoute isCompleted={block1Data && block2Data && block3Data}>
-          <Results />
+          <Slide triggerOnce>
+            <Results />
+          </Slide>
         </PrivateRoute>
       )}
     </>
