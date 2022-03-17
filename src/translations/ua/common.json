@@ -303,16 +303,11 @@
     "receiveResult": "Отримати результат",
     "inputName": "Ваше ім'я",
     "submit": "Відправити",
-<<<<<<< HEAD
     "notification": "Дякуємо за участь!",
     "eronJega": "Eron Jega"
-=======
-    "notification": "Дякуємо за участь!"
 },
   "testBlock1": {
     "button1": "Назад",
     "button2": "Далі"
-
->>>>>>> 614eb97dc54ddc344297ac837f7f4e434bb24e22
   }
 }
