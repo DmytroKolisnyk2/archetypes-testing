@@ -1,4 +1,3 @@
-
 .question {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -18,6 +17,7 @@
   line-height: 160%;
   color: #4b5d68;
   margin-left: 300px;
+  cursor: pointer;
 }
 .inputRadio {
   margin: 0;
@@ -56,12 +56,12 @@
   margin-bottom: 25px;
   margin-top: 40px;
   margin-left: 20px;
-//   @media screen and (min-width: 769px) {
-//     margin-left: 150px;
-// }
+  //   @media screen and (min-width: 769px) {
+  //     margin-left: 150px;
+  // }
   @media screen and (min-width: 1200px) {
     margin-left: 150px;
-}
+  }
 }
 .options {
   font-family: "Open Sans", sans-serif;
@@ -71,15 +71,15 @@
   line-height: 160%;
   color: #4b5d68;
   margin-left: 80px;
-//   @media screen and (min-width: 769px) {
-//     margin-left: 280px;
-// }
-@media screen and (min-width: 1200px) {
-  margin-left: 190px;
-}
-// @media screen and (min-width: 722px) {
-//   margin-left: 170px;
-// }
+  //   @media screen and (min-width: 769px) {
+  //     margin-left: 280px;
+  // }
+  @media screen and (min-width: 1200px) {
+    margin-left: 190px;
+  }
+  // @media screen and (min-width: 722px) {
+  //   margin-left: 170px;
+  // }
 }
 .inputRadio {
   margin: 0;
@@ -104,12 +104,13 @@
   border-radius: 500%;
   margin-right: 8px;
   margin-top: 6px;
-  cursor:pointer
+  cursor: pointer;
+  transition: 2000ms linear;
 }
 
 .radio:checked {
   background-color: #9c69e2;
 }
-.wrapperLabel1{
-  width: 450px;
+.wrapperLabel1 {
+  width: 150px;
 }

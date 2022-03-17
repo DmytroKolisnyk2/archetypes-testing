@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { useParams } from "react-router-dom";
 
@@ -17,6 +17,9 @@ import { Fade, Slide } from "react-awesome-reveal";
 
 const TestPage = ({ block1Data, block2Data, block3Data }) => {
   const { blockId } = useParams();
+  useEffect(() => {
+    document.querySelector(`#${blockId}`)?.scrollIntoView();
+  }, [blockId]);
   return (
     <>
       {blockId !== "results" && (

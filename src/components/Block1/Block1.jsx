@@ -26,7 +26,7 @@ function Block1({ block1Data, changeTestData, block1Completed }) {
   useEffect(() => setIsOpen(block1Completed), [block1Completed]);
   return (
     <div>
-      <section>
+      <section id="block1">
         <SectionTitle title={t(block1.title)} text={t(block1.text)} />
         <form action="#">
           <ul>
