@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import styles from "./ArchetypesCard.module.scss";
 import SvgArrow from "../SvgArrow/SvgArrow";
 
+import { Fade } from "react-awesome-reveal";
+
 export default function ArchetypesCard({
   motivationText,
   fearText,
@@ -14,11 +16,13 @@ export default function ArchetypesCard({
   image,
   firstParagraph,
   secondParagraph,
+  bgColor,
 }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <article
+      style={{ backgroundColor: bgColor || "rgba(240, 99, 184, 0.15)" }}
       className={`${styles.card} ${(isOpen || !openHeadline) && styles.card_open} ${
         !openHeadline && styles.card_notClosable
       }`}
@@ -31,33 +35,35 @@ export default function ArchetypesCard({
           </button>
         </div>
       )}
-      <div className={styles.cardWrapper}>
-        <div className={styles.contentWrapper}>
-          <img className={styles.image} src={image} alt="ruler" />
-          <div className={styles.textWrapper}>
-            <h2 className={styles.caption}>{headline}</h2>
-            <p className={styles.characteristic}>
-              <span>Мотивация:</span> {motivationText}
-            </p>
-            <p className={styles.characteristic}>
-              <span>Страх:</span> {fearText}
-            </p>
-            <p className={styles.characteristic}>
-              <span>Cильные стороны:</span> {strongSideText}
-            </p>
-            <p className={styles.characteristic}>
-              <span>Слабые стороны:</span> {weakSideText}
-            </p>
-            <p className={styles.characteristic}>
-              <span>Стратегия:</span> {strategyText}
-            </p>
+      <Fade direction="top">
+        <div className={styles.cardWrapper}>
+          <div className={styles.contentWrapper}>
+            <img className={styles.image} src={image} alt="ruler" />
+            <div className={styles.textWrapper}>
+              <h2 className={styles.caption}>{headline}</h2>
+              <p className={styles.characteristic}>
+                <span>Мотивація:</span> {motivationText}
+              </p>
+              <p className={styles.characteristic}>
+                <span>Страх:</span> {fearText}
+              </p>
+              <p className={styles.characteristic}>
+                <span>Сильні сторони:</span> {strongSideText}
+              </p>
+              <p className={styles.characteristic}>
+                <span>Слабкі сторони:</span> {weakSideText}
+              </p>
+              <p className={styles.characteristic}>
+                <span>Стратегія:</span> {strategyText}
+              </p>
+            </div>
+          </div>
+          <div className={styles.paragraphWrapper}>
+            <p className={styles.text}>{firstParagraph}</p>
+            <p className={styles.text}>{secondParagraph}</p>
           </div>
         </div>
-        <div className={styles.paragraphWrapper}>
-          <p className={styles.text}>{firstParagraph}</p>
-          <p className={styles.text}>{secondParagraph}</p>
-        </div>
-      </div>
+      </Fade>
     </article>
   );
 }

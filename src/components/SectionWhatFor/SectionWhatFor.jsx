@@ -14,7 +14,7 @@ import cardImg3 from "../../images/cardImg3.png";
 import cardImg4 from "../../images/cardImg4.png";
 
 import { sectionWhatForArchetypes } from "../../translations/ua/common.json";
-
+import { Fade, Slide } from "react-awesome-reveal";
 
 const SectionWhatFor = () => {
   const { t } = useTranslation();
@@ -24,35 +24,40 @@ const SectionWhatFor = () => {
         title={t(sectionWhatForArchetypes.title)}
         text={t(sectionWhatForArchetypes.subtitle)}
       />
+
       <ul className={styles.wrapperCards}>
-        <CardSection
-          bobs={<Bob1 />}
-          title={t(sectionWhatForArchetypes.titleCard1)}
-          description={t(sectionWhatForArchetypes.descriptionCard1)}
-          cardImg={cardImg1}
-          color="green"
-        />
-        <CardSection
-          bobs={<Bob2 />}
-          title={t(sectionWhatForArchetypes.titleCard2)}
-          description={t(sectionWhatForArchetypes.descriptionCard2)}
-          cardImg={cardImg2}
-          color="purple"
-        />
-        <CardSection
-        bobs={<Bob3/>}
-          title={t(sectionWhatForArchetypes.titleCard3)}
-          description={t(sectionWhatForArchetypes.descriptionCard3)}
-          cardImg={cardImg3}
-          color="pink"
-        />
-        <CardSection
-        bobs={<Bob4/>}
-          title={t(sectionWhatForArchetypes.titleCard4)}
-          description={t(sectionWhatForArchetypes.descriptionCard4)}
-          cardImg={cardImg4}
-          color="blue"
-        />
+        <Fade cascade direction="left">
+          <CardSection
+            bobs={<Bob1 />}
+            title={t(sectionWhatForArchetypes.titleCard1)}
+            description={t(sectionWhatForArchetypes.descriptionCard1)}
+            cardImg={cardImg1}
+            color="green"
+          />
+          <CardSection
+            bobs={<Bob2 />}
+            title={t(sectionWhatForArchetypes.titleCard2)}
+            description={t(sectionWhatForArchetypes.descriptionCard2)}
+            cardImg={cardImg2}
+            color="purple"
+          />
+        </Fade>
+        <Fade cascade direction="right">
+          <CardSection
+            bobs={<Bob3 />}
+            title={t(sectionWhatForArchetypes.titleCard3)}
+            description={t(sectionWhatForArchetypes.descriptionCard3)}
+            cardImg={cardImg3}
+            color="pink"
+          />
+          <CardSection
+            bobs={<Bob4 />}
+            title={t(sectionWhatForArchetypes.titleCard4)}
+            description={t(sectionWhatForArchetypes.descriptionCard4)}
+            cardImg={cardImg4}
+            color="blue"
+          />
+        </Fade>
       </ul>
     </section>
   );
