@@ -1,0 +1,19 @@
+.section {
+    padding-top: 170px;
+    width: 100vw;
+    margin: 0 auto 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    margin-bottom: 65px;
+    background-color: transparent;
+}
+
+.wrapperContent {
+    max-width: 1417px;
+    width: 100%;
+}
