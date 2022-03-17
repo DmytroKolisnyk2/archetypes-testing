@@ -20,7 +20,7 @@ export default function Introduction() {
           <h1 className={styles.headline}> {t(introduction.headline)}</h1>
           <p className={styles.text}>{t(introduction.text)}</p>
           <div className={styles.btnWrapper}>
-            <Link className={styles.link} to={path.block1}>
+            <Link className={styles.link} to={path.testLink}>
               <Button width={170} color="white" bgColor="violet">
                 {t(introduction.btn)}
               </Button>

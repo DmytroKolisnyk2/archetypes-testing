@@ -6,21 +6,24 @@ import { useNavigate } from "react-router-dom";
 import styles from "./ArchetypeDetailPage.module.scss";
 import SvgArrow from "../../components/SvgArrow/SvgArrow";
 import ArchetypesCard from "../../components/ArchetypesCard/ArchetypesCard";
-import ruler from '../../images/ruler.jpg';
 import { archetypePage } from "../../translations/ua/common.json";
+
+import path from "../../services/routerPath.json";
 
 const ArchetypeDetailPage = () => {
   const { t } = useTranslation();
   const { archetypeId } = useParams();
   const navigate = useNavigate();
   const onClickBtn = () => {
-      return navigate(-1);
+    return navigate(path.archetypes);
   };
+  console.log(t(archetypePage[archetypeId].image));
   return (
     <section className={styles.section}>
-    <button className={styles.button} type="button" onClick={onClickBtn}>
-    <SvgArrow orientation="left" size={50} />
-    </button>
+      <div className={styles.wrapperContent}>
+      <button className={styles.button} type="button" onClick={onClickBtn}>
+        <SvgArrow orientation="left" size={50} />
+      </button>
       <ArchetypesCard
         headline={t(archetypePage[archetypeId].title)}
         motivationText={t(archetypePage[archetypeId].subtitle1)}
@@ -30,8 +33,9 @@ const ArchetypeDetailPage = () => {
         strategyText={t(archetypePage[archetypeId].subtitle5)}
         firstParagraph={t(archetypePage[archetypeId].paragraph1.text)}
         secondParagraph={t(archetypePage[archetypeId].paragraph2.text)}
-        image={ruler}
+        image={t(archetypePage[archetypeId].image)}
       />
+      </div>
     </section>
   );
 };

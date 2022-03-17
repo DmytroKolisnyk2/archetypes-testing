@@ -28,7 +28,7 @@ function Block3({ changeTestData, block3Data, block3Completed }) {
 
   return (
     <div>
-      <section>
+      <section id="block3">
         <SectionTitle title={t(block3.title)} text={t(block3.text)} />
         <form action="#">
           <ul>

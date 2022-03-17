@@ -12,10 +12,13 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 import ArchetypesCard from "../ArchetypesCard/ArchetypesCard";
 import { t } from "i18next";
 
+import { Fade } from "react-awesome-reveal";
+
 function Results({ block1Data, block2Data, block3Data }) {
   const [firstArchetypeId, setFirstArchetypeId] = useState([]);
   const [secondArchetypeId, setSecondArchetypeId] = useState([]);
   const [thirdArchetypeId, setThirdArchetypeId] = useState([]);
+  
   useEffect(() => {
     const archetypesCount = { ...archetypePage };
     const listArchetypesBlock3 = { ...archetypePage };
@@ -25,9 +28,7 @@ function Results({ block1Data, block2Data, block3Data }) {
     }
     block1Data
       .filter((item) => item.estimate)
-      .forEach((element) =>
-        element.estimate.forEach((part) => archetypesCount[part]++)
-      );
+      .forEach((element) => element.estimate.forEach((part) => archetypesCount[part]++));
 
     block2Data.forEach((element) => (archetypesCount[element.radio] += 3));
 
@@ -68,6 +69,7 @@ function Results({ block1Data, block2Data, block3Data }) {
       setThirdArchetypeId(sortedArray[2]);
     }
   }, [block1Data, block2Data, block3Data]);
+  
   return (
     firstArchetypeId.length > 0 && (
       <section className={styles.results}>

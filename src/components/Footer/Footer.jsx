@@ -7,39 +7,47 @@ import SvgArrow from "../SvgArrow/SvgArrow";
 import SocialIcon from "./SocialIcon";
 import path from "../../services/routerPath.json";
 import { useMatch, Link } from "react-router-dom";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const Footer = () => {
   const { t } = useTranslation();
-  const isTest = useMatch(path.test);
+  const isTest = useMatch(path.testLink);
   return (
     <div className={FooterStyles.FooterWrapper}>
       <footer className={FooterStyles.footer}>
         <div className={FooterStyles.footerWrappers}>
           <div className={FooterStyles.footerTwoWrappers}>
             <div className={FooterStyles.sectionTitleDiv}>
-              <h2 className={FooterStyles.footerTitle}>{t(footer.title)}</h2>
-              <p className={FooterStyles.footerSubText}>{t(footer.text)}</p>
+              <Slide triggerOnce>
+                <Fade triggerOnce cascade duration={1200}>
+                  <h2 className={FooterStyles.footerTitle}>{t(footer.title)}</h2>
+                  <p className={FooterStyles.footerSubText}>{t(footer.text)}</p>
+                </Fade>
+              </Slide>
             </div>
             <div className={FooterStyles.FooterButtonWrapper}>
               <Link className={FooterStyles.archetypesBtn} to={path.archetypes}>
-                <Button
-                  // margin={"0 auto 32px"}
-                  paddingRight={0}
-                  paddingLeft={10}
-                  width={170}
-                  bgColor={"pink"}
-                  color={"white"}
-                >
-                  {t(footer.button1)}
-                </Button>
+                <Fade triggerOnce>
+                  <Button
+                    paddingRight={0}
+                    paddingLeft={10}
+                    width={170}
+                    bgColor={"pink"}
+                    color={"white"}
+                  >
+                    {t(footer.button1)}
+                  </Button>
+                </Fade>
               </Link>
 
               {!isTest && (
-                <Link to={path.block1}>
-                  <Button width={210} color="black" bgColor="white">
-                    <span>{t(footer.button2)}</span>
-                    <SvgArrow size={20} orientation="right" />
-                  </Button>
+                <Link to={path.testLink}>
+                  <Fade triggerOnce>
+                    <Button width={210} color="black" bgColor="white">
+                      <span>{t(footer.button2)}</span>
+                      <SvgArrow size={20} orientation="right" />
+                    </Button>
+                  </Fade>
                 </Link>
               )}
             </div>
@@ -68,7 +76,6 @@ const Footer = () => {
             ></SocialIcon>
           </div>
           <p className={FooterStyles.footerText}>
-            {" "}
             2022. All rights reserved. Created by GoITeens.
           </p>
         </div>

@@ -27,7 +27,7 @@ const Block2 = ({ block2Data, changeTestData, block2Completed }) => {
   useEffect(() => setIsOpen(block2Completed), [block2Completed]);
 
   return (
-    <section>
+    <section id="block2">
       <SectionTitle title={t(block2.title)} text={t(block2.text)} />
       <form className={styles.form} action="#">
         <ul>
