@@ -11,25 +11,27 @@ import cross from "../../images/icons/cross.svg";
 import path from "../../services/routerPath.json";
 import { Link } from "react-router-dom";
 
-const Modal = () => {
+const Modal = ({ children, title }) => {
   const { t } = useTranslation();
 
   const [isActive, setActive] = useState(false);
 
   const [state, handleSubmit] = useForm("mgedyjvn");
-  
 
   const handleToggle = () => {
     setActive(!isActive);
   };
-  if(state.succeeded) {
-    return(
-      <>
-        <h3 className={styles.modal__title + ' ' + styles.modal__thanks}>{t(modal.notification)}</h3>
-      </>
-    )
-    
-  }
+  useEffect(() => {
+    if (state.succeeded) {
+      return (
+        <>
+          <h3 className={styles.modal__title + " " + styles.modal__thanks}>
+            {t(modal.notification)}
+          </h3>
+        </>
+      );
+    }
+  });
 
   return (
     <>
@@ -42,52 +44,8 @@ const Modal = () => {
         <div className={styles.modal}>
           <img src={star} alt="Star" className={styles.modal__image} />
           <div className={styles.modal__wrapper}>
-            <h3 className={styles.modal__title}>{t(modal.receiveResult)}</h3>
-            <form
-              method="POST"
-              onSubmit={handleSubmit}
-              className={styles.modal__form}
-            >
-              <label
-                htmlFor="name"
-                className={styles.modal__name + " " + styles.modal__label}
-              >
-                {t(modal.inputName)}
-              </label>
-              <input
-                type="message"
-                id="name"
-                name="message"
-                className={styles.modal__input}
-              />
-              <ValidationError
-                prefix="Message"
-                field="message"
-                errors={state.errors}
-              />
-              <label
-                htmlFor="email"
-                className={styles.modal__email + " " + styles.modal__label}
-              >
-                {t(modal.inputEmail)}
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                className={styles.modal__input}
-              />
-              <ValidationError
-                prefix="Email"
-                field="email"
-                errors={state.errors}
-              />
-                <button className={styles.button} type="submit">
-                  {t(modal.submit)}
-                </button>
-
-
-            </form>
+            <h3 className={styles.modal__title}>{title}</h3>
+            {children}
           </div>
           <img
             src={cross}
