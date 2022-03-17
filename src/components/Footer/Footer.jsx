@@ -11,7 +11,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 
 const Footer = () => {
   const { t } = useTranslation();
-  const isTest = useMatch(path.test);
+  const isTest = useMatch(path.testLink);
   return (
     <div className={FooterStyles.FooterWrapper}>
       <footer className={FooterStyles.footer}>
@@ -41,7 +41,7 @@ const Footer = () => {
               </Link>
 
               {!isTest && (
-                <Link to={path.block1}>
+                <Link to={path.testLink}>
                   <Fade triggerOnce>
                     <Button width={210} color="black" bgColor="white">
                       <span>{t(footer.button2)}</span>

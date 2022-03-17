@@ -25,13 +25,13 @@ const Header = () => {
           <Navigation />
         </nav>
         {!isTest && (
-          <Link to={path.block1} className={styles.button}>
-           <Fade duration={500}>
+          <Link to={path.testLink} className={styles.button}>
+            <Fade duration={500}>
               <Button width={220} color="black" bgColor="white">
                 <span>{t(header.btn)}</span>
                 <SvgArrow size={20} orientation="right" />
               </Button>
-           </Fade>
+            </Fade>
           </Link>
         )}
       </header>

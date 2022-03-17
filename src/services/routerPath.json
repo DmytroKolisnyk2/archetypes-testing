@@ -3,6 +3,7 @@
   "contacts": "/contacts",
   "archetypes": "/archetypes",
   "test": "/test/:blockId",
+  "testLink": "/test",
   "ArchetypeDetailPage": "/archetypes/:archetypeId",
   "block1": "/test/block1",
   "block2": "/test/block2",

@@ -51,7 +51,7 @@ Button.defaultProps = {
 };
 
 Button.propTypes = {
-  width: PropTypes.number,
+  // width: PropTypes.number,
   paddingRight: PropTypes.number,
   paddingLeft: PropTypes.number,
   bgColor: PropTypes.oneOf(["white", "pink", "violet"]).isRequired,

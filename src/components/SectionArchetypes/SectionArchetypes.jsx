@@ -18,7 +18,7 @@ const SectionArchetypes = () => {
       <ul className={styles.wrapperCards}>
         {cards.map((item, index) => {
           return (
-            <Fade triggerOnce direction={index % 2 === 0 ? "right" : "left"}>
+            // <Fade triggerOnce direction={index % 2 === 0 ? "right" : "left"}>
               <SmallArchetypesCard
                 bobs={
                   item.bottomBob && item.rotate ? (
@@ -39,7 +39,7 @@ const SectionArchetypes = () => {
                   return itemText.id === item.id && itemText.titleCard;
                 })}
               />
-            </Fade>
+            // </Fade>
           );
         })}
       </ul>
