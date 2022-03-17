@@ -4,7 +4,6 @@ import path from "./services/routerPath.json";
 import "./translations/i18nReact";
 // import i18n from "i18next";
 // import { useTranslation } from "react-i18next";
-<<<<<<< HEAD
 import styles from "./components/Modal/Modal.module.scss";
 import Button from "./components/Button/Button";
 import star from "./images/star.png";
