@@ -2,5 +2,10 @@
   "home": "/",
   "contacts": "/contacts",
   "archetypes": "/archetypes",
-  "test": "/test"
+  "test": "/test/:blockId",
+  "ArchetypeDetailPage": "/archetypes/:archetypeId",
+  "block1": "/test/block1",
+  "block2": "/test/block2",
+  "block3": "/test/block3",
+  "results": "/test/results"
 }

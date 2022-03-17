@@ -48,7 +48,7 @@ const App = () => {
             <Route path={path.home} element={<HomePage />} />
             <Route path={path.archetypes} element={<ArchetypesPage />} />
             <Route path={path.ArchetypeDetailPage} element={<ArchetypeDetailPage />}/>
-            // <Route path={path.test} element={<TestPage />} />
+            <Route path={path.test} element={<TestPage />} />
           </Routes>
         </main>
         <Footer />
