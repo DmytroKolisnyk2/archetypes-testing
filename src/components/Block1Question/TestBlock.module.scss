@@ -56,11 +56,11 @@
   margin-bottom: 25px;
   margin-top: 40px;
   margin-left: 20px;
-  @media screen and (min-width: 769px) {
+//   @media screen and (min-width: 769px) {
+//     margin-left: 150px;
+// }
+  @media screen and (min-width: 1200px) {
     margin-left: 150px;
-}
-  @media screen and (min-width: 1024px) {
-    margin-left: 250px;
 }
 }
 .options {
@@ -71,12 +71,12 @@
   line-height: 160%;
   color: #4b5d68;
   margin-left: 80px;
-  @media screen and (min-width: 769px) {
-    margin-left: 280px;
-}
-// @media screen and (min-width: 1200px) {
-//   margin-left: 280px;
+//   @media screen and (min-width: 769px) {
+//     margin-left: 280px;
 // }
+@media screen and (min-width: 1200px) {
+  margin-left: 190px;
+}
 // @media screen and (min-width: 722px) {
 //   margin-left: 170px;
 // }
@@ -104,6 +104,7 @@
   border-radius: 500%;
   margin-right: 8px;
   margin-top: 6px;
+  cursor:pointer
 }
 
 .radio:checked {
