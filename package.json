@@ -4,6 +4,7 @@
   "homepage": "https://dmytrokolisnyk2.github.io/archetypes-testing",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.4.0",
     "@formspree/react": "^2.2.4",
     "@reduxjs/toolkit": "^1.7.1",
     "@testing-library/jest-dom": "^5.15.0",
@@ -13,6 +14,7 @@
     "classnames": "^2.3.1",
     "gh-pages": "^3.2.3",
     "i18next": "^21.6.13",
+    "mailgun-js": "^0.22.0",
     "modern-normalize": "^1.1.0",
     "nanoid": "^3.1.30",
     "node-sass": "^6.0.1",

@@ -28,9 +28,11 @@ import { useForm, ValidationError } from "@formspree/react";
 import Block2 from "./components/Block2/Block2";
 import Block1 from "./components/Block1/Block1";
 import GradientWrapper from "./components/GradientWrapper/GradientWrapper";
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+emailjs.init("aX7R8xc2qLrmu5oOJ");
 
-
-const App = () => {
+const App2 = () => {
   const { t } = useTranslation();
   const [state, handleSubmit] = useForm("mgedyjvn");
   return (
@@ -64,8 +66,35 @@ const App = () => {
         </main>
         <Footer />
       </GradientWrapper> */}
-
+      
     </>
+  );
+};
+
+export const App = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_Result", "template_result", form.current, "aX7R8xc2qLrmu5oOJ")
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  return (
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
   );
 };
 
