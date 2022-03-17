@@ -21,10 +21,11 @@ function Block1Question({ options, headline, itemId, changeTestData, itemData, e
       <h3 className={TestBlockStyles.question}>
         {itemId}. {headline}
       </h3>
-      <div>
+      <div className={TestBlockStyles.wrapperLabel1}>
         {options.map((item, index) => {
           const key = index + 1;
           return (
+   
             <label key={key} className={TestBlockStyles.options}>
               <input
                 checked={radio === key}
@@ -34,9 +35,11 @@ function Block1Question({ options, headline, itemId, changeTestData, itemData, e
                 onChange={() => {
                   setRadio(key);
                 }}
+                className={TestBlockStyles.radio}
               />
               {item}
             </label>
+       
           );
         })}
       </div>
