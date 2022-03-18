@@ -33,7 +33,6 @@ const ArchetypeDetailPage = asyncComponent({
 const App = () => {
   return (
     <>
-      <Loader></Loader>
       <Header></Header>
       <GradientWrapper>
         <main className="main">
@@ -41,6 +40,7 @@ const App = () => {
             <Route path={path.home} element={<HomePage />} />
             <Route path={path.archetypes} element={<ArchetypesPage />} />
             <Route path={path.ArchetypeDetailPage} element={<ArchetypeDetailPage />} />
+            <Route path={path.testLink} element={<TestPage />} />
             <Route path={path.test} element={<TestPage />} />
           </Routes>
         </main>

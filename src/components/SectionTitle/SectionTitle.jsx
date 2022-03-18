@@ -1,11 +1,11 @@
 import React from "react";
 import sectionTitleScss from "./sectionTitleScss.module.scss";
 import PropTypes from "prop-types";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const SectionTitle = ({ title, text }) => {
   return (
-    <Fade>
+    <Fade triggerOnce>
       <div className={sectionTitleScss.sectionTitleDiv}>
         <h2 className={sectionTitleScss.sectionTitleTitle}>{title}</h2>
         <p className={sectionTitleScss.sectionTitleText}>{text}</p>

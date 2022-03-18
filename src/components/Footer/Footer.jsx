@@ -18,7 +18,7 @@ const Footer = () => {
         <div className={FooterStyles.footerWrappers}>
           <div className={FooterStyles.footerTwoWrappers}>
             <div className={FooterStyles.sectionTitleDiv}>
-              <Slide triggerOnce>
+              <Slide triggerOnce duration={1200}>
                 <Fade triggerOnce cascade duration={1200}>
                   <h2 className={FooterStyles.footerTitle}>{t(footer.title)}</h2>
                   <p className={FooterStyles.footerSubText}>{t(footer.text)}</p>

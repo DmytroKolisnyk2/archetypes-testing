@@ -2,40 +2,25 @@
 
 .sectionTitleDiv {
     max-width: 584px;
-    width: 100%;
-    // <<<<<<< component/footer
-    //     margin: 0 auto 25px;
-    // =======
+    max-width: 100%;
+    padding: 0 16px;
     margin: 0 auto 20px;
-    // >>>>>>> develop
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     @media screen and (min-width: 768px) {
-        // <<<<<<< component/footer
-        //         margin-bottom: 25px;
-        //         width: 80%;
-        //     }
-        //     @media screen and (min-width: 1024px) {
-        //         margin-bottom: 25px;
-        // =======
         margin-bottom: 80px;
+        max-width: 600px;
         width: 80%;
     }
     @media screen and (min-width: 1024px) {
         margin-bottom: 100px;
-        // >>>>>>> develop
         width: 100%;
     }
 }
 
 .sectionTitleTitle {
-    // position: absolute;
-    // width: 405px;
-    // height: 104px;
-    // left: 607.29px;
-    // top: 240px;
     color: #212353;
     font-family: "Ubuntu", sans-serif;
     font-style: normal;
@@ -54,12 +39,6 @@
 }
 
 .sectionTitleText {
-    // position: absolute;
-    // width: 584px;
-    // height: 58px;
-    // left: 518.29px;
-    // top: 368px;
-
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 500;

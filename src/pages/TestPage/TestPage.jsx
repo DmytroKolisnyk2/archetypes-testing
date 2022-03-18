@@ -32,7 +32,7 @@ const TestPage = ({ block1Data, block2Data, block3Data }) => {
   return (
     <>
       {blockId !== "results" && (
-        <Fade>
+        <Fade triggerOnce>
           <SectionFindOut />
         </Fade>
       )}

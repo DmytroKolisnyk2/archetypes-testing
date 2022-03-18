@@ -15,10 +15,8 @@ export default function HomePage() {
   const { t } = useTranslation();
   return (
     <section className={styles.section}>
-      <Fade>
+      <Fade cascade duration={1500} triggerOnce>
         <Introduction />
-      </Fade>
-      <Fade triggerOnce direction="bottom">
         <SectionAbout
           title={t(sectionAboutArchetypes.SectionAboutTitle)}
           description={t(sectionAboutArchetypes.SectionDescription)}
