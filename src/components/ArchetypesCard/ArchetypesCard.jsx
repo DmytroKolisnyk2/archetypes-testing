@@ -25,12 +25,12 @@ export default function ArchetypesCard({
         !openHeadline && styles.card_notClosable
       }`}
     >
-     <div className={styles.articleInnerWrapper}>
+      <div className={styles.articleInnerWrapper}>
         {openHeadline && (
           <div className={styles.captionWrapper}>
             <h2 className={styles.caption}>{openHeadline}</h2>
             <button className={styles.button} type="button" onClick={() => setIsOpen(!isOpen)}>
-              <SvgArrow orientation={isOpen ? "up" : "down"} className={styles.arrow} />
+              <SvgArrow orientation={isOpen ? "up" : "down"} className={styles.arrow} size={50} />
             </button>
           </div>
         )}
@@ -61,7 +61,7 @@ export default function ArchetypesCard({
             <p className={styles.text}>{secondParagraph}</p>
           </div>
         </div>
-     </div>
+      </div>
     </article>
   );
 }

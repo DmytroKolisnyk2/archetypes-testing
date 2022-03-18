@@ -14,7 +14,7 @@ import cardImg3 from "../../images/cardImg3.png";
 import cardImg4 from "../../images/cardImg4.png";
 
 import { sectionWhatForArchetypes } from "../../translations/ua/common.json";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const SectionWhatFor = () => {
   const { t } = useTranslation();

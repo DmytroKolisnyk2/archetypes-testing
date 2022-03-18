@@ -37,8 +37,6 @@ const TestPage = ({
   const { t } = useTranslation();
   const { blockId } = useParams();
 
-  console.log(started);
-
   useEffect(() => {
     document.querySelector(`#${blockId}`)?.scrollIntoView();
   }, [blockId]);

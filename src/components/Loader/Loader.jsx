@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import logo from "../../images/icons/logo.svg";
 import styles from "./Loader.module.scss";
 
-const Loader = ({ children, title }) => {
+const Loader = () => {
   return (
     <>
       <div className={styles.lightbox}>

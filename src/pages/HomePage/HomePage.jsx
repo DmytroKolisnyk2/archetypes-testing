@@ -9,7 +9,7 @@ import SectionAbout from "../../components/SectionAbout/SectionAbout";
 import aboutArchetypesImg from "../../images/aboutArchetypesImg.png";
 import Introduction from "../../components/Introduction/Introduction";
 
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade} from "react-awesome-reveal";
 
 export default function HomePage() {
   const { t } = useTranslation();
