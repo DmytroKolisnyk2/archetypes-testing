@@ -33,9 +33,12 @@ const Navigation = () => {
         </li>
         <li className={NavigationStyles.navigationLi}>
           <NavLink
-            to={path.home + "#footer"}
+            onClick={() =>
+              setTimeout(() => document.querySelector("#footer").scrollIntoView(), 100)
+            }
+            to={path.home}
             className={(navData) =>
-              navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
+              navData.isActive ? NavigationStyles.NavLink : NavigationStyles.NavLink
             }
           >
             {t(navigation.contacts)}

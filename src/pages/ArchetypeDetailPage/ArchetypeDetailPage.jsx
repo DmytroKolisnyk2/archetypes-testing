@@ -22,11 +22,13 @@ const ArchetypeDetailPage = () => {
   return (
     <section className={styles.section}>
       <div className={styles.wrapperContent}>
-        <Fade direction="left" triggerOnce>
-          <button className={styles.button} type="button" onClick={onClickBtn}>
-            <SvgArrow orientation="left" size={50} />
-          </button>
-        </Fade>
+        <div className={styles.btnWrapper}>
+          <Fade direction="left" triggerOnce>
+            <button className={styles.button} type="button" onClick={onClickBtn}>
+              <SvgArrow orientation="left" size={50} />
+            </button>
+          </Fade>
+        </div>
         <Fade triggerOnce duration={1400}>
           <ArchetypesCard
             headline={t(archetypePage[archetypeId].title)}

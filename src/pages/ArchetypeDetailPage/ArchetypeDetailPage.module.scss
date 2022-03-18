@@ -6,14 +6,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    @media screen and (max-width: 768px) {
+        padding-top: 100px;
+    }
 }
 
 .button {
     margin-bottom: 65px;
     background-color: transparent;
+    @media screen and (max-width: 768px) {
+        margin-bottom: 0px;
+    }
 }
 
 .wrapperContent {
-    max-width: 1417px;
+    max-width: 1400px;
     width: 100%;
+}
+.btnWrapper{
+    padding: 16px;
 }

@@ -30,7 +30,7 @@ const SectionArchetypes = () => {
       <ul className={styles.wrapperCards}>
         {cards.map((item, index) => {
           return (
-            <Fade triggerOnce direction={addDirection(index)}>
+            <Fade key={item.id} triggerOnce direction={addDirection(index)}>
               <SmallArchetypesCard
                 bobs={
                   item.bottomBob && item.rotate ? (
@@ -44,7 +44,6 @@ const SectionArchetypes = () => {
                   )
                 }
                 rotate={item.rotate}
-                key={item.id}
                 cardId={item.id}
                 color={item.color}
                 title={sectionArchetypes.arrayTitleCards.map((itemText) => {
