@@ -33,7 +33,7 @@ function Block1({ block1Data, changeTestData, block1Completed }) {
             {firstBlock.map((item) => (
               <Block1Question
                 key={item.id}
-                headline={item.question}
+                headline={t(block1[`question${item.id}`])}
                 options={[t(block1.options.no), t(block1.options.yes)]}
                 itemId={item.id}
                 changeTestData={(data) => changeTestData(data)}

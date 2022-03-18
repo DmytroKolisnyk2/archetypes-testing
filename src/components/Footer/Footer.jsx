@@ -32,9 +32,9 @@ const Footer = () => {
                 <Link className={FooterStyles.archetypesBtn} to={path.archetypes}>
                   <Fade triggerOnce>
                     <Button
-                      paddingRight={0}
-                      paddingLeft={10}
-                      width={170}
+                      paddingRight={35}
+                      paddingLeft={35}
+                      width={"auto"}
                       bgColor={"pink"}
                       color={"white"}
                     >
@@ -42,7 +42,7 @@ const Footer = () => {
                     </Button>
                   </Fade>
                 </Link>
-  
+
                 {!isTest && !isTestLink && (
                   <Link to={path.testLink}>
                     <Fade triggerOnce>

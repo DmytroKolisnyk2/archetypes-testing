@@ -34,7 +34,7 @@ const Navigation = () => {
         <li className={NavigationStyles.navigationLi}>
           <NavLink
             onClick={() =>
-              setTimeout(() => document.querySelector("#footer").scrollIntoView(), 100)
+              setTimeout(() => document.querySelector("#footer").scrollIntoView(), 300)
             }
             to={path.home}
             className={(navData) =>
