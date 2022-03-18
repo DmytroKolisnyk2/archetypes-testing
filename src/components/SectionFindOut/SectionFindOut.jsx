@@ -25,6 +25,7 @@ const SectionFindOut = () => {
           description={t(sectionFindOut.subtitleCard1)}
           color="purple"
           cardImg={smallCardImg1}
+          typeImg="image"
         />
         <CardSection
           bobs={<Bob1 />}
@@ -33,6 +34,7 @@ const SectionFindOut = () => {
           description={t(sectionFindOut.subtitleCard2)}
           color="green"
           cardImg={smallCardImg2}
+          typeImg="image1"
         />
         <CardSection
           bobs={<Bob1 />}
@@ -41,6 +43,7 @@ const SectionFindOut = () => {
           description={t(sectionFindOut.subtitleCard3)}
           color="pink"
           cardImg={smallCardImg3}
+          typeImg="image2"
         />
       </ul>
     </section>

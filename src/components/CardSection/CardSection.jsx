@@ -12,6 +12,7 @@ const CardSection = ({
   color,
   smallRectangular,
   bobs,
+  typeImg,
 }) => {
   const addClass = (smallRectangular, type) => {
     return classNames({
@@ -25,6 +26,10 @@ const CardSection = ({
         smallRectangular === true && type === "wrapper",
       [styles.image_smallRectangular]:
         smallRectangular === true && type === "image",
+        [styles.imageWidth1]:
+        smallRectangular === true && type === "image1",
+        [styles.imageWidth2]:
+        smallRectangular === true && type === "image2",
       [styles.description_smallRectangular]:
         smallRectangular === true && type === "description",
       [styles.card]: smallRectangular !== true && type === "card",
@@ -45,7 +50,7 @@ const CardSection = ({
       {bobs}
       <div className={addClass(smallRectangular, "content")}>
         <img
-          className={addClass(smallRectangular, "image")}
+          className={addClass(smallRectangular, typeImg)}
           src={cardImg}
           alt="card_img"
         />
@@ -66,11 +71,13 @@ CardSection.propTypes = {
   description: PropTypes.string.isRequired,
   color: PropTypes.string.isRequired,
   smallRectangular: PropTypes.bool,
-  bobs: PropTypes.element
+  bobs: PropTypes.element,
+  typeImg: PropTypes.string,
 };
 
 CardSection.defaultProps = {
   smallRectangular: false,
+  typeImg: "image"
 };
 
 // Дока

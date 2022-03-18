@@ -48,9 +48,13 @@
             height: 190px;
         }
     }
-    @media screen and (min-width: 1024px) {
-        max-width: 280px;
-        max-height: 230px;
+    @media screen and (min-width: 1400px) {
+        max-width:340px;
+        max-height: 270px;
+        & svg {
+            width: 340px;
+            height: 270px;
+        }
     }
 }
 
@@ -69,14 +73,16 @@
 }
 
 .content_smallRectangular {
-    width: fit-content;
+    width: 390px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: absolute;
     top: 45%;
-    left: 35%;
+    left: 38%;
     transform: translate(-50%, -50%);
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1400px) {
+        width: fit-content;
         left: 50%;
         top: 50%;
     }
@@ -102,7 +108,7 @@
     font-family: 'Ubuntu', sans-serif;
     color: rgba(33, 35, 83, 1);
     @media screen and (min-width: 1024px) {
-        font-size: 21px;
+        font-size: 24px;
     }
 }
 
@@ -115,13 +121,16 @@
 }
 
 .wrapper_smallRectangular {
-    max-width: 139px;
-    padding-top: 25px;
+    max-width: 190px;
     width: 100%;
     text-align: left;
-    @media screen and (max-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    @media screen and (max-width: 1400px) {
         text-align: center;
-        padding-top: 0;
+        align-items: center;
     }
 }
 
@@ -132,9 +141,25 @@
 }
 
 .image_smallRectangular {
-    width: 140px;
-    height: 150px;
-    @media screen and (max-width: 1024px) {
+    width: 170px;
+    height: 220px;
+    @media screen and (max-width: 1400px) {
+        display: none;
+    }
+}
+
+.imageWidth1 {
+    width: 230px;
+    height: 230px;
+    @media screen and (max-width: 1400px) {
+        display: none;
+    }
+}
+
+.imageWidth2 {
+    width: 200px;
+    height: 200px;
+    @media screen and (max-width: 1400px) {
         display: none;
     }
 }
@@ -154,9 +179,10 @@
 .description_smallRectangular {
     font-family: 'Open Sans', sans-serif;
     color: rgba(75, 93, 104, 1);
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 900;
-    @media screen and (min-width: 1024px) {
-        font-size: 20px;
+    @media screen and (min-width: 1400px) {
+        font-size: 30px;
+        line-height: 50px;
     }
 }
