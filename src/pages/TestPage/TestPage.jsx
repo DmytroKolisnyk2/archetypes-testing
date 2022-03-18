@@ -56,11 +56,13 @@ const TestPage = ({
 
       {!blockId && (
         <div className={styles.btn}>
-          <Link onClick={clearStore} to={path.block1}>
-            <Button width={"auto"} bgColor="violet" color="white">
-              {t(sectionFindOut.btn)}
-            </Button>
-          </Link>
+          <Fade duration={300} triggerOnce direction="up">
+            <Link onClick={clearStore} to={path.block1}>
+              <Button width={"auto"} bgColor="violet" color="white">
+                {t(sectionFindOut.btn)}
+              </Button>
+            </Link>
+          </Fade>
         </div>
       )}
 

@@ -20,8 +20,8 @@ const Footer = () => {
         <div className={FooterStyles.footerWrappers}>
           <div className={FooterStyles.footerTwoWrappers}>
             <div className={FooterStyles.sectionTitleDiv}>
-              <Slide triggerOnce duration={1200}>
-                <Fade triggerOnce cascade duration={1200}>
+              <Slide triggerOnce duration={600}>
+                <Fade triggerOnce cascade duration={600}>
                   <h2 className={FooterStyles.footerTitle}>{t(footer.title)}</h2>
                   <p className={FooterStyles.footerSubText}>{t(footer.text)}</p>
                 </Fade>
@@ -54,32 +54,34 @@ const Footer = () => {
               )}
             </div>
           </div>
-          <div className={FooterStyles.iconWrapper}>
-            <SocialIcon
-              link={"facebookLink"}
-              backgroundImg={"facebook"}
-              bgColor={"blue"}
-              width={12}
-              top={13}
-            ></SocialIcon>
-            <SocialIcon
-              link={"gitHubLink"}
-              backgroundImg={"gitHub"}
-              bgColor={"black"}
-              width={30}
-              top={10}
-            ></SocialIcon>
-            <SocialIcon
-              link={"instagramLink"}
-              backgroundImg={"instagram"}
-              bgColor={"purple"}
-              top={12}
-              width={40}
-            ></SocialIcon>
-          </div>
-          <p className={FooterStyles.footerText}>
-            2022. All rights reserved. Created by GoITeens.
-          </p>
+          <Fade direction="up" cascade>
+            <div className={FooterStyles.iconWrapper}>
+              <SocialIcon
+                link={"facebookLink"}
+                backgroundImg={"facebook"}
+                bgColor={"blue"}
+                width={12}
+                top={13}
+              ></SocialIcon>
+              <SocialIcon
+                link={"gitHubLink"}
+                backgroundImg={"gitHub"}
+                bgColor={"black"}
+                width={30}
+                top={10}
+              ></SocialIcon>
+              <SocialIcon
+                link={"instagramLink"}
+                backgroundImg={"instagram"}
+                bgColor={"purple"}
+                top={12}
+                width={40}
+              ></SocialIcon>
+            </div>
+            <p className={FooterStyles.footerText}>
+              2022. All rights reserved. Created by GoITeens.
+            </p>
+          </Fade>
         </div>
       </footer>
     </div>

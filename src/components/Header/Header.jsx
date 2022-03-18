@@ -27,7 +27,7 @@ const Header = () => {
         </nav>
         {!isTest && !isTestLink && (
           <Link to={path.testLink} className={styles.button}>
-            <Fade duration={500}>
+            <Fade triggerOnce duration={500}>
               <Button width={220} color="black" bgColor="white">
                 <span>{t(header.btn)}</span>
                 <SvgArrow size={20} orientation="right" />
