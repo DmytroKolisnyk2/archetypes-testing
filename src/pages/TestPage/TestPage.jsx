@@ -9,6 +9,10 @@ import { getBlock1Completed } from "../../redux/block1/block1-selectors";
 import { getBlock2Completed } from "../../redux/block2/block2-selectors";
 import { getBlock3Completed } from "../../redux/block3/block3-selectors";
 
+import { clearBlock1 } from "../../redux/block1/block1-actions";
+import { clearBlock2 } from "../../redux/block2/block2-actions";
+import { clearBlock3 } from "../../redux/block3/block3-actions";
+
 import Button from "../../components/Button/Button";
 import SectionFindOut from "../../components/SectionFindOut/SectionFindOut";
 import Block2 from "../../components/Block2/Block2";
@@ -16,18 +20,31 @@ import Block1 from "../../components/Block1/Block1";
 import Block3 from "../../components/Block3/Block3";
 import Results from "../../components/Results/Results";
 import PrivateRoute from "../../components/PrivateRoute/PrivateRoute";
-import { Fade, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 import { useTranslation } from "react-i18next";
 import { sectionFindOut } from "../../translations/ua/common.json";
 
-const TestPage = ({ block1Data, block2Data, block3Data }) => {
+const TestPage = ({
+  block1Data,
+  block2Data,
+  block3Data,
+  clearBlock1,
+  clearBlock2,
+  clearBlock3,
+}) => {
   const { t } = useTranslation();
   const { blockId } = useParams();
 
   useEffect(() => {
     document.querySelector(`#${blockId}`)?.scrollIntoView();
   }, [blockId]);
+
+  const clearStore = () => {
+    clearBlock1();
+    clearBlock2();
+    clearBlock3();
+  };
 
   return (
     <>
@@ -39,7 +56,7 @@ const TestPage = ({ block1Data, block2Data, block3Data }) => {
 
       {!blockId && (
         <div className={styles.btn}>
-          <Link to={path.block1}>
+          <Link onClick={clearStore} to={path.block1}>
             <Button width={"auto"} bgColor="violet" color="white">
               {t(sectionFindOut.btn)}
             </Button>
@@ -82,4 +99,11 @@ const mapStateToProps = (state) => ({
   block2Data: getBlock2Completed(state),
   block3Data: getBlock3Completed(state),
 });
-export default connect(mapStateToProps, null)(TestPage);
+
+const mapDispatchToProps = (dispatch) => ({
+  clearBlock1: () => dispatch(clearBlock1()),
+  clearBlock2: () => dispatch(clearBlock2()),
+  clearBlock3: () => dispatch(clearBlock3()),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(TestPage);

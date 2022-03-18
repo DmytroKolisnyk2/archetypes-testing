@@ -12,13 +12,25 @@ import { Fade } from "react-awesome-reveal";
 
 const SectionArchetypes = () => {
   const { t } = useTranslation();
+  const addDirection = (index) => {
+    switch (index % 3) {
+      case 0:
+        return "left";
+
+      case 1:
+        return "up";
+
+      default:
+        return "right";
+    }
+  };
   return (
     <section className={styles.section}>
       <SectionTitle title={t(sectionArchetypes.title)} text={t(sectionArchetypes.subtitle)} />
       <ul className={styles.wrapperCards}>
         {cards.map((item, index) => {
           return (
-            // <Fade triggerOnce direction={index % 2 === 0 ? "right" : "left"}>
+            <Fade triggerOnce direction={addDirection(index)}>
               <SmallArchetypesCard
                 bobs={
                   item.bottomBob && item.rotate ? (
@@ -39,7 +51,7 @@ const SectionArchetypes = () => {
                   return itemText.id === item.id && itemText.titleCard;
                 })}
               />
-            // </Fade>
+            </Fade>
           );
         })}
       </ul>

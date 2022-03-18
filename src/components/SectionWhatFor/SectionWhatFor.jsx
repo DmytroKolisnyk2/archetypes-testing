@@ -26,7 +26,7 @@ const SectionWhatFor = () => {
       />
 
       <ul className={styles.wrapperCards}>
-        <Fade direction="left">
+        <Fade triggerOnce direction="left">
           <CardSection
             bobs={<Bob1 />}
             title={t(sectionWhatForArchetypes.titleCard1)}
@@ -35,7 +35,7 @@ const SectionWhatFor = () => {
             color="green"
           />
         </Fade>
-        <Fade direction="left">
+        <Fade triggerOnce direction="right">
           <CardSection
             bobs={<Bob2 />}
             title={t(sectionWhatForArchetypes.titleCard2)}
@@ -44,7 +44,7 @@ const SectionWhatFor = () => {
             color="purple"
           />
         </Fade>
-        <Fade direction="right">
+        <Fade triggerOnce direction="left">
           <CardSection
             bobs={<Bob3 />}
             title={t(sectionWhatForArchetypes.titleCard3)}
@@ -53,7 +53,7 @@ const SectionWhatFor = () => {
             color="pink"
           />
         </Fade>
-        <Fade direction="right">
+        <Fade triggerOnce direction="right">
           <CardSection
             bobs={<Bob4 />}
             title={t(sectionWhatForArchetypes.titleCard4)}
