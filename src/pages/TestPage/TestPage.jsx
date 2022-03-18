@@ -26,7 +26,7 @@ const TestPage = ({ block1Data, block2Data, block3Data }) => {
   const { blockId } = useParams();
 
   useEffect(() => {
-    document.querySelector(`#${blockId}`)?.scrollIntoView()
+    document.querySelector(`#${blockId}`)?.scrollIntoView();
   }, [blockId]);
 
   return (
@@ -40,7 +40,7 @@ const TestPage = ({ block1Data, block2Data, block3Data }) => {
       {!blockId && (
         <div className={styles.btn}>
           <Link to={path.block1}>
-            <Button width={"auto"} bgColor="pink" color="white">
+            <Button width={"auto"} bgColor="violet" color="white">
               {t(sectionFindOut.btn)}
             </Button>
           </Link>
@@ -48,29 +48,29 @@ const TestPage = ({ block1Data, block2Data, block3Data }) => {
       )}
 
       {blockId === "block1" && (
-        <Slide triggerOnce>
+        <Fade triggerOnce>
           <Block1 />
-        </Slide>
+        </Fade>
       )}
       {blockId === "block2" && (
         <PrivateRoute isCompleted={block1Data}>
-          <Slide triggerOnce>
+          <Fade triggerOnce>
             <Block2 />
-          </Slide>
+          </Fade>
         </PrivateRoute>
       )}
       {blockId === "block3" && (
         <PrivateRoute isCompleted={block1Data && block2Data}>
-          <Slide triggerOnce>
+          <Fade triggerOnce>
             <Block3 />
-          </Slide>
+          </Fade>
         </PrivateRoute>
       )}
       {blockId === "results" && (
         <PrivateRoute isCompleted={block1Data && block2Data && block3Data}>
-          <Slide triggerOnce>
+          <Fade triggerOnce>
             <Results />
-          </Slide>
+          </Fade>
         </PrivateRoute>
       )}
     </>

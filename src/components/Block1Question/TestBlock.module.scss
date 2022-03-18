@@ -1,3 +1,11 @@
+.item{
+  max-width: 1117px;
+  margin: 0 auto;
+  padding: 0 16px;
+   @media screen and (max-width: 1024px) {
+    max-width: 800px;
+  }
+}
 .question {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -6,110 +14,117 @@
   line-height: 130%;
   color: #212353;
   margin-bottom: 25px;
-  margin-top: 40px;
-  margin-left: 250px;
-}
-.options {
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 160%;
-  color: #4b5d68;
-  margin-left: 300px;
-  cursor: pointer;
+  // margin-top: 40px;
 }
 .inputRadio {
-  margin: 0;
-  font: inherit;
-  color: currentColor;
-  width: 1.15em;
-  height: 1.15em;
-  border: 0.15em solid currentColor;
-  border-radius: 50%;
-  margin-right: 8px;
+  // margin: 0;
+  // font: inherit;
+  // color: currentColor;
+  // width: 1.15em;
+  // height: 1.15em;
+  // border: 0.15em solid currentColor;
+  // border-radius: 50%;
+  // margin-right: 8px;
 }
 .testBlock1ButtonWrapper {
   display: flex;
   justify-content: space-between;
-  width: 350px;
-  margin: 0 auto;
-  margin-top: 160px;
-  margin-bottom: 209px;
+  // width: 350px;
+  // margin: 0 auto;
+  // margin-top: 160px;
+  // margin-bottom: 209px;
 }
 .testBlock1Text {
   font-family: "Open Sans", sans-serif;
-
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 160%;
+  // line-height: 160%;
 }
 .question {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 130%;
   color: #212353;
-  margin-bottom: 25px;
-  margin-top: 40px;
-  margin-left: 20px;
+  // line-height: 130%;
+  // margin-bottom: 25px;
+  // margin-top: 40px;
+  // margin-left: 20px;
   //   @media screen and (min-width: 769px) {
   //     margin-left: 150px;
   // }
-  @media screen and (min-width: 1200px) {
-    margin-left: 150px;
-  }
-}
-.options {
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 160%;
-  color: #4b5d68;
-  margin-left: 80px;
-  //   @media screen and (min-width: 769px) {
-  //     margin-left: 280px;
-  // }
-  @media screen and (min-width: 1200px) {
-    margin-left: 190px;
-  }
-  // @media screen and (min-width: 722px) {
-  //   margin-left: 170px;
+  // @media screen and (min-width: 1200px) {
+  //   margin-left: 150px;
   // }
 }
-.inputRadio {
-  margin: 0;
-  font: inherit;
-  color: currentColor;
-  width: 1.15em;
-  height: 1.15em;
-  border: 0.15em solid currentColor;
-  border-radius: 50%;
-  margin-right: 8px;
-}
+// .inputRadio {
+//   margin: 0;
+//   font: inherit;
+//   color: currentColor;
+//   width: 1.15em;
+//   height: 1.15em;
+//   border: 0.15em solid currentColor;
+//   border-radius: 50%;
+//   margin-right: 8px;
+// }
 
 .radio {
   border: none;
-
   appearance: none;
-
   background-color: #c4c4c4;
-
   width: 20px;
   height: 20px;
-  border-radius: 500%;
+  border-radius: 50%;
   margin-right: 8px;
-  margin-top: 6px;
+  // margin-top: 6px;
   cursor: pointer;
   transition: 200ms linear;
+  &:checked {
+    background-color: #9c69e2;
+  }
 }
 
-.radio:checked {
-  background-color: #9c69e2;
+.options {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #4b5d68;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 16px;
+  // line-height: 160%;
+  // margin-left: 300px;
 }
 .wrapperLabel1 {
-  width: 150px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  // width: 150px;
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+  // width: fit-content;
+  // height: 20px;
 }
+
+// .options {
+//   font-family: "Open Sans", sans-serif;
+//   font-style: normal;
+//   font-weight: 500;
+//   font-size: 18px;
+//   color: #4b5d68;
+//   // line-height: 160%;
+//   // margin-left: 80px;
+//   //   @media screen and (min-width: 769px) {
+//   //     margin-left: 280px;
+//   // }
+//   // @media screen and (min-width: 1200px) {
+//     //   margin-left: 190px;
+//   // }
+//   // @media screen and (min-width: 722px) {
+//     //   margin-left: 170px;
+//   // }
+// }

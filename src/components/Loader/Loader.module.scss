@@ -1,0 +1,25 @@
+.lightbox {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(196, 196, 196, 0.7);
+  transition: opacity 1s;
+  z-index: 9999;
+  position: relative;
+}
+
+.loader__image {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: rotation 3s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
