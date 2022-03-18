@@ -13,6 +13,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Header = () => {
   const { t } = useTranslation();
+  const isTestLink = useMatch(path.testLink);
   const isTest = useMatch(path.test);
 
   return (
@@ -24,7 +25,7 @@ const Header = () => {
           </Link>
           <Navigation />
         </nav>
-        {!isTest && (
+        {!isTest && !isTestLink && (
           <Link to={path.testLink} className={styles.button}>
             <Fade duration={500}>
               <Button width={220} color="black" bgColor="white">
