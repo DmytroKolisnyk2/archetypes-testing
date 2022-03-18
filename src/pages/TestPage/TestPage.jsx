@@ -5,7 +5,7 @@ import { useParams, Link } from "react-router-dom";
 import path from "../../services/routerPath.json";
 
 import { connect } from "react-redux";
-import { getBlock1Completed } from "../../redux/block1/block1-selectors";
+import { getBlock1Completed, getBlock1Started } from "../../redux/block1/block1-selectors";
 import { getBlock2Completed } from "../../redux/block2/block2-selectors";
 import { getBlock3Completed } from "../../redux/block3/block3-selectors";
 
@@ -32,9 +32,12 @@ const TestPage = ({
   clearBlock1,
   clearBlock2,
   clearBlock3,
+  started,
 }) => {
   const { t } = useTranslation();
   const { blockId } = useParams();
+
+  console.log(started);
 
   useEffect(() => {
     document.querySelector(`#${blockId}`)?.scrollIntoView();
@@ -58,10 +61,19 @@ const TestPage = ({
         <div className={styles.btn}>
           <Fade duration={300} triggerOnce direction="up">
             <Link onClick={clearStore} to={path.block1}>
-              <Button width={"auto"} bgColor="violet" color="white">
-                {t(sectionFindOut.btn)}
+              <Button width={"auto"} bgColor="pink" color="white">
+                {t(sectionFindOut.btnClear)}
               </Button>
             </Link>
+            <>
+              {started && (
+                <Link to={path.block1}>
+                  <Button width={"auto"} bgColor="violet" color="white">
+                    {t(sectionFindOut.btnNext)}
+                  </Button>
+                </Link>
+              )}
+            </>
           </Fade>
         </div>
       )}
@@ -100,6 +112,7 @@ const mapStateToProps = (state) => ({
   block1Data: getBlock1Completed(state),
   block2Data: getBlock2Completed(state),
   block3Data: getBlock3Completed(state),
+  started: getBlock1Started(state),
 });
 
 const mapDispatchToProps = (dispatch) => ({

@@ -27,34 +27,36 @@ const Footer = () => {
                 </Fade>
               </Slide>
             </div>
-            <div className={FooterStyles.FooterButtonWrapper}>
-              <Link className={FooterStyles.archetypesBtn} to={path.archetypes}>
-                <Fade triggerOnce>
-                  <Button
-                    paddingRight={0}
-                    paddingLeft={10}
-                    width={170}
-                    bgColor={"pink"}
-                    color={"white"}
-                  >
-                    {t(footer.button1)}
-                  </Button>
-                </Fade>
-              </Link>
-
-              {!isTest && !isTestLink && (
-                <Link to={path.testLink}>
+            <Fade triggerOnce direction="right">
+              <div className={FooterStyles.FooterButtonWrapper}>
+                <Link className={FooterStyles.archetypesBtn} to={path.archetypes}>
                   <Fade triggerOnce>
-                    <Button width={210} color="black" bgColor="white">
-                      <span>{t(footer.button2)}</span>
-                      <SvgArrow size={20} orientation="right" />
+                    <Button
+                      paddingRight={0}
+                      paddingLeft={10}
+                      width={170}
+                      bgColor={"pink"}
+                      color={"white"}
+                    >
+                      {t(footer.button1)}
                     </Button>
                   </Fade>
                 </Link>
-              )}
-            </div>
+  
+                {!isTest && !isTestLink && (
+                  <Link to={path.testLink}>
+                    <Fade triggerOnce>
+                      <Button width={210} color="black" bgColor="white">
+                        <span>{t(footer.button2)}</span>
+                        <SvgArrow size={20} orientation="right" />
+                      </Button>
+                    </Fade>
+                  </Link>
+                )}
+              </div>
+            </Fade>
           </div>
-          <Fade direction="up" cascade>
+          <Fade triggerOnce direction="up" cascade>
             <div className={FooterStyles.iconWrapper}>
               <SocialIcon
                 link={"facebookLink"}
