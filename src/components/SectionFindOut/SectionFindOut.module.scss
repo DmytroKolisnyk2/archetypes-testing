@@ -14,7 +14,7 @@
 
 .wrapperCards {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1295px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -23,8 +23,9 @@
     @media screen and (min-width: 768px) {
         flex-direction: row;
         justify-content: space-around;
+        width: 85%;
     }
-    @media screen and (min-width: 1024px) {
-        justify-content: space-evenly;
+    @media screen and (min-width: 1400px) {
+        width: 100%;
     }
 }
