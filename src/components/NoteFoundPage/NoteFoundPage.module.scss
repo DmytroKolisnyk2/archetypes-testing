@@ -1,0 +1,64 @@
+.wrapper404 {margin: 0 auto;
+  margin-top: 203px;
+  max-width: 1500px;
+  min-width: 300px;
+}
+.title404 {
+  font-weight: 500;
+  font-size: 64px;
+  font-family: "Open Sans", sans-serif;
+  color: #212353;
+  margin-bottom: 50px;text-align: center;
+}
+.text404 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 180%;
+  max-width: 791px;
+  margin: 0 auto;
+  color: #212353;
+  text-align: center;
+}
+
+.subtext404 {
+  
+  max-width: 600px;
+  height: 192px;
+  margin: 0 auto;
+  // left: 550px;
+  top: 526px;
+  
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 180%;
+  /* or 65px */
+  
+  text-align: center;
+  letter-spacing: 0.01em;
+  justify-content: center;
+  color: #5F00D8;
+}
+
+.images{
+  // position: absolute;
+  width: 465px;
+  height: 560px;
+  
+  top: 430px;
+}
+
+.wrapperImg404{
+  // margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1050px;
+  @media (max-width: 1500px) {
+ width: 300px;
+    margin: 0 auto;
+}
+}

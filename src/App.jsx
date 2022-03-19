@@ -5,7 +5,7 @@ import "./translations/i18nReact";
 // import i18n from "i18next";
 // import { useTranslation } from "react-i18next";
 import { firstBlock } from "./services/questions/firstBlock.json";
-
+import PageNotFound from "./components/NoteFoundPage/NoteFoundPage"
 import "./styles/App.scss";
 
 import HomePage from "./pages/HomePage/HomePage";
@@ -29,7 +29,9 @@ const App = () => {
         <main className="main">
           {/* <Modal/> */}
           <Routes>
-            <Route path={path.home} element={<HomePage />} />
+          <Route path={path.notFound} element={<PageNotFound />} />
+            <Route path={path.home} element={<HomePage/>} />
+          
             <Route path={path.archetypes} element={<ArchetypesPage />} />
             <Route path={path.ArchetypeDetailPage} element={<ArchetypeDetailPage />} />
             <Route path={path.test} element={<TestPage />}/>
