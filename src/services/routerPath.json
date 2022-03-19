@@ -4,7 +4,7 @@
   "archetypes": "/archetypes",
   "test": "/test/:blockId",
   "testLink": "/test",
-  "ArchetypeDetailPage": "/archetypes/:archetypeId",
+  "archetypeDetailPage": "/archetypes/:archetypeId",
   "block1": "/test/block1",
   "block2": "/test/block2",
   "block3": "/test/block3",

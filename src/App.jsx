@@ -1,5 +1,6 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { CSSTransition } from "react-transition-group";
 import path from "./services/routerPath.json";
 import "./translations/i18nReact";
 
@@ -8,7 +9,6 @@ import "./styles/App.scss";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import GradientWrapper from "./components/GradientWrapper/GradientWrapper";
-
 
 import asyncComponent from "./services/asyncComponent";
 import Loader from "./components/Loader/Loader";
@@ -31,17 +31,53 @@ const ArchetypeDetailPage = asyncComponent({
 });
 
 const App = () => {
+  const location = useLocation();
   return (
     <>
       <Header></Header>
       <GradientWrapper>
         <main className="main">
           <Routes>
-            <Route path={path.home} element={<HomePage />} />
-            <Route path={path.archetypes} element={<ArchetypesPage />} />
-            <Route path={path.ArchetypeDetailPage} element={<ArchetypeDetailPage />} />
-            <Route path={path.testLink} element={<TestPage />} />
-            <Route path={path.test} element={<TestPage />} />
+            <Route
+              path={path.home}
+              element={
+                <CSSTransition
+                  in={location.pathname === path.home}
+                  timeout={300}
+                  classNames="page"
+                  unmountOnExit
+                >
+                  {/* <div className="page"> */}
+                  <HomePage />
+                  {/* </div> */}
+                </CSSTransition>
+              }
+            ></Route>
+            <Route path={path.archetypes} element={<CSSTransition
+                  in={location.pathname === path.archetypes}
+                  timeout={300}
+                  classNames="page"
+                  unmountOnExit
+                >
+                  {/* <div className="page"> */}
+                  <ArchetypesPage />
+                  {/* </div> */}
+                </CSSTransition>}></Route>
+            <Route
+              path={path.ArchetypeDetailPage}
+              element={<CSSTransition
+                  in={location.pathname === path.archetypeDetailPage}
+                  timeout={300}
+                  classNames="page"
+                  unmountOnExit
+                >
+                  {/* <div className="page"> */}
+                  <ArchetypeDetailPage />
+                  {/* </div> */}
+                </CSSTransition>}
+            ></Route>
+            <Route path={path.testLink} element={<TestPage />}></Route>
+            <Route path={path.test} element={<TestPage />}></Route>
           </Routes>
         </main>
         <Footer />
