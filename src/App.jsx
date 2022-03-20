@@ -47,22 +47,18 @@ const App = () => {
                   classNames="page"
                   unmountOnExit
                 >
-                  {/* <div className="page"> */}
                   <HomePage />
-                  {/* </div> */}
                 </CSSTransition>
               }
-            ></Route>
+            />
             <Route path={path.archetypes} element={<CSSTransition
                   in={location.pathname === path.archetypes}
                   timeout={300}
                   classNames="page"
                   unmountOnExit
                 >
-                  {/* <div className="page"> */}
                   <ArchetypesPage />
-                  {/* </div> */}
-                </CSSTransition>}></Route>
+                </CSSTransition>}/>
             <Route
               path={path.ArchetypeDetailPage}
               element={<CSSTransition
@@ -71,11 +67,9 @@ const App = () => {
                   classNames="page"
                   unmountOnExit
                 >
-                  {/* <div className="page"> */}
                   <ArchetypeDetailPage />
-                  {/* </div> */}
                 </CSSTransition>}
-            ></Route>
+            />
             <Route path={path.testLink} element={<TestPage />}></Route>
             <Route path={path.test} element={<TestPage />}></Route>
           </Routes>

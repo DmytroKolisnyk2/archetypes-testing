@@ -11,12 +11,13 @@
   overflow: hidden;
   overflow-x: hidden;
   min-height: 100vh;
+  position: relative;
 }
 
 .page {
   position: absolute;
-  left: 15px;
-  right: 15px;
+  left: 0;
+  right: 0;
 }
 
 .page-enter {
