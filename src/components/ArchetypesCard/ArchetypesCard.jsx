@@ -36,7 +36,7 @@ export default function ArchetypesCard({
         )}
         <div className={styles.cardWrapper}>
           <div className={styles.contentWrapper}>
-            <img className={styles.image} src={image} alt="ruler" />
+            <img width={400} height={400} className={styles.image} src={image} alt="ruler" />
             <div className={styles.textWrapper}>
               <h2 className={styles.caption}>{headline}</h2>
               <p className={styles.characteristic}>

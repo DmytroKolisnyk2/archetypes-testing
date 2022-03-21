@@ -17,7 +17,7 @@ function Block1Question({ options, headline, itemId, changeTestData, itemData, e
     }
   }, [radio]);
   return (
-    <li className={TestBlockStyles.item}>
+    <li id={`block-1_${itemId}`} className={TestBlockStyles.item}>
       <h3 className={TestBlockStyles.question}>
         {itemId}. {headline}
       </h3>
@@ -33,6 +33,7 @@ function Block1Question({ options, headline, itemId, changeTestData, itemData, e
                 id={`block-1_${itemId}-${key}`}
                 onChange={() => {
                   setRadio(key);
+                  document.querySelector(`#block-1_${itemId + 1}`)?.scrollIntoView();
                 }}
                 className={TestBlockStyles.radio}
               />

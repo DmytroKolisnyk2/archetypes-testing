@@ -39,6 +39,7 @@ const TestPage = ({
 
   useEffect(() => {
     document.querySelector(`#${blockId}`)?.scrollIntoView();
+    !blockId && window.scrollTo(0, 0);
   }, [blockId]);
 
   const clearStore = () => {
@@ -63,7 +64,7 @@ const TestPage = ({
                 {t(sectionFindOut.btnClear)}
               </Button>
             </Link>
-            <>
+            <div>
               {started && (
                 <Link to={path.block1}>
                   <Button width={"auto"} bgColor="violet" color="white">
@@ -71,7 +72,7 @@ const TestPage = ({
                   </Button>
                 </Link>
               )}
-            </>
+            </div>
           </Fade>
         </div>
       )}

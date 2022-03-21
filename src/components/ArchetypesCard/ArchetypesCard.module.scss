@@ -69,12 +69,12 @@
   width: 500px;
   max-width: 500px;
   border-radius: 50%;
+  height: auto;
   overflow: hidden;
   margin-right: 50px;
   background-color: rgb(199, 199, 199);
   @media screen and (max-width: 1024px) {
     width: 40%;
-    height: auto;
   }
   @media screen and (max-width: 768px) {
     width: 100%;
