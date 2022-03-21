@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./SectionArchetypes.module.scss";
 import SmallArchetypesCard from "../smallArchetypesCard/smallArchetypesCard";
@@ -12,6 +12,9 @@ import { Fade } from "react-awesome-reveal";
 
 const SectionArchetypes = () => {
   const { t } = useTranslation();
+
+  useEffect(() => window.scrollTo(0, 0), []);
+
   const addDirection = (index) => {
     switch (index % 3) {
       case 0:
