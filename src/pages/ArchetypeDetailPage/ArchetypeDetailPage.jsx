@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
@@ -19,6 +19,12 @@ const ArchetypeDetailPage = () => {
   const onClickBtn = () => {
     return navigate(path.archetypes);
   };
+
+  useEffect(
+    () => window.scrollTo(0, 0),
+    [archetypeId]
+  );
+
   return (
     <section className={styles.section}>
       <div className={styles.wrapperContent}>

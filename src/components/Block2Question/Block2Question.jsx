@@ -13,7 +13,7 @@ export default function Block2Question({ images, itemId, changeTestData, itemDat
   }, [radio]);
 
   return (
-    <li className={styles.question}>
+    <li id={`block-2_${itemId}`} className={styles.question}>
       <h3 className={styles.headline}>
         {itemId}. {t(block2.question)}
       </h3>
@@ -35,7 +35,10 @@ export default function Block2Question({ images, itemId, changeTestData, itemDat
                 checked={radio === item.value}
                 type="radio"
                 name={`block-2_${itemId}`}
-                onChange={() => setRadio(item.value)}
+                onChange={() => {
+                  setRadio(item.value);
+                  document.querySelector(`#block-2_${itemId + 1}`)?.scrollIntoView();
+                }}
                 id={`block-2_${itemId}-${key}`}
               />
             </label>

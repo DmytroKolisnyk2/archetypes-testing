@@ -39,7 +39,6 @@ function Results({ block1Data, block2Data, block3Data }) {
         return (archetypesCount[element.estimate] += 5);
       });
 
-    // Igor => archetypesCount - це об'єкт з підрахунком по кожному архітипу
     const arrayArchetypes = Object.entries(archetypesCount);
     const sortedArray = [...arrayArchetypes].sort((a, b) => b[1] - a[1]);
     const mostAmountPointsArchetypes = [sortedArray[0], sortedArray[1], sortedArray[2]];
@@ -59,11 +58,12 @@ function Results({ block1Data, block2Data, block3Data }) {
       setSecondArchetypeId(sortedArray[1]);
       setThirdArchetypeId(sortedArray[2]);
     }
+    window.scrollTo(0, 140);
   }, [block1Data, block2Data, block3Data]);
 
   return (
     firstArchetypeId.length > 0 && (
-      <section className={styles.results}>
+      <section id="result" className={styles.results}>
         <SectionTitle title={t(resultPage.titleSection)} text={t(resultPage.subtitle)} />
         <Fade duration={1500} triggerOnce>
           <ArchetypesCard
