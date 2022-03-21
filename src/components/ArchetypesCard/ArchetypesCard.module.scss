@@ -50,6 +50,9 @@
   font-family: Helvetica;
   font-size: 40px;
   font-weight: 700;
+  @media screen and (max-width: 768px) {
+    font-size: 28px;
+  }
 }
 .contentWrapper {
   margin-top: 130px;
