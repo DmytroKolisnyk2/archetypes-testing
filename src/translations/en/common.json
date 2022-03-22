@@ -9,8 +9,8 @@
   "footer": {
     "title": "Archetypes",
     "text": "Archetype is not a simple typology of personality, but it is an opportunity to better understand yourself",
-    "button1": "Type`s description",
-    "button2": "Start the test"
+    "button1": "Type`s list",
+    "button2": "Start test"
   },
   "sectionWhatForArchetypes": {
     "title": "Why should you know your archetype ?",
@@ -29,10 +29,10 @@
     "SectionDescription": "Archetypes are a multidimensional and deep typology of personality. With the help of archetypes you can look into the deepest parts of a soul, get acquainted with their light and shadow qualities, realize their value and strength."
   },
   "header": {
-    "btn": "Start the test"
+    "btn": "Start test"
   },
   "introduction": {
-    "btn": "Start the test",
+    "btn": "Start test",
     "text": "If you have been looking for answers to your questions for a long time, but still do not understand when you grow up, then archetypes will help you put all the dots above the “i”",
     "headline": "Find out your archetype"
   },
