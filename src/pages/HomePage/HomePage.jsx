@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./HomePage.module.scss";
 
 import { useTranslation } from "react-i18next";
-import { sectionAboutArchetypes } from "../../translations/ua/common.json";
 
 import SectionWhatFor from "../../components/SectionWhatFor/SectionWhatFor";
 import SectionAbout from "../../components/SectionAbout/SectionAbout";

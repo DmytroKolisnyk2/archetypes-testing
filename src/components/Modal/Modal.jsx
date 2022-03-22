@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { modal } from "../../translations/ua/common.json";
 import { useForm, ValidationError } from "@formspree/react";
 
 import styles from "./Modal.module.scss";
@@ -25,7 +24,7 @@ const Modal = () => {
     return (
       <>
         <h3 className={styles.modal__title + " " + styles.modal__thanks}>
-          {t(modal.notification)}
+          {t("modal.notification")}
         </h3>
       </>
     );
@@ -38,20 +37,20 @@ const Modal = () => {
         <div className={styles.modal}>
           <img src={star} alt="Star" className={styles.modal__image} />
           <div className={styles.modal__wrapper}>
-            <h3 className={styles.modal__title}>{t(modal.receiveResult)}</h3>
+            <h3 className={styles.modal__title}>{t("modal.receiveResult")}</h3>
             <form method="POST" onSubmit={handleSubmit} className={styles.modal__form}>
               <label htmlFor="name" className={styles.modal__name + " " + styles.modal__label}>
-                {t(modal.inputName)}
+                {t("modal.inputName")}
               </label>
               <input type="message" id="name" name="message" className={styles.modal__input} />
               <ValidationError prefix="Message" field="message" errors={state.errors} />
               <label htmlFor="email" className={styles.modal__email + " " + styles.modal__label}>
-                {t(modal.inputEmail)}
+                {t("modal.inputEmail")}
               </label>
               <input type="email" id="email" name="email" className={styles.modal__input} />
               <ValidationError prefix="Email" field="email" errors={state.errors} />
               <button className={styles.button} type="submit">
-                {t(modal.submit)}
+                {t("modal.submit")}
               </button>
             </form>
           </div>

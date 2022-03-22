@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import styles from "./ArchetypesCard.module.scss";
 import SvgArrow from "../SvgArrow/SvgArrow";
 import { useTranslation } from "react-i18next";
-import { archetypesCard } from "../../translations/ua/common.json";
 export default function ArchetypesCard({
   motivationText,
   fearText,
@@ -42,19 +41,19 @@ export default function ArchetypesCard({
             <div className={styles.textWrapper}>
               <h2 className={styles.caption}>{headline}</h2>
               <p className={styles.characteristic}>
-                <span>{t(archetypesCard.motivation)}:</span> {motivationText}
+                <span>{t("archetypesCard.motivation")}:</span> {motivationText}
               </p>
               <p className={styles.characteristic}>
-                <span>{t(archetypesCard.fear)}:</span> {fearText}
+                <span>{t("archetypesCard.fear")}:</span> {fearText}
               </p>
               <p className={styles.characteristic}>
-                <span>{t(archetypesCard.strong)}:</span> {strongSideText}
+                <span>{t("archetypesCard.strong")}:</span> {strongSideText}
               </p>
               <p className={styles.characteristic}>
-                <span>{t(archetypesCard.weak)}:</span> {weakSideText}
+                <span>{t("archetypesCard.weak")}:</span> {weakSideText}
               </p>
               <p className={styles.characteristic}>
-                <span>{t(archetypesCard.strategy)}:</span> {strategyText}
+                <span>{t("archetypesCard.strategy")}:</span> {strategyText}
               </p>
             </div>
           </div>

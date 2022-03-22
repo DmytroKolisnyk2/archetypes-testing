@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import styles from "./Block2Question.module.scss";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
-import { block2 } from "../../translations/ua/common.json";
 
 export default function Block2Question({ images, itemId, changeTestData, itemData }) {
   const [radio, setRadio] = useState(itemData);
@@ -15,7 +14,7 @@ export default function Block2Question({ images, itemId, changeTestData, itemDat
   return (
     <li id={`block-2_${itemId}`} className={styles.question}>
       <h3 className={styles.headline}>
-        {itemId}. {t(block2.question)}
+        {itemId}. {t("block2.question")}
       </h3>
       <div className={styles.variantsWrapper}>
         {images.map((item, index) => {

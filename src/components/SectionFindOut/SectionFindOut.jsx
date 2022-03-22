@@ -1,6 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { sectionFindOut } from "../../translations/ua/common.json";
 import styles from "./SectionFindOut.module.scss";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import CardSection from "../CardSection/CardSection";
@@ -13,16 +12,13 @@ const SectionFindOut = () => {
   const { t } = useTranslation();
   return (
     <section className={styles.section}>
-      <SectionTitle
-        title={t(sectionFindOut.title)}
-        text={t(sectionFindOut.subtitle)}
-      />
+      <SectionTitle title={t("sectionFindOut.title")} text={t("sectionFindOut.subtitle")} />
       <ul className={styles.wrapperCards}>
         <CardSection
           bobs={<Bob1 />}
           smallRectangular
-          title={t(sectionFindOut.titleCard1)}
-          description={t(sectionFindOut.subtitleCard1)}
+          title={t("sectionFindOut.titleCard1")}
+          description={t("sectionFindOut.subtitleCard1")}
           color="purple"
           cardImg={smallCardImg1}
           typeImg="image"
@@ -30,8 +26,8 @@ const SectionFindOut = () => {
         <CardSection
           bobs={<Bob1 />}
           smallRectangular
-          title={t(sectionFindOut.titleCard2)}
-          description={t(sectionFindOut.subtitleCard2)}
+          title={t("sectionFindOut.titleCard2")}
+          description={t("sectionFindOut.subtitleCard2")}
           color="green"
           cardImg={smallCardImg2}
           typeImg="image1"
@@ -39,8 +35,8 @@ const SectionFindOut = () => {
         <CardSection
           bobs={<Bob1 />}
           smallRectangular
-          title={t(sectionFindOut.titleCard3)}
-          description={t(sectionFindOut.subtitleCard3)}
+          title={t("sectionFindOut.titleCard3")}
+          description={t("sectionFindOut.subtitleCard3")}
           color="pink"
           cardImg={smallCardImg3}
           typeImg="image2"

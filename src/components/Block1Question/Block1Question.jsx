@@ -33,7 +33,7 @@ function Block1Question({ options, headline, itemId, changeTestData, itemData, e
                 id={`block-1_${itemId}-${key}`}
                 onChange={() => {
                   setRadio(key);
-                  document.querySelector(`#block-1_${itemId + 1}`)?.scrollIntoView();
+                  // document.querySelector(`#block-1_${itemId + 1}`)?.scrollIntoView();
                 }}
                 className={TestBlockStyles.radio}
               />

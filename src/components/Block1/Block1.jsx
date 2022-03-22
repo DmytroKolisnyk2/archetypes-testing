@@ -2,10 +2,8 @@ import React, { useState, useEffect } from "react";
 import styles from "./Block1.module.scss";
 
 import { useTranslation } from "react-i18next";
-import { block1 } from "../../translations/ua/common.json";
 
 import path from "../../services/routerPath.json";
-import { testBlock } from "../../translations/ua/common.json";
 import { firstBlock } from "../../services/questions/firstBlock.json";
 
 import { Link } from "react-router-dom";
@@ -27,14 +25,14 @@ function Block1({ block1Data, changeTestData, block1Completed }) {
   return (
     <div>
       <section id="block1">
-        <SectionTitle title={t(block1.title)} text={t(block1.text)} />
+        <SectionTitle title={t("block1.title")} text={t("block1.text")} />
         <form action="#">
           <ul>
             {firstBlock.map((item) => (
               <Block1Question
                 key={item.id}
-                headline={t(block1[`question${item.id}`])}
-                options={[t(block1.options.no), t(block1.options.yes)]}
+                headline={t(`block1.question${item.id}`)}
+                options={[t("block1.options.no"), t("block1.options.yes")]}
                 itemId={item.id}
                 changeTestData={(data) => changeTestData(data)}
                 itemData={block1Data.find((piece) => piece.id === item.id)?.radio || null}
@@ -48,7 +46,7 @@ function Block1({ block1Data, changeTestData, block1Completed }) {
         <DisableBtn isOpen={isOpen}>
           <Link to={path.block2}>
             <Button type="submit" paddingLeft={40} width={170} bgColor={"violet"} color={"white"}>
-              <p className={styles.testBlock1Text}>{t(testBlock.nextBtn)}</p>
+              <p className={styles.testBlock1Text}>{t("testBlock.nextBtn")}</p>
               <SvgArrow size={20} orientation="right" color={"white"} />
             </Button>
           </Link>

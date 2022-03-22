@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import NavigationStyles from "./Navigation.module.scss";
 import path from "../../services/routerPath.json";
 import { useTranslation } from "react-i18next";
-import { navigation } from "../../translations/ua/common.json";
 
 const Navigation = () => {
   const { t } = useTranslation();
@@ -18,7 +17,7 @@ const Navigation = () => {
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }
           >
-            {t(navigation.test)}
+            {t("navigation.test")}
           </NavLink>
         </li>
         <li className={NavigationStyles.navigationLi}>
@@ -28,7 +27,7 @@ const Navigation = () => {
               navData.isActive ? NavigationStyles.NavLinkActive : NavigationStyles.NavLink
             }
           >
-            {t(navigation.archetypes)}
+            {t("navigation.archetypes")}
           </NavLink>
         </li>
         <li className={NavigationStyles.navigationLi}>
@@ -41,7 +40,7 @@ const Navigation = () => {
               navData.isActive ? NavigationStyles.NavLink : NavigationStyles.NavLink
             }
           >
-            {t(navigation.contacts)}
+            {t("navigation.contacts")}
           </NavLink>
         </li>
       </ul>

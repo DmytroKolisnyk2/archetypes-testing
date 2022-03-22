@@ -2,13 +2,11 @@ import React, { useState, useEffect } from "react";
 import Block2Question from "../Block2Question/Block2Question";
 import { secondBlock } from "../../services/questions/secondBlock.json";
 import SectionTitle from "../SectionTitle/SectionTitle";
-import { testBlock } from "../../translations/ua/common.json";
 import styles from "./Block2.module.scss";
 import Button from "../Button/Button";
 import SvgArrow from "../SvgArrow/SvgArrow";
 
 import { useTranslation } from "react-i18next";
-import { block2 } from "../../translations/ua/common.json";
 
 import { Link } from "react-router-dom";
 import path from "../../services/routerPath.json";
@@ -28,7 +26,7 @@ const Block2 = ({ block2Data, changeTestData, block2Completed }) => {
 
   return (
     <section id="block2">
-      <SectionTitle title={t(block2.title)} text={t(block2.text)} />
+      <SectionTitle title={t("block2.title")} text={t("block2.text")} />
       <form className={styles.form} action="#">
         <ul>
           {secondBlock.map((item) => (
@@ -46,13 +44,13 @@ const Block2 = ({ block2Data, changeTestData, block2Completed }) => {
         <Link to={path.block1}>
           <Button type="submit" paddingRight={30} width={170} bgColor={"violet"} color={"white"}>
             <SvgArrow size={20} orientation="left" color={"white"} />
-            <p className={styles.testBlock1Text}>{t(testBlock.backBtn)}</p>
+            <p className={styles.testBlock1Text}>{t("testBlock.backBtn")}</p>
           </Button>
         </Link>
         <DisableBtn isOpen={isOpen}>
           <Link to={path.block3}>
             <Button type="submit" paddingLeft={40} width={170} bgColor={"violet"} color={"white"}>
-              <p className={styles.testBlock1Text}>{t(testBlock.nextBtn)}</p>
+              <p className={styles.testBlock1Text}>{t("testBlock.nextBtn")}</p>
               <SvgArrow size={20} orientation="right" color={"white"} />
             </Button>
           </Link>

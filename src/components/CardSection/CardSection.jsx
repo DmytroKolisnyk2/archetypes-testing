@@ -80,26 +80,5 @@ CardSection.defaultProps = {
   typeImg: "image"
 };
 
-// Дока
-// Щоб викликати маленьку крім основних пропів потрібно прокинути smallRectangular. Решта все як завжди
-// Виклик великої трапеції(картки)
-{
-  /* <CardSection
-color="green"
-title="Реализовать свой потенциал"
-description="Архетипы помогают обнаружить свои нереализованные ценности и разблокировать к ним доступ. Интеграция ценностей своих архетипов в жизнь помогают проживать ее на полную и чувствовать удволетворенность."
-cardImg={CardImg}
-/> */
-}
-// Виклик малої трапеції(картки)
-{
-  /* <CardSection
-smallRectangular
-color="purple"
-title="Время"
-description="10 минут"
-cardImg={smallImg}
-/> */
-}
 
 export default CardSection;

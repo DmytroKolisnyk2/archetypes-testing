@@ -7,7 +7,6 @@ import path from "../../services/routerPath.json";
 import Button from "../Button/Button";
 import SvgArrow from "../SvgArrow/SvgArrow";
 import { useTranslation } from "react-i18next";
-import { header } from "../../translations/ua/common.json";
 import { useMatch, Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 
@@ -29,7 +28,7 @@ const Header = () => {
           <Link to={path.testLink} className={styles.button}>
             <Fade triggerOnce duration={500}>
               <Button width={220} color="black" bgColor="white">
-                <span>{t(header.btn)}</span>
+                <span>{t("header.btn")}</span>
                 <SvgArrow size={20} orientation="right" />
               </Button>
             </Fade>

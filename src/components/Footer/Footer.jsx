@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import { footer } from "../../translations/ua/common.json";
 import React from "react";
 import FooterStyles from "./Footer.module.scss";
 import Button from "../Button/Button";
@@ -22,8 +21,8 @@ const Footer = () => {
             <div className={FooterStyles.sectionTitleDiv}>
               <Slide triggerOnce duration={600}>
                 <Fade triggerOnce cascade duration={600}>
-                  <h2 className={FooterStyles.footerTitle}>{t(footer.title)}</h2>
-                  <p className={FooterStyles.footerSubText}>{t(footer.text)}</p>
+                  <h2 className={FooterStyles.footerTitle}>{t("footer.title")}</h2>
+                  <p className={FooterStyles.footerSubText}>{t("footer.text")}</p>
                 </Fade>
               </Slide>
             </div>
@@ -38,7 +37,7 @@ const Footer = () => {
                       bgColor={"pink"}
                       color={"white"}
                     >
-                      {t(footer.button1)}
+                      {t("footer.button1")}
                     </Button>
                   </Fade>
                 </Link>
@@ -47,7 +46,7 @@ const Footer = () => {
                   <Link to={path.testLink}>
                     <Fade triggerOnce>
                       <Button width={210} color="black" bgColor="white">
-                        <span>{t(footer.button2)}</span>
+                        <span>{t("footer.button2")}</span>
                         <SvgArrow size={20} orientation="right" />
                       </Button>
                     </Fade>

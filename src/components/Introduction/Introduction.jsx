@@ -8,8 +8,6 @@ import ImgSmall from "../../images/introduction_small.png";
 import path from "../../services/routerPath.json";
 import { useTranslation } from "react-i18next";
 
-import { introduction } from "../../translations/ua/common.json";
-
 export default function Introduction() {
   const { t } = useTranslation();
 
@@ -17,12 +15,12 @@ export default function Introduction() {
     <div className={styles.introduction}>
       <div className={styles.contentWrapper}>
         <div className={styles.textWrapper}>
-          <h1 className={styles.headline}> {t(introduction.headline)}</h1>
-          <p className={styles.text}>{t(introduction.text)}</p>
+          <h1 className={styles.headline}> {t("introduction.headline")}</h1>
+          <p className={styles.text}>{t("introduction.text")}</p>
           <div className={styles.btnWrapper}>
             <Link className={styles.link} to={path.testLink}>
               <Button width={170} color="white" bgColor="violet">
-                {t(introduction.btn)}
+                {t("introduction.btn")}
               </Button>
             </Link>
           </div>

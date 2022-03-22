@@ -29,7 +29,7 @@ const SectionArchetypes = () => {
   };
   return (
     <section className={styles.section}>
-      <SectionTitle title={t(sectionArchetypes.title)} text={t(sectionArchetypes.subtitle)} />
+      <SectionTitle title={t("sectionArchetypes.title")} text={t("sectionArchetypes.subtitle")} />
       <ul className={styles.wrapperCards}>
         {cards.map((item, index) => {
           return (

@@ -1,10 +1,10 @@
 {
   "archetypesCard": {
-    "motivation": "Мотивація",
-    "fear": "Страх",
-    "strong": "Сильні сторони",
-    "weak": "Слабкі сторони",
-    "strategy": "Стратегія"
+    "motivation": "Motivation",
+    "fear": "Fear",
+    "strong": "Strengths",
+    "weak": "Weaknesses",
+    "strategy": "Strategy"
   },
   "footer": {
     "title": "Archetypes",
@@ -99,11 +99,11 @@
     "Innocent": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Innocent.PNG?raw=true",
       "title": "Innocent",
-      "subtitle1": "Help people to find their happines",
-      "subtitle2": "Saty alone",
-      "subtitle3": "Optimism",
-      "subtitle4": "Innocence",
-      "subtitle5": "Let others feel the lightness and serenity around him",
+      "subtitle1": "help people to find their happines",
+      "subtitle2": "stay alone",
+      "subtitle3": "optimism",
+      "subtitle4": "innocence",
+      "subtitle5": "let others feel the lightness and serenity around him",
       "paragraph1": {
         "title": "COMFORT",
         "text": "Innocent is the easiest and the most optimistic type. We can say that it is the image of an eternal child that enjoys a moment, flight of fancy and is constantly surprised. Representatives of this archetype more often than others need care and support."
@@ -116,11 +116,11 @@
     "Esthete": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Esthete.PNG?raw=true",
       "title": "Esthete",
-      "subtitle1": "Get enjoyment",
-      "subtitle2": "Be rejected",
-      "subtitle3": "Live 'right now', communication",
-      "subtitle4": "Manipulations, too emotional",
-      "subtitle5": "Get results by relations with others",
+      "subtitle1": "get enjoyment",
+      "subtitle2": "be rejected",
+      "subtitle3": "live 'right now', communication",
+      "subtitle4": "manipulations, too emotional",
+      "subtitle5": "get results by relations with others",
       "paragraph1": {
         "title": "COMFORT",
         "text": "For an esthete, first of all, comfort and enjoyment of life are important. Esthetes are noble hedonists, they know how to brightly present themselves and create comfort. By right, this type can be called the most emotional, striving for intimacy and contact with other people. Beauty and aesthetics for this type is of key importance."
@@ -133,11 +133,11 @@
     "Glorious Small": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Glorious_Small.PNG?raw=true",
       "title": "Good fellow",
-      "subtitle1": "Be a worthy part of society",
-      "subtitle2": "Stand out from a crowd",
-      "subtitle3": "Simplicity, reliability",
-      "subtitle4": "Desire to meet expectations",
-      "subtitle5": "Be insider in any company",
+      "subtitle1": "be a worthy part of society",
+      "subtitle2": "stand out from a crowd",
+      "subtitle3": "simplicity, reliability",
+      "subtitle4": "desire to meet expectations",
+      "subtitle5": "be insider in any company",
       "paragraph1": {
         "title": "COMFORT",
         "text": "Good fellow is on good terms with any company. It is easy to find a common language with him and in communication you quickly get the impression that you have known this person all your life. Good fellow cares how others treat him, so he will do a lot to please people and meet the expectations of others."
@@ -150,11 +150,11 @@
     "Jester": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Jester.PNG?raw=true",
       "title": "Jester",
-      "subtitle1": "Live a bright life",
-      "subtitle2": "Be uninteresting, boredom",
-      "subtitle3": "Sense of humor",
-      "subtitle4": "Frivolity, avoidance of responsibility",
-      "subtitle5": "Getting attention through vivid images and emotions",
+      "subtitle1": "live a bright life",
+      "subtitle2": "be uninteresting, boredom",
+      "subtitle3": "sense of humor",
+      "subtitle4": "frivolity, avoidance of responsibility",
+      "subtitle5": "getting attention through vivid images and emotions",
       "paragraph1": {
         "title": "COMFORT",
         "text": "Jester is the main merry fellow in any company. With the help of humor, jokes and practical jokes, this type sets others in a positive way. Next to jester is rarely boring, he knows how to create a holiday atmosphere and entertain others."
@@ -167,11 +167,11 @@
     "Ruler": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Ruler.PNG?raw=true",
       "title": "Ruler",
-      "subtitle1": "Be successful",
-      "subtitle2": "Lose control",
-      "subtitle3": "Leadership, responsibility",
-      "subtitle4": "Inflexibility, pulls everything on himself",
-      "subtitle5": "Manage others, achieve results through authority",
+      "subtitle1": "be successful",
+      "subtitle2": "lose control",
+      "subtitle3": "leadership, responsibility",
+      "subtitle4": "inflexibility, pulls everything on himself",
+      "subtitle5": "manage others, achieve results through authority",
       "paragraph1": {
         "title": "COMFORT",
         "text": "Ruler is a bright leader and one who leads. Such people are often independent, self-confident and like to take responsibility. Born leader and manager. Rulers love everything related to status, achievements and results, they are not shy to show themselves in all their glory."
@@ -184,11 +184,11 @@
     "Seeker": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Seeker.PNG?raw=true",
       "title": "Seeker",
-      "subtitle1": "Self-realization",
-      "subtitle2": "Lose your freedom",
-      "subtitle3": "Openness to the world, flexibility",
-      "subtitle4": "Endless search for yourself, instability",
-      "subtitle5": "Constant movement to explore yourself",
+      "subtitle1": "self-realization",
+      "subtitle2": "lose your freedom",
+      "subtitle3": "openness to the world, flexibility",
+      "subtitle4": "endless search for yourself, instability",
+      "subtitle5": "constant movement to explore yourself",
       "paragraph1": {
         "title": "COMFORT",
         "text": "Seeker is a person in constant search for opportunities, change and freedom. This person is not always a traveler, a seeker can look for himself in the inner world, in a career or relationships, but the basis is unchanged that is change and movement forward. This is the most freedom-loving archetype, limits and commitment hinder its potential."
@@ -201,11 +201,11 @@
     "Rebel": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Rebel.PNG?raw=true",
       "title": "Rebel",
-      "subtitle1": "Change what you don't like",
-      "subtitle2": "Banality, static",
-      "subtitle3": "Innovation, determination",
-      "subtitle4": "Confrontation, outrageousness",
-      "subtitle5": "Go against a system to change something",
+      "subtitle1": "change what you don't like",
+      "subtitle2": "banality, static",
+      "subtitle3": "innovation, determination",
+      "subtitle4": "confrontation, outrageousness",
+      "subtitle5": "go against a system to change something",
       "paragraph1": {
         "title": "COMFORT",
         "text": "Often a rebel can be recognized by his willingness to enter into an argument and go against a system. These are people who hit and then apologize. This world needs rebels to update systems, break stereotypes and bring something new into the lives of others."
@@ -218,11 +218,11 @@
     "Hero": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Hero.PNG?raw=true",
       "title": "Hero",
-      "subtitle1": "Show his power",
-      "subtitle2": "Be weak",
-      "subtitle3": "Strength, self-discipline",
-      "subtitle4": "Hubris",
-      "subtitle5": "Become as strong as possible",
+      "subtitle1": "show his power",
+      "subtitle2": "be weak",
+      "subtitle3": "strength, self-discipline",
+      "subtitle4": "hubris",
+      "subtitle5": "become as strong as possible",
       "paragraph1": {
         "title": "COMFORT",
         "text": "The comfortable environment for the hero is the battlefield, and the main task is to fight. It is almost impossible for a hero to sit idle. The hero is always ready to sacrifice himself, his time and resources in order to prove his strength and competence. Dedication and devotion to the idea is also characteristic of the heroes. Heroes love competition, for them it is a good resource to move forward to new heights."
@@ -235,11 +235,11 @@
     "Guardian": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Guardian.PNG?raw=true",
       "title": "Guardian",
-      "subtitle1": "Help others",
-      "subtitle2": "Be selfless",
-      "subtitle3": "Kindness, caring",
-      "subtitle4": "Neglecting oneself for the sake of others",
-      "subtitle5": "Help others move to another level",
+      "subtitle1": "help others",
+      "subtitle2": "be selfless",
+      "subtitle3": "kindness, caring",
+      "subtitle4": "neglecting oneself for the sake of others",
+      "subtitle5": "help others move to another level",
       "paragraph1": {
         "title": "COMFORT",
         "text": "A guardian in comfort is a person who is ready to help, shelter, warm and teach something new. Caring flows in the blood of guardians. It is important to understand that guardians with their care can reveal a person, his potential and give impetus to development. Guardians know how to make this world kinder."
@@ -252,11 +252,11 @@
     "Sage": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Sage.PNG?raw=true",
       "title": "Sage",
-      "subtitle1": "Cognition in its purest form",
-      "subtitle2": "Don't know something",
-      "subtitle3": "Penetrating mind, objectivity",
-      "subtitle4": "Immersion in yourself, weak empathy, alienation",
-      "subtitle5": "Bring knowledge into this world and eradicate ignorance",
+      "subtitle1": "cognition in its purest form",
+      "subtitle2": "don't know something",
+      "subtitle3": "penetrating mind, objectivity",
+      "subtitle4": "immersion in yourself, weak empathy, alienation",
+      "subtitle5": "bring knowledge into this world and eradicate ignorance",
       "paragraph1": {
         "title": "COMFORT",
         "text": "A wise man can be recognized by a slightly detached look, speech seasoned with terminology and a love of philosophical conversations. Representatives of this archetype are often harmless and a little eccentric, can go into fantasies and endlessly learn something new. Curiosity and insightful mind make them interesting conversationalists, but companies will always prefer loneliness."
@@ -269,11 +269,11 @@
     "Mage": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Mage.PNG?raw=true",
       "title": "Magician",
-      "subtitle1": "Make your dreams come true and reach a new level",
-      "subtitle2": "Harm others with your actions",
-      "subtitle3": "Ability to see hidden trends, intuition",
-      "subtitle4": "Distance in communication",
-      "subtitle5": "To see what is inaccessible to others, reveal secret knowledge",
+      "subtitle1": "make your dreams come true and reach a new level",
+      "subtitle2": "harm others with your actions",
+      "subtitle3": "ability to see hidden trends, intuition",
+      "subtitle4": "distance in communication",
+      "subtitle5": "to see what is inaccessible to others, reveal secret knowledge",
       "paragraph1": {
         "title": "COMFORT",
         "text": "Magician is one of the most mysterious archetypes. Often, when you contact him, you get the impression that you are in contact with something unearthly, not completely understandable and kindly strange. Magicians easily notice hidden trends and pitfalls in any communication. Often these are gray cardinals that act on intuition and through other people."
@@ -286,11 +286,11 @@
     "Creator": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Creater.PNG?raw=true",
       "title": "Creator",
-      "subtitle1": "Stand out and be special",
-      "subtitle2": "Lose ability to create",
-      "subtitle3": "Creativity, openness to the new",
-      "subtitle4": "Low level of discipline",
-      "subtitle5": "Constant search for inspiration and a non-standard approach",
+      "subtitle1": "stand out and be special",
+      "subtitle2": "lose ability to create",
+      "subtitle3": "creativity, openness to the new",
+      "subtitle4": "low level of discipline",
+      "subtitle5": "constant search for inspiration and a non-standard approach",
       "paragraph1": {
         "title": "COMFORT",
         "text": "Creators are innovators, for them standard and ordinary things are simply boring. Creative people can rarely hold interest within limits and rules, and often live by inspiration rather than by schedule. It is important for creators to be special, stand out from the crowd and show their talent."

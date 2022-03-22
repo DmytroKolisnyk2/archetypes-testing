@@ -23,7 +23,6 @@ import PrivateRoute from "../../components/PrivateRoute/PrivateRoute";
 import { Fade } from "react-awesome-reveal";
 
 import { useTranslation } from "react-i18next";
-import { sectionFindOut } from "../../translations/ua/common.json";
 
 const TestPage = ({
   block1Data,
@@ -61,14 +60,14 @@ const TestPage = ({
           <Fade duration={300} triggerOnce direction="up">
             <Link onClick={clearStore} to={path.block1}>
               <Button width={"auto"} bgColor="pink" color="white">
-                {t(sectionFindOut.btnClear)}
+                {t("sectionFindOut.btnClear")}
               </Button>
             </Link>
             <div>
               {started && (
                 <Link to={path.block1}>
                   <Button width={"auto"} bgColor="violet" color="white">
-                    {t(sectionFindOut.btnNext)}
+                    {t("sectionFindOut.btnNext")}
                   </Button>
                 </Link>
               )}
