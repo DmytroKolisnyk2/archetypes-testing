@@ -9,7 +9,7 @@ import SectionAbout from "../../components/SectionAbout/SectionAbout";
 import aboutArchetypesImg from "../../images/aboutArchetypesImg.png";
 import Introduction from "../../components/Introduction/Introduction";
 
-import { Fade} from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -18,8 +18,8 @@ export default function HomePage() {
       <Fade cascade duration={1500} triggerOnce>
         <Introduction />
         <SectionAbout
-          title={t(sectionAboutArchetypes.SectionAboutTitle)}
-          description={t(sectionAboutArchetypes.SectionDescription)}
+          title={t("sectionAboutArchetypes.SectionAboutTitle")}
+          description={t("sectionAboutArchetypes.SectionDescription")}
           sectionImg={aboutArchetypesImg}
         />
       </Fade>

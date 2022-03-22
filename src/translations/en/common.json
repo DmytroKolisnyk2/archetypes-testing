@@ -1,4 +1,11 @@
 {
+  "archetypesCard": {
+    "motivation": "Мотивація",
+    "fear": "Страх",
+    "strong": "Сильні сторони",
+    "weak": "Слабкі сторони",
+    "strategy": "Стратегія"
+  },
   "footer": {
     "title": "Archetypes",
     "text": "Archetype is not a simple typology of personality, but it is an opportunity to better understand yourself",
