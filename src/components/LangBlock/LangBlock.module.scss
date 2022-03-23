@@ -1,0 +1,45 @@
+
+.langImg {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.langWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.langText {
+  cursor: pointer;
+  font-size: 11px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  transition: 200ms linear;
+  color: #575859;
+  border: 1px solid #575859;
+  border-radius: 10px;
+  width: 52px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  line-height: 16px;
+  font-weight: 500;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &Active {
+    color: #5f00d8;
+    border-color: #5f00d8;
+  }
+}
+
+.controlsWrapper {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 8px;
+}

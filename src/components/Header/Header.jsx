@@ -42,9 +42,9 @@ const Header = () => {
               </Fade>
             </div>
           )}
-          <Fade triggerOnce duration={500}>
+          {/* <Fade triggerOnce duration={500}> */}
             <LangBlock/>
-          </Fade>
+          {/* </Fade> */}
         </div>
       </header>
     </div>
