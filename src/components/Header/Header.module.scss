@@ -1,5 +1,4 @@
 .Header {
-  // margin-top: 22px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,6 +11,9 @@
   }
   @media screen and (max-width: 768px) {
     padding: 21px 20px 0;
+  }
+  @media screen and (max-width: 440px) {
+    padding: 0 12px 0;
   }
 }
 .headerWrapper {
@@ -30,11 +32,66 @@
   max-width: 455px;
   width: 100%;
   @media screen and (max-width: 768px) {
-    max-width: 100%;
+    max-width: calc(100% - 90px);
+  }
+  @media screen and (max-width: 390px) {
+    max-width: calc(100% - 70px);
   }
 }
+.logo {
+  margin-right: 15px;
+}
 .button {
+  margin-right: 60px;
   @media screen and (max-width: 1024px) {
     display: none;
   }
+}
+.btnWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.langImg {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+.langWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.langText {
+  cursor: pointer;
+  font-size: 11px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  transition: 200ms linear;
+  color: #575859;
+  border: 1px solid #575859;
+  border-radius: 10px;
+  width: 52px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  line-height: 16px;
+  font-weight: 500;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &Active {
+    color: #5f00d8;
+    border-color: #5f00d8;
+  }
+}
+.controlsWrapper {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 8px;
 }

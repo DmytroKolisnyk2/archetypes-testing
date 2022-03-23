@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import path from "./services/routerPath.json";
 import "./translations/i18nReact";
 
+import { useSelector } from "react-redux";
+import { getLang } from "./redux/lang/lang-selector";
+
 import "./styles/App.scss";
+import i18n from "./translations/i18nReact";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import GradientWrapper from "./components/GradientWrapper/GradientWrapper";
-
 
 import asyncComponent from "./services/asyncComponent";
 import Loader from "./components/Loader/Loader";
@@ -31,6 +34,9 @@ const ArchetypeDetailPage = asyncComponent({
 });
 
 const App = () => {
+  const lang = useSelector(getLang);
+
+  useEffect(() => i18n.changeLanguage(lang), []);
   return (
     <>
       <Header></Header>
