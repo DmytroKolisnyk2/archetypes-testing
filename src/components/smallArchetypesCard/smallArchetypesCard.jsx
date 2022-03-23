@@ -26,7 +26,7 @@ const smallArchetypesCard = ({color, title, cardId, bobs, rotate}) => {
 
 smallArchetypesCard.propTypes = {
     color: PropTypes.string.isRequired,
-    title: PropTypes.array.isRequired,
+    title: PropTypes.string.isRequired,
     cardId: PropTypes.string.isRequired,
     bobs: PropTypes.element
 };

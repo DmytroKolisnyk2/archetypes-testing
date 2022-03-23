@@ -44,56 +44,44 @@
   "sectionArchetypes": {
     "title": "Archetypes",
     "subtitle": "Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.",
-    "arrayTitleCards": [
-      {
-        "titleCard": "Jester",
-        "id": "Jester"
+    "arrayTitleCards": {
+      "Jester": {
+        "titleCard": "Jester"
       },
-      {
-        "titleCard": "Sage",
-        "id": "Sage"
+      "Sage": {
+        "titleCard": "Sage"
       },
-      {
-        "titleCard": "Rebel",
-        "id": "Rebel"
+      "Rebel": {
+        "titleCard": "Rebel"
       },
-      {
-        "titleCard": "Ruler",
-        "id": "Ruler"
+      "Ruler": {
+        "titleCard": "Ruler"
       },
-      {
-        "titleCard": "Magician",
-        "id": "Mage"
+      "Mage": {
+        "titleCard": "Mage"
       },
-      {
-        "titleCard": "Innocent",
-        "id": "Innocent"
+      "Innocent": {
+        "titleCard": "Innocent"
       },
-      {
-        "titleCard": "Good fellow",
-        "id": "Glorious Small"
+      "Glorious Small": {
+        "titleCard": "Glorious Small"
       },
-      {
-        "titleCard": "Guardian",
-        "id": "Guardian"
+      "Guardian": {
+        "titleCard": "Guardian"
       },
-      {
-        "titleCard": "Seeker",
-        "id": "Seeker"
+      "Seeker": {
+        "titleCard": "Seeker"
       },
-      {
-        "titleCard": "Hero",
-        "id": "Hero"
+      "Hero": {
+        "titleCard": "Hero"
       },
-      {
-        "titleCard": "Creator",
-        "id": "Creator"
+      "Creator": {
+        "titleCard": "Creator"
       },
-      {
-        "titleCard": "Esthete",
-        "id": "Esthete"
+      "Esthete": {
+        "titleCard": "Esthete"
       }
-    ]
+    }
   },
   "archetypePage": {
     "Innocent": {

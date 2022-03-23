@@ -5,9 +5,9 @@ import "./translations/i18nReact";
 
 import { useSelector } from "react-redux";
 import { getLang } from "./redux/lang/lang-selector";
+import i18n from "./translations/i18nReact";
 
 import "./styles/App.scss";
-import i18n from "./translations/i18nReact";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";

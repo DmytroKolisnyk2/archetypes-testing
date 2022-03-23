@@ -44,56 +44,44 @@
   "sectionArchetypes": {
     "title": "Архетипи",
     "subtitle": "Деякі функції та переваги, які ми надаємо для тих із вас, хто зберігає дані в цьому сховищі даних.",
-    "arrayTitleCards": [
-      {
-        "titleCard": "Блазень",
-        "id": "Jester"
+    "arrayTitleCards": {
+      "Jester": {
+        "titleCard": "Блазень"
       },
-      {
-        "titleCard": "Мудрець",
-        "id": "Sage"
+      "Sage": {
+        "titleCard": "Мудрець"
       },
-      {
-        "titleCard": "Бунтар",
-        "id": "Rebel"
+      "Rebel": {
+        "titleCard": "Бунтар"
       },
-      {
-        "titleCard": "Імператор",
-        "id": "Ruler"
+      "Ruler": {
+        "titleCard": "Імператор"
       },
-      {
-        "titleCard": "Чаклун",
-        "id": "Mage"
+      "Mage": {
+        "titleCard": "Чаклун"
       },
-      {
-        "titleCard": "Невинний",
-        "id": "Innocent"
+      "Innocent": {
+        "titleCard": "Невинний"
       },
-      {
-        "titleCard": "Славний Малий",
-        "id": "Glorious Small"
+      "Glorious Small": {
+        "titleCard": "Славний Малий"
       },
-      {
-        "titleCard": "Опікун",
-        "id": "Guardian"
+      "Guardian": {
+        "titleCard": "Опікун"
       },
-      {
-        "titleCard": "Шукач",
-        "id": "Seeker"
+      "Seeker": {
+        "titleCard": "Шукач"
       },
-      {
-        "titleCard": "Герой",
-        "id": "Hero"
+      "Hero": {
+        "titleCard": "Герой"
       },
-      {
-        "titleCard": "Творець",
-        "id": "Creator"
+      "Creator": {
+        "titleCard": "Творець"
       },
-      {
-        "titleCard": "Естет",
-        "id": "Esthete"
+      "Esthete": {
+        "titleCard": "Естет"
       }
-    ]
+    }
   },
   "archetypePage": {
     "Innocent": {

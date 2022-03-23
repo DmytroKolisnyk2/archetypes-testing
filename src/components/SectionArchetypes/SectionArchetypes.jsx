@@ -49,9 +49,7 @@ const SectionArchetypes = () => {
                 rotate={item.rotate}
                 cardId={item.id}
                 color={item.color}
-                title={sectionArchetypes.arrayTitleCards.map((itemText) => {
-                  return itemText.id === item.id && itemText.titleCard;
-                })}
+                title={t(`sectionArchetypes.arrayTitleCards.${item.id}.titleCard`)}
               />
             </Fade>
           );
