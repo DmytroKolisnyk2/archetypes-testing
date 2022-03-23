@@ -19,13 +19,14 @@ const Footer = () => {
             <div className={FooterStyles.sectionTitleDiv}>
               <h2 className={FooterStyles.footerTitle}>{t(footer.title)}</h2>
               <p className={FooterStyles.footerSubText}>{t(footer.text)}</p>
+              <p className={FooterStyles.footerSubText1}>{t(footer.span)}</p>
             </div>
             <div className={FooterStyles.FooterButtonWrapper}>
               <Link className={FooterStyles.archetypesBtn} to={path.archetypes}>
                 <Button
                   // margin={"0 auto 32px"}
-                  paddingRight={0}
-                  paddingLeft={10}
+                  paddingRight={15}
+                  paddingLeft={25}
                   width={170}
                   bgColor={"pink"}
                   color={"white"}
@@ -45,28 +46,10 @@ const Footer = () => {
             </div>
           </div>
           <div className={FooterStyles.iconWrapper}>
-            <SocialIcon
-              link={"facebookLink"}
-              backgroundImg={"facebook"}
-              bgColor={"blue"}
-              width={12}
-              top={13}
-            ></SocialIcon>
-            <SocialIcon
-              link={"gitHubLink"}
-              backgroundImg={"gitHub"}
-              bgColor={"black"}
-              width={30}
-              top={10}
-            ></SocialIcon>
-            <SocialIcon
-              link={"instagramLink"}
-              backgroundImg={"instagram"}
-              bgColor={"purple"}
-              top={12}
-              width={40}
-            ></SocialIcon>
-          </div>
+   
+    <SocialIcon link={"gitHubLink"} backgroundImg={"gitHub"} bgColor={'white'} width={77} height={77} props={t(footer.subtextIconInstagram)}></SocialIcon>
+    <SocialIcon link={"instagramLink"} backgroundImg={"instagram"} height={77} width={77}  props={t(footer.subtextIconGitHub)}></SocialIcon>
+    </div>
           <p className={FooterStyles.footerText}>
             {" "}
             2022. All rights reserved. Created by GoITeens.
