@@ -23,7 +23,7 @@ const Footer = () => {
                 <Fade triggerOnce cascade duration={600}>
                   <h2 className={FooterStyles.footerTitle}>{t("footer.title")}</h2>
                   <p className={FooterStyles.footerSubText}>{t("footer.text")}</p>
-              <p className={FooterStyles.footerSubText1}>{t("footer.span")}</p>
+                  <p className={FooterStyles.footerSubText1}>{t("footer.span")}</p>
                 </Fade>
               </Slide>
             </div>
@@ -31,8 +31,7 @@ const Footer = () => {
               <div className={FooterStyles.FooterButtonWrapper}>
                 <Link className={FooterStyles.archetypesBtn} to={path.archetypes}>
                   <Fade triggerOnce>
-                    <Button 
-                    margin={"0px auto 20px"}
+                    <Button
                       paddingRight={35}
                       paddingLeft={35}
                       width={"auto"}
@@ -59,11 +58,24 @@ const Footer = () => {
           </div>
           <Fade triggerOnce direction="up" cascade>
             <div className={FooterStyles.iconWrapper}>
-            <SocialIcon link={"gitHubLink"} backgroundImg={"gitHub"} bgColor={'white'} width={77} height={77} props={t("footer.subtextIconInstagram")}></SocialIcon>
-    <SocialIcon link={"instagramLink"} backgroundImg={"instagram"} height={77} width={77}  props={t("footer.subtextIconGitHub")}></SocialIcon>
+              <SocialIcon
+                link={"gitHubLink"}
+                backgroundImg={"gitHub"}
+                bgColor={"white"}
+                width={77}
+                height={77}
+                props={t("footer.subtextIconInstagram")}
+              ></SocialIcon>
+              <SocialIcon
+                link={"instagramLink"}
+                backgroundImg={"instagram"}
+                height={77}
+                width={77}
+                props={t("footer.subtextIconGitHub")}
+              ></SocialIcon>
             </div>
             <p className={FooterStyles.footerText}>
-             {t("footer.subText")}<span className={FooterStyles.footerTextSpan}>{t("footer.subTextSpan")}</span>
+              2022. All rights reserved. Created by GoITeens &#128155;
             </p>
           </Fade>
         </div>

@@ -7,10 +7,13 @@
     "strategy": "Strategy"
   },
   "footer": {
-    "title": "Archetypes",
+    "title": "About us",
     "text": "Archetype is not a simple typology of personality, but it is an opportunity to better understand yourself",
     "button1": "Types' list",
-    "button2": "Start test"
+    "button2": "Start test",
+    "subtextIconInstagram": "Психолог",
+    "subtextIconGitHub": "Розробники",
+    "span": "Our young team developed this project in collaboration with a psychologist so that you can learn about your unique traits and determine your career, studies and learn about your deep values."
   },
   "sectionWhatForArchetypes": {
     "title": "Why should you know your archetype ?",
@@ -43,7 +46,7 @@
   },
   "sectionArchetypes": {
     "title": "Archetypes",
-    "subtitle": "Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.",
+    "subtitle": "Learn more about each archetype",
     "arrayTitleCards": {
       "Jester": {
         "titleCard": "Jester"
@@ -413,7 +416,7 @@
   },
   "resultPage": {
     "titleSection": "Result",
-    "subtitle": "The most prominent archetypes and their detailed description",
+    "subtitle": "Find out which of your archetypes is the most developed",
     "titleCard1": "Second archetype",
     "titleCard2": "Third archetype"
   }
