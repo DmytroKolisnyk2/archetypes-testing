@@ -31,7 +31,8 @@ const Footer = () => {
               <div className={FooterStyles.FooterButtonWrapper}>
                 <Link className={FooterStyles.archetypesBtn} to={path.archetypes}>
                   <Fade triggerOnce>
-                    <Button
+                    <Button 
+                    margin={"0px auto 20px"}
                       paddingRight={35}
                       paddingLeft={35}
                       width={"auto"}
@@ -62,7 +63,7 @@ const Footer = () => {
     <SocialIcon link={"instagramLink"} backgroundImg={"instagram"} height={77} width={77}  props={t("footer.subtextIconGitHub")}></SocialIcon>
             </div>
             <p className={FooterStyles.footerText}>
-              2022. All rights reserved. Created by GoITeens.
+             {t("footer.subText")}<span className={FooterStyles.footerTextSpan}>{t("footer.subTextSpan")}</span>
             </p>
           </Fade>
         </div>

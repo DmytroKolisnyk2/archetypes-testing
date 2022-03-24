@@ -28,18 +28,22 @@
 .footerButtonText2 {
   font-size: 16px;
   font-weight: 800;
-}
-
-.footerWrapper {
-  position: absolute;
-  width: 584px;
-
-  left: 258px;
-  top: 2801px;
-}
-
-.footerWrappers {
   margin: 0 auto;
+  width: 107px;
+}
+
+.footerWrapper{
+position: absolute;
+width: 584px;
+
+left: 258px;
+top: 2801px;
+}
+
+.footerWrappers{
+
+    margin: 0 auto;
+
 }
 .footerIconLink {
   text-decoration: none;
@@ -66,10 +70,14 @@
 .footerText {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   text-align: center;
   margin-top: 60px;
+  color: #212353;
+}
+.footerTextSpan{
+  font-weight:700;
 }
 .footerTitle {
   font-family: "Open Sans", sans-serif;
@@ -139,15 +147,15 @@
   width: 220px;
   margin: 0 auto;
   margin-bottom: 55px;
-  @media screen and (min-width: 1024px) {
-    display: flex;
-    justify-content: center;
-    width: 410px;
-    justify-content: space-between;
-    height: 30px;
-    flex-wrap: nowrap;
-    margin-top: 25px;
-  }
+  // @media screen and (min-width: 900px) {
+   
+ 
+  //   width: 210px;
+  //   justify-content: center;
+  //   height: 30px;
+  //   flex-wrap: nowrap;
+  //   margin-top: 25px;
+  // }
   @media screen and (min-width: 1200px) {
     display: flex;
     justify-content: center;
@@ -188,8 +196,14 @@
 }
 
 .subTextTitle {
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 17px;
   width: 89px;
+  color: #212353;
+  
+  font-style: normal;
+font-weight: 600;
+font-size: 12px;
 }
 .footerSubText1 {
   font-family: "Open Sans", sans-serif;
@@ -203,7 +217,7 @@
   text-align: center;
 
   /* 1 */
-  margin: 0px auto 58px;
+  margin: 0px auto 12px;
 
   color: #4b5d68;
   max-width: 584px;
@@ -211,7 +225,7 @@
     align-items: normal;
     text-align: left;
     margin: 0px;
-    margin: 0px auto 58px;
+    margin: 0px auto 12px;
 
     padding: 0;
     max-width: 470px;
@@ -221,7 +235,9 @@
     align-items: normal;
     text-align: left;
     padding: 0;
-    margin: 0px auto 58px;
+    margin: 0px auto 12px;
+
     width: 584px;
   }
 }
+
