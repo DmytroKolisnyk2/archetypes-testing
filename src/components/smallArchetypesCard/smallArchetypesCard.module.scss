@@ -7,10 +7,14 @@
     width: 100%;
     height: 100%;
     position: relative;
+    transition: 200ms linear;
     & svg {
         width: 240px;
         height: 170px;
-    } 
+    }
+    &:hover {
+        transform: scale(1.05);
+    }
 }
 
 .smallCardRotate {
@@ -20,7 +24,7 @@
 }
 
 .title {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
