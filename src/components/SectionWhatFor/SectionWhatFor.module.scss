@@ -7,13 +7,11 @@
     flex-direction: column;
     // overflow: hidden;
     // overflow-x: hidden;
-    
-} 
+}
 
 .wrapperCards {
     margin: 0 auto;
     position: relative;
-    left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +24,9 @@
         align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
+    }
+    @media screen and (min-width: 1200px) {
+        left: 25px;
     }
     @media screen and (min-width: 1400px) {
         justify-content: space-between;
