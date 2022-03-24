@@ -24,12 +24,13 @@ const Footer = () => {
             <div className={FooterStyles.FooterButtonWrapper}>
               <Link className={FooterStyles.archetypesBtn} to={path.archetypes}>
                 <Button
-                  // margin={"0 auto 32px"}
+                 margin={"0 auto 20px auto"}
                   paddingRight={15}
                   paddingLeft={25}
                   width={170}
                   bgColor={"pink"}
                   color={"white"}
+                  
                 >
                   {t(footer.button1)}
                 </Button>
@@ -37,7 +38,7 @@ const Footer = () => {
 
               {!isTest && (
                 <Link to={path.block1}>
-                  <Button width={210} color="black" bgColor="white">
+                  <Button margin={"0 auto 20px auto"} width={210} color="black" bgColor="white">
                     <span>{t(footer.button2)}</span>
                     <SvgArrow size={20} orientation="right" />
                   </Button>
