@@ -1,5 +1,4 @@
-[English](./README.en.md)
-[Українська](./README.md)
+## [English](./README.en.md),[Українська](./README.md)
 
 # [Сайт про архетипи](https://unreal-me.com/)
 
