@@ -1,0 +1,188 @@
+.card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 290px;
+    max-height: 320px;
+    & svg {
+        width: 290px;
+        height: 320px;
+    }
+    @media screen and (min-width: 768px) {
+        max-width: 360px;
+        max-height: 300px;
+        margin-bottom: 40px;
+        & svg {
+            width: 360px;
+            height: 300px;
+        }
+    }
+    @media screen and (min-width: 1024px) {
+        max-width: 440px;
+        max-height: 360px;
+        margin-bottom: 50px;
+        & svg {
+            width: 440px;
+            height: 360px;
+        }
+    }
+}
+
+.card_smallRectangular {
+    position: relative;
+    max-width: 210px;
+    max-height: 160px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+    & svg {
+        width: 210px;
+        height: 160px;
+    }
+    @media screen and (min-width: 768px) {
+        max-width: 240px;
+        max-height: 190px;
+        margin-bottom: 0;
+        & svg {
+            width: 240px;
+            height: 190px;
+        }
+    }
+    @media screen and (min-width: 1400px) {
+        max-width:340px;
+        max-height: 270px;
+        & svg {
+            width: 340px;
+            height: 270px;
+        }
+    }
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    position: absolute;
+    top: 47%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    @media screen and (max-width: 1200px) {
+        left: 60%;
+    }
+}
+
+.content_smallRectangular {
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    @media screen and (max-width: 1400px) {
+        width: fit-content;
+        left: 50%;
+        top: 50%;
+    }
+}
+
+.title {
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(33, 35, 83, 1);
+    @media screen and (max-width: 1024px) {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+}
+
+.title_smallRectangular {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(33, 35, 83, 1);
+    @media screen and (min-width: 1024px) {
+        font-size: 24px;
+    }
+}
+
+.wrapper {
+    width: 250px;
+    text-align: left;
+    @media screen and (max-width: 1024px) {
+        width: 210px;
+    }
+}
+
+.wrapper_smallRectangular {
+    max-width: 190px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    @media screen and (max-width: 1400px) {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.image {
+    @media screen and (max-width: 1200px) {
+        display: none;
+    }
+}
+
+.image_smallRectangular {
+    width: 170px;
+    height: 220px;
+    @media screen and (max-width: 1400px) {
+        display: none;
+    }
+}
+
+.imageWidth1 {
+    width: 230px;
+    height: 230px;
+    @media screen and (max-width: 1400px) {
+        display: none;
+    }
+}
+
+.imageWidth2 {
+    width: 200px;
+    height: 200px;
+    @media screen and (max-width: 1400px) {
+        display: none;
+    }
+}
+
+.description {
+    color: rgba(75, 93, 104, 1);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 19px;
+    @media screen and (max-width: 1024px) {
+        font-size: 14px;
+    }
+}
+
+.description_smallRectangular {
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(75, 93, 104, 1);
+    font-size: 22px;
+    font-weight: 900;
+    @media screen and (min-width: 1400px) {
+        font-size: 30px;
+        line-height: 50px;
+    }
+}

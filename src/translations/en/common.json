@@ -1,0 +1,423 @@
+{
+  "archetypesCard": {
+    "motivation": "Motivation",
+    "fear": "Fear",
+    "strong": "Strengths",
+    "weak": "Weaknesses",
+    "strategy": "Strategy"
+  },
+  "footer": {
+    "title": "About us",
+    "text": "Archetype is not a simple typology of personality, but it is an opportunity to better understand yourself",
+    "button1": "Types' list",
+    "button2": "Start test",
+    "subtextIconInstagram": "Psychologist",
+    "subtextIconGitHub": "Developers",
+    "span": "Our young team developed this project in collaboration with a psychologist so that you can learn about your unique traits and determine your career, studies and learn about your deep values."
+  },
+  "sectionWhatForArchetypes": {
+    "title": "Why should you know your archetype ?",
+    "subtitle": "Knowledge about archetypes helps you being sped up in every aspect of your life from self-realization to relationships",
+    "titleCard1": "Better understand yourself",
+    "descriptionCard1": "Archetypes give clear understanding of your strengths and weaknesses, answer the questions where to take motivation and resources, and also highlight your life strategy",
+    "titleCard2": "Better understand others",
+    "descriptionCard2": "Knowing your own characteristics and noticing the characteristics of others, you can learn to build effective and enjoyable communication with family, friends, boss and even strangers.",
+    "titleCard3": "Realize your potential",
+    "descriptionCard3": "Archetypes help to identify and unblock your unrealized values. Integrating the values of archetypes into life helps to live it at full and feel satisfaction.",
+    "titleCard4": "Develop a personal brand",
+    "descriptionCard4": "Archetypes are a set of parameters, values and even visual solutions. If you know your archetypes, then you understand how to broadcast yourself organically in work, blog and life."
+  },
+  "sectionAboutArchetypes": {
+    "SectionAboutTitle": "What is archetype?",
+    "SectionDescription": "Archetypes are a multidimensional and deep typology of personality. With the help of archetypes you can look into the deepest parts of a soul, get acquainted with their light and shadow qualities, realize their value and strength."
+  },
+  "header": {
+    "btn": "Start test"
+  },
+  "introduction": {
+    "btn": "Start test",
+    "text": "If you have been looking for answers to your questions for a long time, but still do not understand when you grow up, then archetypes will help you put all the dots above the “i”",
+    "headline": "Find out your archetype"
+  },
+  "navigation": {
+    "test": "Test",
+    "archetypes": "Archetypes",
+    "contacts": "Contacts"
+  },
+  "sectionArchetypes": {
+    "title": "Archetypes",
+    "subtitle": "Learn more about each archetype",
+    "arrayTitleCards": {
+      "Jester": {
+        "titleCard": "Jester"
+      },
+      "Sage": {
+        "titleCard": "Sage"
+      },
+      "Rebel": {
+        "titleCard": "Rebel"
+      },
+      "Ruler": {
+        "titleCard": "Ruler"
+      },
+      "Mage": {
+        "titleCard": "Mage"
+      },
+      "Innocent": {
+        "titleCard": "Innocent"
+      },
+      "Glorious Small": {
+        "titleCard": "Glorious Small"
+      },
+      "Guardian": {
+        "titleCard": "Guardian"
+      },
+      "Seeker": {
+        "titleCard": "Seeker"
+      },
+      "Hero": {
+        "titleCard": "Hero"
+      },
+      "Creator": {
+        "titleCard": "Creator"
+      },
+      "Esthete": {
+        "titleCard": "Esthete"
+      }
+    }
+  },
+  "archetypePage": {
+    "Innocent": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Innocent.PNG?raw=true",
+      "title": "Innocent",
+      "subtitle1": "help people to find their happines",
+      "subtitle2": "stay alone",
+      "subtitle3": "optimism",
+      "subtitle4": "innocence",
+      "subtitle5": "let others feel the lightness and serenity around him",
+      "paragraph1": {
+        "title": "COMFORT",
+        "text": "Innocent is the easiest and the most optimistic type. We can say that it is the image of an eternal child that enjoys a moment, flight of fancy and is constantly surprised. Representatives of this archetype more often than others need care and support."
+      },
+      "paragraph2": {
+        "title": "STRESS",
+        "text": "Representatives of this type in stress become capricious child in the literal sense of the word. The innocent begins to show attention to himself and attracts attention, while not paying attention to the needs of people nearby"
+      }
+    },
+    "Esthete": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Esthete.PNG?raw=true",
+      "title": "Esthete",
+      "subtitle1": "get enjoyment",
+      "subtitle2": "be rejected",
+      "subtitle3": "live 'right now', communication",
+      "subtitle4": "manipulations, too emotional",
+      "subtitle5": "get results by relations with others",
+      "paragraph1": {
+        "title": "COMFORT",
+        "text": "For an esthete, first of all, comfort and enjoyment of life are important. Esthetes are noble hedonists, they know how to brightly present themselves and create comfort. By right, this type can be called the most emotional, striving for intimacy and contact with other people. Beauty and aesthetics for this type is of key importance."
+      },
+      "paragraph2": {
+        "title": "STRESS",
+        "text": "An esthete in stress is a 'drama queen' and a noble manipulator. There is impulsiveness in actions and decisions."
+      }
+    },
+    "Glorious Small": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Glorious_Small.PNG?raw=true",
+      "title": "Good fellow",
+      "subtitle1": "be a worthy part of society",
+      "subtitle2": "stand out from a crowd",
+      "subtitle3": "simplicity, reliability",
+      "subtitle4": "desire to meet expectations",
+      "subtitle5": "be insider in any company",
+      "paragraph1": {
+        "title": "COMFORT",
+        "text": "Good fellow is on good terms with any company. It is easy to find a common language with him and in communication you quickly get the impression that you have known this person all your life. Good fellow cares how others treat him, so he will do a lot to please people and meet the expectations of others."
+      },
+      "paragraph2": {
+        "title": "STRESS",
+        "text": "Good fellow under stress often doubts himself and loses confidence. The worst thing for him is to lose the favor of his comrades and find himself in center of a scandal or conflict. In such situation, good fellow will do everything to restore his good name. Without his environment, a nice fellow quickly withers and may lose interest in the world around him. Contact with people will help to recover."
+      }
+    },
+    "Jester": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Jester.PNG?raw=true",
+      "title": "Jester",
+      "subtitle1": "live a bright life",
+      "subtitle2": "be uninteresting, boredom",
+      "subtitle3": "sense of humor",
+      "subtitle4": "frivolity, avoidance of responsibility",
+      "subtitle5": "getting attention through vivid images and emotions",
+      "paragraph1": {
+        "title": "COMFORT",
+        "text": "Jester is the main merry fellow in any company. With the help of humor, jokes and practical jokes, this type sets others in a positive way. Next to jester is rarely boring, he knows how to create a holiday atmosphere and entertain others."
+      },
+      "paragraph2": {
+        "title": "STRESS",
+        "text": "The dark side of jester is often shown in black humor and banter. In stress jester loses his optimism, which is replaced by gloomy realism and anger at the world. In this state, jester can set others against each other, for fun, weave intrigues. He can lead a faucet cheeky lifestyle and lose all his former optimism."
+      }
+    },
+    "Ruler": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Ruler.PNG?raw=true",
+      "title": "Ruler",
+      "subtitle1": "be successful",
+      "subtitle2": "lose control",
+      "subtitle3": "leadership, responsibility",
+      "subtitle4": "inflexibility, pulls everything on himself",
+      "subtitle5": "manage others, achieve results through authority",
+      "paragraph1": {
+        "title": "COMFORT",
+        "text": "Ruler is a bright leader and one who leads. Such people are often independent, self-confident and like to take responsibility. Born leader and manager. Rulers love everything related to status, achievements and results, they are not shy to show themselves in all their glory."
+      },
+      "paragraph2": {
+        "title": "STRESS",
+        "text": "Under stress ruler becomes authoritarian and even somewhat tyrannical. He loses the ability to hear others and gets hung up on his own rightness. Ruler can be cruel in judgments and actions, impulsive and categorical. Rulers tend to divide people into friends and foes, feel superior to those who are weaker and constantly compete with their peers, but not always honestly."
+      }
+    },
+    "Seeker": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Seeker.PNG?raw=true",
+      "title": "Seeker",
+      "subtitle1": "self-realization",
+      "subtitle2": "lose your freedom",
+      "subtitle3": "openness to the world, flexibility",
+      "subtitle4": "endless search for yourself, instability",
+      "subtitle5": "constant movement to explore yourself",
+      "paragraph1": {
+        "title": "COMFORT",
+        "text": "Seeker is a person in constant search for opportunities, change and freedom. This person is not always a traveler, a seeker can look for himself in the inner world, in a career or relationships, but the basis is unchanged that is change and movement forward. This is the most freedom-loving archetype, limits and commitment hinder its potential."
+      },
+      "paragraph2": {
+        "title": "STRESS",
+        "text": "The worst thing that can happen to a seeker is loss of personal freedom and ability to move on. Seeker can get stuck in an endless search for insights and impressions, but still not find himself. For seeker, implementation and progress are important, but resources are often limited. Therefore, seeker needs to learn to stop sometimes and rest in order to correct his further movement."
+      }
+    },
+    "Rebel": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Rebel.PNG?raw=true",
+      "title": "Rebel",
+      "subtitle1": "change what you don't like",
+      "subtitle2": "banality, static",
+      "subtitle3": "innovation, determination",
+      "subtitle4": "confrontation, outrageousness",
+      "subtitle5": "go against a system to change something",
+      "paragraph1": {
+        "title": "COMFORT",
+        "text": "Often a rebel can be recognized by his willingness to enter into an argument and go against a system. These are people who hit and then apologize. This world needs rebels to update systems, break stereotypes and bring something new into the lives of others."
+      },
+      "paragraph2": {
+        "title": "STRESS",
+        "text": "The whole life of a rebel is a conditional stress. It is not typical for a rebel to rest. Rebels are people of action, especially at a critical moment. When everything around is well-organized, nothing new is promised and there is nothing to fight against, a rebel loses his enthusiasm and can fall into depression or he will start a revolution where it is not needed now. If the current situation does not allow a rebel to show his qualities, then you need to learn how to 'walk' your rebel in other areas of life."
+      }
+    },
+    "Hero": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Hero.PNG?raw=true",
+      "title": "Hero",
+      "subtitle1": "show his power",
+      "subtitle2": "be weak",
+      "subtitle3": "strength, self-discipline",
+      "subtitle4": "hubris",
+      "subtitle5": "become as strong as possible",
+      "paragraph1": {
+        "title": "COMFORT",
+        "text": "The comfortable environment for the hero is the battlefield, and the main task is to fight. It is almost impossible for a hero to sit idle. The hero is always ready to sacrifice himself, his time and resources in order to prove his strength and competence. Dedication and devotion to the idea is also characteristic of the heroes. Heroes love competition, for them it is a good resource to move forward to new heights."
+      },
+      "paragraph2": {
+        "title": "STRESS",
+        "text": "The comfortable environment for a hero is a battlefield and the main task is to fight. It is almost impossible for a hero to sit idle. A hero is always ready to sacrifice himself, his time and resources in order to prove his strength and competence. Dedication and devotion to the idea is also characteristic of heroes. Heroes love competition. For them it is a good resource to move forward to new heights."
+      }
+    },
+    "Guardian": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Guardian.PNG?raw=true",
+      "title": "Guardian",
+      "subtitle1": "help others",
+      "subtitle2": "be selfless",
+      "subtitle3": "kindness, caring",
+      "subtitle4": "neglecting oneself for the sake of others",
+      "subtitle5": "help others move to another level",
+      "paragraph1": {
+        "title": "COMFORT",
+        "text": "A guardian in comfort is a person who is ready to help, shelter, warm and teach something new. Caring flows in the blood of guardians. It is important to understand that guardians with their care can reveal a person, his potential and give impetus to development. Guardians know how to make this world kinder."
+      },
+      "paragraph2": {
+        "title": "STRESS",
+        "text": "If a guardian does not receive gratitude for his work and care for a long time, he can become tough and strict. He can punish others by depriving his care and protection, thereby making the offender helpless. An underestimated guardian can explode at one fine moment and a kind, understanding person will be replaced by a tyrant demanding retribution for his labors and hardships. Also, under stress, caregivers can become completely out of touch with their own needs and completely dissolve into others."
+      }
+    },
+    "Sage": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Sage.PNG?raw=true",
+      "title": "Sage",
+      "subtitle1": "cognition in its purest form",
+      "subtitle2": "don't know something",
+      "subtitle3": "penetrating mind, objectivity",
+      "subtitle4": "immersion in yourself, weak empathy, alienation",
+      "subtitle5": "bring knowledge into this world and eradicate ignorance",
+      "paragraph1": {
+        "title": "COMFORT",
+        "text": "A wise man can be recognized by a slightly detached look, speech seasoned with terminology and a love of philosophical conversations. Representatives of this archetype are often harmless and a little eccentric, can go into fantasies and endlessly learn something new. Curiosity and insightful mind make them interesting conversationalists, but companies will always prefer loneliness."
+      },
+      "paragraph2": {
+        "title": "STRESS",
+        "text": "A wise man can go deep into himself and constantly analyze and calculate options for development of events. Sometimes in his reasoning he can go deep into the world of concepts and fantasies, and lose touch with reality. In this state, the sage can be annoyed by any manifestation of emotions, both his own and those around him. Also, a sage can be extremely intolerant of superficiality and stupidity of people."
+      }
+    },
+    "Mage": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Mage.PNG?raw=true",
+      "title": "Magician",
+      "subtitle1": "make your dreams come true and reach a new level",
+      "subtitle2": "harm others with your actions",
+      "subtitle3": "ability to see hidden trends, intuition",
+      "subtitle4": "distance in communication",
+      "subtitle5": "to see what is inaccessible to others, reveal secret knowledge",
+      "paragraph1": {
+        "title": "COMFORT",
+        "text": "Magician is one of the most mysterious archetypes. Often, when you contact him, you get the impression that you are in contact with something unearthly, not completely understandable and kindly strange. Magicians easily notice hidden trends and pitfalls in any communication. Often these are gray cardinals that act on intuition and through other people."
+      },
+      "paragraph2": {
+        "title": "STRESS",
+        "text": "A magician under stress, like a sage, can dive deep into himself and explore the causal relationships of events. Often magicians feel 'out of the party' and out of place: they doubt themselves and there is a feeling of rejection by others, a feeling of loneliness in the crowd. He can be vindictive and manipulative."
+      }
+    },
+    "Creator": {
+      "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Creater.PNG?raw=true",
+      "title": "Creator",
+      "subtitle1": "stand out and be special",
+      "subtitle2": "lose ability to create",
+      "subtitle3": "creativity, openness to the new",
+      "subtitle4": "low level of discipline",
+      "subtitle5": "constant search for inspiration and a non-standard approach",
+      "paragraph1": {
+        "title": "COMFORT",
+        "text": "Creators are innovators, for them standard and ordinary things are simply boring. Creative people can rarely hold interest within limits and rules, and often live by inspiration rather than by schedule. It is important for creators to be special, stand out from the crowd and show their talent."
+      },
+      "paragraph2": {
+        "title": "STRESS",
+        "text": "The worst thing for a creator is to get stuck in dullness and lose a source of his endless ideas. At such moments, a creator can become boring and caustic. If a creator was underestimated or he was disappointed in his talent, then he may be offended, fall into a stupor and stop his activity until a new idea appears that the creator believes in."
+      }
+    }
+  },
+  "sectionFindOut": {
+    "title": "Find out your archetype",
+    "subtitle": "This small test will help you learn about your leading archetypes, identify your values and strengths.",
+    "titleCard1": "Time",
+    "subtitleCard1": "10 minutes",
+    "titleCard2": "Questions",
+    "subtitleCard2": "3 types of questions",
+    "titleCard3": "Result",
+    "subtitleCard3": "Description of your archetype",
+    "btnClear": "Start the test",
+    "btnNext": "Continue the test"
+  },
+  "modal": {
+    "btn": "Description of archetypes",
+    "inputEmail": "Email",
+    "receiveResult": "Get the results",
+    "inputName": "Your name",
+    "submit": "Send",
+    "notification": "Thank you for participating !",
+    "eronJega": "Thats cringe, bro"
+  },
+  "testBlock": {
+    "backBtn": "Back",
+    "nextBtn": "Next",
+    "finishBtn": "Finish"
+  },
+  "block1": {
+    "options": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "title": "First block",
+    "text": "Choose an answer that suits you the best from the two suggested below",
+    "question1": "I am ready for anything",
+    "question2": "I am a very curious and spontaneous person",
+    "question3": "I am often fascinated and admired",
+    "question4": "I can get along with anyone",
+    "question5": "With a new friend, I quickly become on the same wavelength",
+    "question6": "I can be the center of any company",
+    "question7": "I know how to enjoy life",
+    "question8": "I like to flirt and make new friends",
+    "question9": "People are attracted to me and my energy",
+    "question10": "I love to laugh heartily and have a good time",
+    "question11": "I can easily laugh at myself",
+    "question12": "I like to gather people around me and entertain them with stories",
+    "question13": "I am an active and energetic person",
+    "question14": "I easily perceive new ideas and opportunities",
+    "question15": "I am positive about life changes",
+    "question16": "I can easily take responsibility for others",
+    "question17": "I like to control and manage people",
+    "question18": "I don't accept compromises, I live by the principle of 'all or nothing'",
+    "question19": "I like to break the rules and be against the system",
+    "question20": "I am oppressed by clear boundaries and rules",
+    "question21": "I can express my opinion even if it causes resentment in others",
+    "question22": "I'm the winner in every situation",
+    "question23": "I like to overcome difficulties and obstacles",
+    "question24": "I can do what others can't",
+    "question25": "I like to study and discover new things",
+    "question26": "I can get so caught up in a question that I lose track of time",
+    "question27": "I like to dive deep into a topic and understand it 100%",
+    "question28": "I often play the role of the 'gray cardinal', I do not like to give direct orders",
+    "question29": "I am good at thinking strategically and being one step ahead.",
+    "question30": "I have a well-developed intuition and I trust my hunch",
+    "question31": "I love everything unusual and original",
+    "question32": "I consider myself a creative and imaginative person",
+    "question33": "Mediocrity and monotony bores me",
+    "question34": "I see hidden potential in other people",
+    "question35": "I know how to reveal a person and support him",
+    "question36": "I enjoy helping and caring for others"
+  },
+  "block2": {
+    "title": "Second block",
+    "text": "Choose a picture, which you like the most",
+    "question": "Choose a picture, which you like the most"
+  },
+  "block3": {
+    "title": "Third block",
+    "text": "Choose an answer that suits you the best from the five suggested below",
+    "options": {
+      "nono": "100% not about me",
+      "no": "More likely not about me",
+      "soso": "50/50",
+      "yes": "More likely about me",
+      "yesyes": "100% about me"
+    },
+    "question1": "It's hard for me to sit in one place for a long time",
+    "question2": "I often change my environment, activities and hobbies",
+    "question3": "I'm all in search of ideas, opportunities, impressions",
+    "question4": "It is important for me to have influence and authority",
+    "question5": "I easily take responsibility",
+    "question6": "I easily manage to take a leadership position in a team",
+    "question7": "I can turn upside down any idea or concept",
+    "question8": "I often feel 'out of place' and break usual rules",
+    "question9": "I don't like being like everyone else",
+    "question10": "I am ready to achieve a result at any cost",
+    "question11": "Difficulties do not frighten me, but only motivate me even more",
+    "question12": "Result is more important than process",
+    "question13": "I am on good terms with any company",
+    "question14": "It is important for me to find common ground with other people",
+    "question15": "I do not like to attract too much attention",
+    "question16": "I know how to enjoy little things",
+    "question17": "I am easily touched or impressed",
+    "question18": "I am an optimistic and carefree person",
+    "question19": "Comfort plays an important role for me in choosing a partner, activity or home",
+    "question20": "I always try to look good and admire good people like me",
+    "question21": "I know how to attract attention to myself and keep interest of an interlocutor",
+    "question22": "There is nothing better than laughing heartily in good company",
+    "question23": "I am always in a good mood and I know how to infect others",
+    "question24": "I am very pleased when I manage to bring a smile to face of a interlocutor",
+    "question25": "I love learning and gaining new knowledge",
+    "question26": "It gives me pleasure to understand a complex topic and find the truth",
+    "question27": "I tend to think long and hard about the solution",
+    "question28": "Usually my ideas are creative and innovative",
+    "question29": "I often experiment with style, ideas, way of life",
+    "question30": "It is very difficult for me to follow restrictions and fit into a framework",
+    "question31": "I can easily see hidden relationships in events and systems",
+    "question32": "I trust my feelings and intuition to make important decisions",
+    "question33": "My actions are often illogical, but I know exactly what to do",
+    "question34": "I feel people deeply and I know how to empathize",
+    "question35": "I like helping others and being helpful",
+    "question36": "Next to me, a person quickly reveals his best qualities and gets inspired"
+  },
+  "resultPage": {
+    "titleSection": "Result",
+    "subtitle": "Find out which of your archetypes is the most developed",
+    "titleCard1": "Second archetype",
+    "titleCard2": "Third archetype"
+  }
+}

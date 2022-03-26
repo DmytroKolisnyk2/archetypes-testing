@@ -1,0 +1,31 @@
+.section {
+    width: 100vw;
+    margin: 0 auto 55px;
+    padding-top: 140px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 80px;
+        padding-top: 180px;
+    }
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 95px;
+        padding-top: 240px;
+    }
+}
+
+.wrapperCards {
+    margin: 0 auto;
+    max-width: 1295px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 85%;
+    }
+    @media screen and (min-width: 1400px) {
+        width: 100%;
+    }
+}

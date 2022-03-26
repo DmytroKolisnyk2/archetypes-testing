@@ -1,8 +1,11 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
-import { test } from "./test/test-reducers";
+import { block1 } from "./block1/block1-reducers";
+import { block2 } from "./block2/block2-reducers";
+import { block3 } from "./block3/block3-reducers";
+import { lang } from "./lang/lang-reducer";
 import {
-  // persistReducer,
-  // persistStore,
+  persistReducer,
+  persistStore,
   FLUSH,
   REHYDRATE,
   PAUSE,
@@ -10,21 +13,19 @@ import {
   PURGE,
   REGISTER,
 } from "redux-persist";
-// import storageSession from 'redux-persist/lib/storage/session'
+import storageSession from 'redux-persist/lib/storage/session'
 
-// const persistConfig = {
-//   key: "archetypes",
-//   storage,
-//   blacklist: ['test/smt'],
-// };
+const persistConfig = {
+  key: "archetypes",
+  storage: storageSession,
+};
 
-const rootReducer = combineReducers({ test });
+const rootReducer = combineReducers({ block1, block2, block3, lang });
 
-// const persistedReducer = persistReducer(persistConfig, rootReducer);
+const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 export const store = configureStore({
-  // reducer: persistedReducer,
-  reducer: rootReducer,
+  reducer: persistedReducer,
   devTools: process.env.NODE_ENV === "development",
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
@@ -34,4 +35,4 @@ export const store = configureStore({
     }),
 });
 
-// export const persistor = persistStore(store);
+export const persistor = persistStore(store);

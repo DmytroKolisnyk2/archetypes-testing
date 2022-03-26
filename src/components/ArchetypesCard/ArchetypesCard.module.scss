@@ -1,0 +1,123 @@
+.card {
+  padding: 72px 32px;
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  max-width: 1400px;
+  margin: 0 auto 60px;
+  @media screen and (max-width: 1024px) {
+    border-radius: 0;
+  }
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    padding: 36px 16px;
+  }
+}
+.card_open {
+  & .cardWrapper {
+    display: block;
+  }
+}
+.card_notClosable {
+  padding-top: 20px;
+}
+.articleInnerWrapper {
+  max-width: 1117px;
+  margin: 0 auto;
+}
+.captionWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardWrapper {
+  display: none;
+}
+.button {
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.arrow {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.caption {
+  color: #212353;
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  @media screen and (max-width: 768px) {
+    font-size: 28px;
+  }
+}
+.contentWrapper {
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 56px;
+  @media screen and (max-width: 1024px) {
+    margin-top: 90px;
+  }
+  @media screen and (max-width: 768px) {
+    flex-wrap: wrap;
+  }
+}
+.image {
+  flex-shrink: 0;
+  width: 500px;
+  max-width: 500px;
+  border-radius: 50%;
+  height: auto;
+  overflow: hidden;
+  margin-right: 50px;
+  background-color: rgb(199, 199, 199);
+  @media screen and (max-width: 1024px) {
+    width: 40%;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 0 auto 45px;
+  }
+}
+.characteristic {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  margin: 0 0 35px;
+  color: #4b5d68;
+  & span {
+    font-weight: 600;
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+  }
+  &:nth-last-of-type(1) {
+    margin-bottom: 0;
+  }
+}
+.textWrapper {
+  flex-grow: 1;
+  & .caption {
+    margin-bottom: 52px;
+  }
+}
+
+.text {
+  color: #4b5d68;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: justified;
+  margin-bottom: 40px;
+}
+.paragraphWrapper {
+}

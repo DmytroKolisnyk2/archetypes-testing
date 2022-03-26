@@ -1,0 +1,256 @@
+{
+  "secondBlock": [
+    {
+      "id": 1,
+      "options": [
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/5/Мудрец.jpg",
+          "value": "Sage"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/5/Творец.jpg",
+          "value": "Creator"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/5/Маг.jpg",
+          "value": "Mage"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/5/Опекун.jpg",
+          "value": "Guardian"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "options": [
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/9/Эстет.jpg",
+          "value": "Esthete"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/9/Шут.jpg",
+          "value": "Jester"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/9/Наивный.jpg",
+          "value": "Innocent"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/9/СМ.jpg",
+          "value": "Glorious Small"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "options": [
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/2/Герой.jpg",
+          "value": "Hero"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/2/Правитель.jpg",
+          "value": "Ruler"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/2/Искатель.jpg",
+          "value": "Seeker"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/2/Бунтарь.jpg",
+          "value": "Rebel"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "options": [
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/6/Мудрец.jpg",
+          "value": "Sage"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/6/Творец.jpg",
+          "value": "Creator"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/6/Маг.jpg",
+          "value": "Mage"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/6/Опекун.jpg",
+          "value": "Guardian"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "options": [
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/10/Эстет.jpg",
+          "value": "Esthete"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/10/Шут.jpg",
+          "value": "Jester"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/10/Наивный.jpg",
+          "value": "Innocent"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/10/СМ.jpg",
+          "value": "Glorious Small"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "options": [
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/3/Герой.jpg",
+          "value": "Hero"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/3/Правитель.jpg",
+          "value": "Ruler"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/3/Искатель.jpg",
+          "value": "Seeker"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/3/Бунтарь.jpg",
+          "value": "Rebel"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "options": [
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/7/Мудрец.jpg",
+          "value": "Sage"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/7/Творец.jpg",
+          "value": "Creator"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/7/Маг.jpg",
+          "value": "Mage"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/7/Опекун.jpg",
+          "value": "Guardian"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "options": [
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/11/Эстет.jpg",
+          "value": "Esthete"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/11/Шут.jpg",
+          "value": "Jester"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/11/Наивный.jpg",
+          "value": "Innocent"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/11/СМ.jpg",
+          "value": "Glorious Small"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "options": [
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/4/Герой.jpg",
+          "value": "Hero"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/4/Правитель.jpg",
+          "value": "Ruler"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/4/Іскатель.jpg",
+          "value": "Seeker"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/4/Бунтарь.jpg",
+          "value": "Rebel"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "options": [
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/8/Мудрец.jpg",
+          "value": "Sage"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/8/Творец.jpg",
+          "value": "Creator"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/8/Маг.jpg",
+          "value": "Mage"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/8/Опекун.jpg",
+          "value": "Guardian"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "options": [
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/12/Эстет.jpg",
+          "value": "Esthete"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/12/Шут.jpg",
+          "value": "Jester"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/12/Наивный.jpg",
+          "value": "Innocent"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/12/СМ.jpg",
+          "value": "Glorious Small"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "options": [
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/1/Герой.jpg",
+          "value": "Hero"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/1/Правитель.jpg",
+          "value": "Ruler"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/1/Искатель.jpg",
+          "value": "Seeker"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/DmytroKolisnyk2/archetypes-testing/develop/src/images/Images%20test/1/Бунтарь.jpg",
+          "value": "Rebel"
+        }
+      ]
+    }
+  ]
+}

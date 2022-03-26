@@ -1,0 +1,148 @@
+{
+  "thirdBlock": [
+    {
+      "id": 1,
+      "estimate": "Seeker"
+    },
+    {
+      "id": 2,
+      "estimate": "Seeker"
+    },
+    {
+      "id": 3,
+      "estimate": "Seeker"
+    },
+    {
+      "id": 4,
+      "estimate": "Ruler"
+    },
+    {
+      "id": 5,
+      "estimate": "Ruler"
+    },
+    {
+      "id": 6,
+      "estimate": "Ruler"
+    },
+    {
+      "id": 7,
+      "estimate": "Rebel"
+    },
+    {
+      "id": 8,
+      "estimate": "Rebel"
+    },
+    {
+      "id": 9,
+      "estimate": "Rebel"
+    },
+    {
+      "id": 10,
+      "estimate": "Hero"
+    },
+    {
+      "id": 11,
+      "estimate": "Hero"
+    },
+    {
+      "id": 12,
+      "estimate": "Hero"
+    },
+    {
+      "id": 13,
+      "estimate": "Glorious Small"
+    },
+    {
+      "id": 14,
+      "estimate": "Glorious Small"
+    },
+    {
+      "id": 15,
+      "estimate": "Glorious Small"
+    },
+    {
+      "id": 16,
+      "estimate": "Innocent"
+    },
+    {
+      "id": 17,
+      "estimate": "Innocent"
+    },
+    {
+      "id": 18,
+      "estimate": "Innocent"
+    },
+    {
+      "id": 19,
+      "estimate": "Esthete"
+    },
+    {
+      "id": 20,
+      "estimate": "Esthete"
+    },
+    {
+      "id": 21,
+      "estimate": "Esthete"
+    },
+    {
+      "id": 22,
+      "estimate": "Jester"
+    },
+    {
+      "id": 23,
+      "estimate": "Jester"
+    },
+    {
+      "id": 24,
+      "estimate": "Jester"
+    },
+    {
+      "id": 25,
+      "estimate": "Sage"
+    },
+    {
+      "id": 26,
+      "estimate": "Sage"
+    },
+    {
+      "id": 27,
+      "estimate": "Sage"
+    },
+    {
+      "id": 28,
+      "estimate": "Creator"
+    },
+    {
+      "id": 29,
+      "estimate": "Creator"
+    },
+    {
+      "id": 30,
+      "estimate": "Creator"
+    },
+    {
+      "id": 31,
+      "estimate": "Mage"
+    },
+    {
+      "id": 32,
+      "estimate": "Mage"
+    },
+    {
+      "id": 33,
+      "estimate": "Mage"
+    },
+    {
+      "id": 34,
+      "estimate": "Guardian"
+    },
+    {
+      "id": 35,
+      "estimate": "Guardian"
+    },
+    {
+      "id": 36,
+      "estimate": "Guardian"
+    }
+  ]
+}

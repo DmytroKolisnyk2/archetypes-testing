@@ -1,0 +1,54 @@
+@import "../../styles/App.scss";
+
+.sectionTitleDiv {
+    max-width: 584px;
+    max-width: 100%;
+    padding: 0 16px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 80px;
+        max-width: 600px;
+        width: 80%;
+    }
+    @media screen and (min-width: 1024px) {
+        margin-bottom: 100px;
+        width: 100%;
+    }
+}
+
+.sectionTitleTitle {
+    color: #212353;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    /* or 52px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+    @media screen and (min-width: 400px) {
+        padding: 0 26px;
+    }
+}
+
+.sectionTitleText {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* 1 */
+
+    color: #4b5d68;
+}

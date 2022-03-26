@@ -1,34 +1,14 @@
-@import "styles/variables.scss";
+@import "./reset.scss";
+@import "./variables.scss";
 
-body {
-  background-color: whitesmoke;
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+// font-family: 'Open Sans', sans-serif;
 
-.phonebook__wrapper {
-  width: 100%;
-  max-width: 900px;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin: 0 auto;
-  padding: 0 20px;
-  flex-wrap: wrap;
-}
-.form-wrapper {
-  width: 100%;
-  max-width: 300px;
-  margin-right: 30px;
-  margin-bottom: 20px;
-  @media screen and (max-width: 768px) {
-    max-width: 400px;
-    margin-right: 0;
-  }
-}
-.list-wrapper {
-  max-width: 400px;
-  width: 100%;
-}
-.headline {
-  text-transform: uppercase;
-  color: $blue;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+// font-family: 'Ubuntu', sans-serif;
+
+.main {
+    overflow: hidden;
+    overflow-x: hidden;
+    min-height: 100vh;
 }
