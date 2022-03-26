@@ -42,7 +42,6 @@
 }
 .footerIconLink {
   text-decoration: none;
-
   background-size: 10px;
   display: block;
   background-repeat: no-repeat;
@@ -56,6 +55,10 @@
   display: block;
   margin: 0 auto;
   border-radius: 50%;
+  transition: 200ms linear;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 .iconWrapper {
   display: flex;

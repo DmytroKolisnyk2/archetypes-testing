@@ -1,7 +1,6 @@
 .button {
-  
   border: none;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 29px;
@@ -13,9 +12,8 @@
   border-radius: 50px;
   cursor: pointer;
   text-align: center;
-
-  // & span{
-  //   flex-grow: 1;
-  //   margin-right: 20px;
-  // }
+  transition: 200ms linear;
+  &:hover {
+    transform: scale(1.05);
+  }
 }

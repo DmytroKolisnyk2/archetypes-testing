@@ -7,7 +7,6 @@ import Bob1 from "../Bobs/Bob1";
 import Bob5 from "../Bobs/Bob5";
 import Bob6 from "../Bobs/Bob6";
 import { cards } from "../../services/dataSmallCards.json";
-import { sectionArchetypes } from "../../translations/ua/common.json";
 import { Fade } from "react-awesome-reveal";
 
 const SectionArchetypes = () => {

@@ -35,7 +35,8 @@ const SocialIcon = ({ link, bgColor, backgroundImg, width, height, top, props })
           }}
           className={FooterStyles.footerIconImg}
           src={socialIconsImg[backgroundImg]}
-        ></img>
+          alt=""
+      />
       </a>
     </div>
   );

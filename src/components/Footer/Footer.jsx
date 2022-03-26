@@ -64,14 +64,14 @@ const Footer = () => {
                 bgColor={"white"}
                 width={77}
                 height={77}
-                props={t("footer.subtextIconInstagram")}
+                props={t("footer.subtextIconGitHub")}
               ></SocialIcon>
               <SocialIcon
                 link={"instagramLink"}
                 backgroundImg={"instagram"}
                 height={77}
                 width={77}
-                props={t("footer.subtextIconGitHub")}
+                props={t("footer.subtextIconInstagram")}
               ></SocialIcon>
             </div>
             <p className={FooterStyles.footerText}>

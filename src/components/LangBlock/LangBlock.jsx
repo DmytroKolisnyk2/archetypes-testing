@@ -17,7 +17,7 @@ export default function LangBlock() {
 
   return (
     <div className={styles.langWrapper}>
-      <img className={styles.langImg} src={globe} />
+      <img className={styles.langImg} src={globe} alt="" />
       <div className={styles.controlsWrapper}>
         <span
           onClick={() => dispatch(changeLang("en"))}
