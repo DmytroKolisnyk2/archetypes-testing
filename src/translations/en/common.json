@@ -372,9 +372,9 @@
     "text": "Choose an answer that suits you the best from the five suggested below",
     "options": {
       "nono": "100% not about me",
-      "no": "Most likely not about me",
+      "no": "More likely not about me",
       "soso": "50/50",
-      "yes": "Most likely about me",
+      "yes": "More likely about me",
       "yesyes": "100% about me"
     },
     "question1": "It's hard for me to sit in one place for a long time",
@@ -384,7 +384,7 @@
     "question5": "I easily take responsibility",
     "question6": "I easily manage to take a leadership position in a team",
     "question7": "I can turn upside down any idea or concept",
-    "question8": "I often feel 'out of place' and often break usual rules",
+    "question8": "I often feel 'out of place' and break usual rules",
     "question9": "I don't like being like everyone else",
     "question10": "I am ready to achieve a result at any cost",
     "question11": "Difficulties do not frighten me, but only motivate me even more",
