@@ -1,19 +1,20 @@
-[English](./README.en.md)
-[Українська](./README.md)
+#### Іншими мовами: [English](./README.en.md), [Українська](./README.md)
 
-# [Сайт про архетипи](https://unreal-me.com/)
+# [Nado pomieniaty](https://unreal-me.com/)
+
 
 Наша молода команда розробила цей проєкт у співпраці з психологом, щоб ви мали змогу дізнатися свої унікальні риси та визначитись із своєю кар'єрою, навчанням
+ 
 
-## Пройдіть тест та дізнайтеся про себе більше
+### Пройдіть тест та дізнайтеся про себе більше
 
 Цей невеликий тест допоможе вам дізнатися свій основний архетип, визначити ваші слабкі та сильні сторони.
 
-## Дізнайтеся більше про основні архетипи
+### Дізнайтеся більше про основні архетипи
 
 На вкладці 'Архетипи' ви знайдете детальний опис 12 основних архетипів
 
-## Технології, які ми використали
+### Технології, які ми використали
 
 - react: v17.0.2
 - react-router: v6.2.1
@@ -22,5 +23,11 @@
 - react-awesome-reveal: v3.8.1
 - netlify hosting
 
-## Лінки
+## Посилання на нас
+
+- [Igoryakib](https://github.com/Igoryakib)
+- [Max Popsuy](https://github.com/MaxPopsuy)
+- [Anna Dominika](https://github.com/Anna-Dominika1)
+- [Mykyta Tkachenko](https://github.com/MykytaTkachenko)
+- [Dmytro Kolisnyk](https://github.com/DmytroKolisnyk2)
 
