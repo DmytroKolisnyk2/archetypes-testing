@@ -1,20 +1,18 @@
-#### Іншими мовами: [English](./README.en.md), [Українська](./README.md)
+#### Other languages: [English](./README.en.md), [Українська](./README.md)
 
-# [Nado pomieniaty](https://unreal-me.com/)
-
+# [Site about archetypes](https://unreal-me.com/)
 
 Our young team developed this project in collaboration with a psychologist so that you can learn about your unique traits and determine your career or education path.
  
+### Take the test and learn more about yourself
 
-### Пройдіть тест та дізнайтеся про себе більше
+This small test will help you find out your three main archetypes, identify your strengths and weaknesses.
 
-Цей невеликий тест допоможе вам дізнатися свій основний архетип, визначити ваші слабкі та сильні сторони.
+### Learn more about the basic archetypes
 
-### Дізнайтеся більше про основні архетипи
+On the 'Archetypes' tab you will find a detailed description of the 12 main archetypes
 
-На вкладці 'Архетипи' ви знайдете детальний опис 12 основних архетипів
-
-### Технології, які ми використали
+### The technologies we used
 
 - react: v17.0.2
 - react-router: v6.2.1
