@@ -8,16 +8,16 @@
   },
   "footer": {
     "title": "About us",
-    "text": "Archetype is not a simple typology of personality, but it is an opportunity to better understand yourself",
+    "text": "Archetype is not a simple typology of personality, but it is an opportunity to better understand yourself.",
     "button1": "Types' list",
     "button2": "Start test",
     "subtextIconInstagram": "Psychologist",
     "subtextIconGitHub": "Developers",
-    "span": "Our young team developed this project in collaboration with a psychologist so that you can learn about your unique traits and determine your career, studies and learn about your deep values."
+    "span": "Our young team developed this project in collaboration with a psychologist so that you can learn about your unique traits and determine your career or education path and learn about your deep values."
   },
   "sectionWhatForArchetypes": {
     "title": "Why should you know your archetype ?",
-    "subtitle": "Knowledge about archetypes helps you being sped up in every aspect of your life from self-realization to relationships",
+    "subtitle": "Knowledge about archetypes helps you stay happy with every aspect of your life from self-realization to relationships",
     "titleCard1": "Better understand yourself",
     "descriptionCard1": "Archetypes give clear understanding of your strengths and weaknesses, answer the questions where to take motivation and resources, and also highlight your life strategy",
     "titleCard2": "Better understand others",
@@ -36,7 +36,7 @@
   },
   "introduction": {
     "btn": "Start test",
-    "text": "If you have been looking for answers to your questions for a long time, but still do not understand when you grow up, then archetypes will help you put all the dots above the “i”",
+    "text": "If you have been looking for answers to your questions for a long time, but still do not understand who you'd like to be when you grow up, then archetypes will help you put all the dots above the “i”",
     "headline": "Find out your archetype"
   },
   "navigation": {
@@ -55,25 +55,25 @@
         "titleCard": "Sage"
       },
       "Rebel": {
-        "titleCard": "Rebel"
+        "titleCard": "Outlaw"
       },
       "Ruler": {
         "titleCard": "Ruler"
       },
       "Mage": {
-        "titleCard": "Mage"
+        "titleCard": "Magician"
       },
       "Innocent": {
         "titleCard": "Innocent"
       },
       "Glorious Small": {
-        "titleCard": "Glorious Small"
+        "titleCard": "Everymen"
       },
       "Guardian": {
-        "titleCard": "Guardian"
+        "titleCard": "Caregiver"
       },
       "Seeker": {
-        "titleCard": "Seeker"
+        "titleCard": "Explorer"
       },
       "Hero": {
         "titleCard": "Hero"
@@ -82,7 +82,7 @@
         "titleCard": "Creator"
       },
       "Esthete": {
-        "titleCard": "Esthete"
+        "titleCard": "Lover"
       }
     }
   },
@@ -106,7 +106,7 @@
     },
     "Esthete": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Esthete.PNG?raw=true",
-      "title": "Esthete",
+      "title": "Lover",
       "subtitle1": "get enjoyment",
       "subtitle2": "be rejected",
       "subtitle3": "live 'right now', communication",
@@ -114,16 +114,16 @@
       "subtitle5": "get results by relations with others",
       "paragraph1": {
         "title": "COMFORT",
-        "text": "For an esthete, first of all, comfort and enjoyment of life are important. Esthetes are noble hedonists, they know how to brightly present themselves and create comfort. By right, this type can be called the most emotional, striving for intimacy and contact with other people. Beauty and aesthetics for this type is of key importance."
+        "text": "For a lover, first of all, comfort and enjoyment of life are important. Lovers are noble hedonists, they know how to brightly present themselves and create comfort. By right, this type can be called the most emotional, striving for intimacy and contact with other people. Beauty and aesthetics for this type is of key importance."
       },
       "paragraph2": {
         "title": "STRESS",
-        "text": "An esthete in stress is a 'drama queen' and a noble manipulator. There is impulsiveness in actions and decisions."
+        "text": "A lover in stress is a 'drama queen' and a noble manipulator. There is impulsiveness in actions and decisions."
       }
     },
     "Glorious Small": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Glorious_Small.PNG?raw=true",
-      "title": "Good fellow",
+      "title": "Everymen",
       "subtitle1": "be a worthy part of society",
       "subtitle2": "stand out from a crowd",
       "subtitle3": "simplicity, reliability",
@@ -131,11 +131,11 @@
       "subtitle5": "be insider in any company",
       "paragraph1": {
         "title": "COMFORT",
-        "text": "Good fellow is on good terms with any company. It is easy to find a common language with him and in communication you quickly get the impression that you have known this person all your life. Good fellow cares how others treat him, so he will do a lot to please people and meet the expectations of others."
+        "text": "Everymen is on good terms with any company. It is easy to find a common language with him and in communication you quickly get the impression that you have known this person all your life. Everymen cares how others treat him, so he will do a lot to please people and meet the expectations of others."
       },
       "paragraph2": {
         "title": "STRESS",
-        "text": "Good fellow under stress often doubts himself and loses confidence. The worst thing for him is to lose the favor of his comrades and find himself in center of a scandal or conflict. In such situation, good fellow will do everything to restore his good name. Without his environment, a nice fellow quickly withers and may lose interest in the world around him. Contact with people will help to recover."
+        "text": "Everymen under stress often doubts himself and loses confidence. The worst thing for him is to lose the favor of his comrades and find himself in center of a scandal or conflict. In such situation, good fellow will do everything to restore his good name. Without his environment, a nice fellow quickly withers and may lose interest in the world around him. Contact with people will help to recover."
       }
     },
     "Jester": {
@@ -174,7 +174,7 @@
     },
     "Seeker": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Seeker.PNG?raw=true",
-      "title": "Seeker",
+      "title": "Explorer",
       "subtitle1": "self-realization",
       "subtitle2": "lose your freedom",
       "subtitle3": "openness to the world, flexibility",
@@ -182,16 +182,16 @@
       "subtitle5": "constant movement to explore yourself",
       "paragraph1": {
         "title": "COMFORT",
-        "text": "Seeker is a person in constant search for opportunities, change and freedom. This person is not always a traveler, a seeker can look for himself in the inner world, in a career or relationships, but the basis is unchanged that is change and movement forward. This is the most freedom-loving archetype, limits and commitment hinder its potential."
+        "text": "Explorer is a person in constant search for opportunities, change and freedom. This person is not always a traveler, a seeker can look for himself in the inner world, in a career or relationships, but the basis is unchanged that is change and movement forward. This is the most freedom-loving archetype, limits and commitment hinder its potential."
       },
       "paragraph2": {
         "title": "STRESS",
-        "text": "The worst thing that can happen to a seeker is loss of personal freedom and ability to move on. Seeker can get stuck in an endless search for insights and impressions, but still not find himself. For seeker, implementation and progress are important, but resources are often limited. Therefore, seeker needs to learn to stop sometimes and rest in order to correct his further movement."
+        "text": "The worst thing that can happen to a seeker is loss of personal freedom and ability to move on. Explorer can get stuck in an endless search for insights and impressions, but still not find himself. For seeker, implementation and progress are important, but resources are often limited. Therefore, seeker needs to learn to stop sometimes and rest in order to correct his further movement."
       }
     },
     "Rebel": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Rebel.PNG?raw=true",
-      "title": "Rebel",
+      "title": "Outlaw",
       "subtitle1": "change what you don't like",
       "subtitle2": "banality, static",
       "subtitle3": "innovation, determination",
@@ -199,11 +199,11 @@
       "subtitle5": "go against a system to change something",
       "paragraph1": {
         "title": "COMFORT",
-        "text": "Often a rebel can be recognized by his willingness to enter into an argument and go against a system. These are people who hit and then apologize. This world needs rebels to update systems, break stereotypes and bring something new into the lives of others."
+        "text": "Often a outlaw can be recognized by his willingness to enter into an argument and go against a system. These are people who hit and then apologize. This world needs outlaws to update systems, break stereotypes and bring something new into the lives of others."
       },
       "paragraph2": {
         "title": "STRESS",
-        "text": "The whole life of a rebel is a conditional stress. It is not typical for a rebel to rest. Rebels are people of action, especially at a critical moment. When everything around is well-organized, nothing new is promised and there is nothing to fight against, a rebel loses his enthusiasm and can fall into depression or he will start a revolution where it is not needed now. If the current situation does not allow a rebel to show his qualities, then you need to learn how to 'walk' your rebel in other areas of life."
+        "text": "The whole life of a outlaw is a conditional stress. It is not typical for a rebel to rest. Rebels are people of action, especially at a critical moment. When everything around is well-organized, nothing new is promised and there is nothing to fight against, a rebel loses his enthusiasm and can fall into depression or he will start a revolution where it is not needed now. If the current situation does not allow a rebel to show his qualities, then you need to learn how to 'walk' your rebel in other areas of life."
       }
     },
     "Hero": {
@@ -225,7 +225,7 @@
     },
     "Guardian": {
       "image": "https://github.com/DmytroKolisnyk2/archetypes-testing/blob/bugFixing/sectionArchetypes/src/images/Guardian.PNG?raw=true",
-      "title": "Guardian",
+      "title": "Caregiver",
       "subtitle1": "help others",
       "subtitle2": "be selfless",
       "subtitle3": "kindness, caring",
@@ -233,11 +233,11 @@
       "subtitle5": "help others move to another level",
       "paragraph1": {
         "title": "COMFORT",
-        "text": "A guardian in comfort is a person who is ready to help, shelter, warm and teach something new. Caring flows in the blood of guardians. It is important to understand that guardians with their care can reveal a person, his potential and give impetus to development. Guardians know how to make this world kinder."
+        "text": "A caregiver in comfort is a person who is ready to help, shelter, warm and teach something new. Caring flows in the blood of caregivers. It is important to understand that caregivers with their care can reveal a person, his potential and give impetus to development. Caregivers know how to make this world kinder."
       },
       "paragraph2": {
         "title": "STRESS",
-        "text": "If a guardian does not receive gratitude for his work and care for a long time, he can become tough and strict. He can punish others by depriving his care and protection, thereby making the offender helpless. An underestimated guardian can explode at one fine moment and a kind, understanding person will be replaced by a tyrant demanding retribution for his labors and hardships. Also, under stress, caregivers can become completely out of touch with their own needs and completely dissolve into others."
+        "text": "If a caregiver does not receive gratitude for his work and care for a long time, he can become tough and strict. He can punish others by depriving his care and protection, thereby making the offender helpless. An underestimated caregiver can explode at one fine moment and a kind, understanding person will be replaced by a tyrant demanding retribution for his labors and hardships. Also, under stress, caregivers can become completely out of touch with their own needs and completely dissolve into others."
       }
     },
     "Sage": {
