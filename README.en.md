@@ -3,7 +3,7 @@
 # [Nado pomieniaty](https://unreal-me.com/)
 
 
-Наша молода команда розробила цей проєкт у співпраці з психологом, щоб ви мали змогу дізнатися свої унікальні риси та визначитись із своєю кар'єрою, навчанням
+Our young team developed this project in collaboration with a psychologist so that you can learn about your unique traits and determine your career or education path.
  
 
 ### Пройдіть тест та дізнайтеся про себе більше
@@ -23,7 +23,7 @@
 - react-awesome-reveal: v3.8.1
 - netlify hosting
 
-## Посилання на нас
+## How to reach us?
 
 - [Igoryakib](https://github.com/Igoryakib)
 - [Max Popsuy](https://github.com/MaxPopsuy)
