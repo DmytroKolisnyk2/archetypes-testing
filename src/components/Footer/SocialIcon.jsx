@@ -25,6 +25,7 @@ const SocialIcon = ({ link, bgColor, backgroundImg, width, height, top, props })
         }}
         className={FooterStyles.footerIconLink}
         href={socialIconsLink[link]}
+        target="_blank"
       >
         <img
           style={{
